@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Family Camp 1",
+    "startDate": "2023-07-22",
+    "endDate": "2023-07-26"
+  },
+  {
+    "name": "Dorset Venture",
+    "startDate": "2023-07-29",
+    "endDate": "2023-08-06"
+  },
+  {
+    "name": "Studland Venture",
+    "startDate": "2023-08-07",
+    "endDate": "2023-08-10"
+  },
+  {
+    "name": "Purbeck Venture",
+    "startDate": "2023-08-10",
+    "endDate": "2023-08-18"
+  },
+  {
+    "name": "Family Camp 2",
+    "startDate": "2023-08-20",
+    "endDate": "2023-08-24"
+  },
+  {
+    "name": "Family Camp 3",
+    "startDate": "2023-08-24",
+    "endDate": "2023-08-28"
+  }
+]

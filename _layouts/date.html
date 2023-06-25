@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+{% for event in site.data.events %}
+  {% if page.date >= event.startDate and event.endDate >= page.date %}
+  {% assign event_start_date = event.startDate | date: "%s" %}
+  {{ event.name }}
+  {{ page.date | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}
+  /
+  {{ event.endDate | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}
+  {% endif %}
+{% endfor %}
+
+

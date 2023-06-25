@@ -1,0 +1,21 @@
+---
+layout: page
+title: Calendar
+permalink: /calendar/
+---
+
+<ul>
+  {% assign first = true %}
+  {% for date in site.data.dates %}
+  <li>
+    <a href="/dates/{{date.date}}">
+      {% assign day = date.date | date: "%e" %}
+      {{ day }}
+      {% if first or day == "1" %}
+        {{ date.date | date: "%b" }}
+      {% endif %}
+    </a>
+  </li>
+  {% assign first = false %}
+  {% endfor %}
+</ul>
