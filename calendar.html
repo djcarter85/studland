@@ -39,6 +39,13 @@ permalink: /calendar/
         {{ date.date | date: "%b" }}
         {% endif %}
       </a>
+      {% for event in site.data.events %}
+      {% if date.date >= event.startDate and event.endDate >= date.date %}
+      <p>
+        {{ event.shortName }}
+      </p>
+      {% endif %}
+      {% endfor %}
     </td>
 
     {% assign first = false %}

@@ -1,31 +1,37 @@
 [
   {
     "name": "Family Camp 1",
+    "shortName": "FC1",
     "startDate": "2023-07-22",
     "endDate": "2023-07-26"
   },
   {
     "name": "Dorset Venture",
+    "shortName": "DV",
     "startDate": "2023-07-29",
     "endDate": "2023-08-06"
   },
   {
     "name": "Studland Venture",
+    "shortName": "SV",
     "startDate": "2023-08-07",
     "endDate": "2023-08-10"
   },
   {
     "name": "Purbeck Venture",
+    "shortName": "PV",
     "startDate": "2023-08-10",
     "endDate": "2023-08-18"
   },
   {
     "name": "Family Camp 2",
+    "shortName": "FC2",
     "startDate": "2023-08-20",
     "endDate": "2023-08-24"
   },
   {
     "name": "Family Camp 3",
+    "shortName": "FC3",
     "startDate": "2023-08-24",
     "endDate": "2023-08-28"
   }
