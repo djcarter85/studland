@@ -32,9 +32,9 @@ permalink: /calendar/
     <td>
       {% endif %}
       <a href="/dates/{{date.date}}">
-        {% assign day = date.date | date: "%e" %}
+        {% assign day = date.date | date: "%e" | plus: 0 %}
         {{ day }}
-        {% if first or day == "1" %}
+        {% if first or day == 1 %}
         <br />
         {{ date.date | date: "%b" }}
         {% endif %}
