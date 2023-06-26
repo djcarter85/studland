@@ -24,9 +24,7 @@ layout: default
 {% assign event_start_date = event.startDate | date: "%s" %}
 <h2 class="subtitle">
   {{ event.name }}
-  {{ page.date | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}
-  /
-  {{ event.endDate | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}
+  ({{ page.date | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}/{{ event.endDate | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}})
 </h2>
 {% endif %}
 {% endfor %}
