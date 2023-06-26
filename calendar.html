@@ -5,7 +5,7 @@ permalink: /calendar/
 
 <h1 class="title">Calendar</h1>
 
-<table class="table has-text-centered is-narrow is-striped is-fullwidth is-bordered">
+<table class="table has-text-centered is-narrow is-fullwidth is-bordered">
   <thead>
     <tr>
       <th>Mon</th>
@@ -26,26 +26,34 @@ permalink: /calendar/
   </tr>
   <tr>
     {% endif %}
+
+    {% assign month_mod_2 = date.date | date: "%m" | plus: 0 | modulo: 2 %}
+
     {% if date.date == site.data.current_date %}
     <td class="is-selected">
+      {% elsif month_mod_2 == 0 %}
+    <td class="has-background-light">
       {% else %}
     <td>
       {% endif %}
+
       <a href="/dates/{{date.date}}">
         {% assign day = date.date | date: "%e" | plus: 0 %}
-        {{ day }}
+        {{ date.date | date: "%d" }}
         {% if first or day == 1 %}
         <br />
         {{ date.date | date: "%b" }}
         {% endif %}
       </a>
+
       {% for event in site.data.events %}
       {% if date.date >= event.startDate and event.endDate >= date.date %}
-      <p>
+      <p class="is-size-7 has-text-grey">
         {{ event.shortName }}
       </p>
       {% endif %}
       {% endfor %}
+      
     </td>
 
     {% assign first = false %}
