@@ -29,7 +29,7 @@ permalink: /calendar/
 
     {% assign month_mod_2 = date.date | date: "%m" | plus: 0 | modulo: 2 %}
 
-    {% if date.date == site.data.current_date %}
+    {% if date.date == site.data.globals.currentDate %}
     <td class="is-selected">
       {% elsif month_mod_2 == 0 %}
     <td class="has-background-light">
