@@ -3,18 +3,29 @@ layout: default
 ---
 
 <div class="columns is-mobile">
+  {% assign prev_date = page.date | date: "%s" | minus: 86400 | date: "%F" %}
+
+  {% if prev_date >= site.data.globals.startDate %}
   <div class="column has-text-left">
-    {% assign prev_date = page.date | date: "%s" | minus: 86400 | date: "%F" %}
     <a href="/dates/{{prev_date}}">
       &laquo; {{ prev_date | date: "%e %b" }}
     </a>
   </div>
+  {% else %}
+  &nbsp;
+  {% endif %}
+
+  {% assign next_date = page.date | date: "%s" | plus: 86400 | date: "%F" %}
+
+  {% if site.data.globals.endDate >= next_date %}
   <div class="column has-text-right">
-    {% assign next_date = page.date | date: "%s" | plus: 86400 | date: "%F" %}
     <a href="/dates/{{next_date}}">
       {{ next_date | date: "%e %b" }} &raquo;
     </a>
   </div>
+  {% else %}
+  &nbsp;
+  {% endif %}
 </div>
 
 <h1 class="title">{{ page.date | date: "%a %e %b %Y" }}</h1>
