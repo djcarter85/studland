@@ -17,7 +17,6 @@ permalink: /calendar/
       <th>Sun</th>
     </tr>
   </thead>
-  {% assign first = true %}
   {% assign index = 0 %}
   <tr>
     {% for date in site.data.dates %}
@@ -40,7 +39,7 @@ permalink: /calendar/
       <a href="/dates/{{date.date}}">
         {% assign day = date.date | date: "%e" | plus: 0 %}
         {{ date.date | date: "%d" }}
-        {% if first or day == 1 %}
+        {% if date.date == site.data.globals.startDate or day == 1 %}
         <br />
         {{ date.date | date: "%b" }}
         {% endif %}
@@ -56,7 +55,6 @@ permalink: /calendar/
       
     </td>
 
-    {% assign first = false %}
     {% assign index = index | plus: 1 %}
     {% endfor %}
   </tr>
