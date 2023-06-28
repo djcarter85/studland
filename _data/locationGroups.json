@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Site",
+    "locations": [
+      {
+        "name": "Driving",
+        "googleUrl": "https://goo.gl/maps/6RE6Cx8U8nX5m6EK9",
+        "wazeUrl": "https://ul.waze.com/ul?ll=50.64107873%2C-1.94918275&amp;navigate=yes&amp;zoom=17&amp;utm_campaign=default&amp;utm_source=waze_website&amp;utm_medium=lm_share_location"
+      },
+      {
+        "name": "Walking",
+        "googleUrl": "https://goo.gl/maps/A6W9SM4NGAcSUekn6",
+        "wazeUrl": null
+      }
+    ]
+  }
+]

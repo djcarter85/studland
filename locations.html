@@ -4,27 +4,39 @@ layout: default
 
 <h1>Locations</h1>
 
-<h2>Site</h2>
+<table class="table is-fullwidth is-narrow">
 
-<ul>
-  <li>
-    <span>Driving</span>
-    <a href="https://goo.gl/maps/6RE6Cx8U8nX5m6EK9" class="button is-primary">
-      <span class="icon-text">
+  {% for locationGroup in site.data.locationGroups %}
+  <tr>
+    <th colspan="3">{{ locationGroup.name }}</th>
+  </tr>
+
+  {% for location in locationGroup.locations %}
+
+  <tr>
+    <td>{{ location.name }}</td>
+    <td>
+      <a href="{{ location.googleUrl }}" class="button is-primary is-outlined">
         <span class="icon">
-          <span class="mdi mdi-google-maps"></span>
+          <span class="mdi mdi-google-maps mdi-24px"></span>
         </span>
-        <span>Google</span>
-      </span>
-    </a>
-    <a href="https://ul.waze.com/ul?ll=50.64107873%2C-1.94918275&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
-      class="button is-primary">
-      <span class="icon-text">
+      </a>
+    </td>
+    <td>
+      {% if location.wazeUrl %}
+      <a href="{{ location.wazeUrl }}" class="button is-primary is-outlined">
         <span class="icon">
-          <span class="mdi mdi-waze"></span>
+          <span class="mdi mdi-google-maps mdi-24px"></span>
         </span>
-        <span>Waze</span>
-      </span>
-    </a>
-  </li>
-</ul>
+      </a>
+      {% else %}
+      &nbsp;
+      {% endif %}
+    </td>
+  </tr>
+
+  {% endfor %}
+
+  {% endfor %}
+
+</table>
