@@ -1,6 +1,6 @@
 [
   {
-    "name": "Site",
+    "name": "Studland Site",
     "locations": [
       {
         "name": "Driving",
@@ -10,6 +10,61 @@
       {
         "name": "Walking",
         "googleUrl": "https://goo.gl/maps/A6W9SM4NGAcSUekn6",
+        "wazeUrl": null
+      }
+    ]
+  },
+  {
+    "name": "Studland",
+    "locations": [
+      {
+        "name": "South Beach",
+        "googleUrl": "https://goo.gl/maps/gRztfpYBTMHPmDxT6",
+        "wazeUrl": null
+      },
+      {
+        "name": "Middle Beach Car Park",
+        "googleUrl": "https://goo.gl/maps/W7fWitG6LXDpDbJn7",
+        "wazeUrl": null
+      },
+      {
+        "name": "Knoll Beach Car Park",
+        "googleUrl": "https://goo.gl/maps/C6mcK8nxjnSkcNy37",
+        "wazeUrl": null
+      },
+      {
+        "name": "Old Harry Rocks",
+        "googleUrl": "https://goo.gl/maps/MRNRuCdMFfedYW7b6",
+        "wazeUrl": null
+      },
+      {
+        "name": "Agglestone Rock",
+        "googleUrl": "https://goo.gl/maps/EYBeykQ3JEZGjYUV6",
+        "wazeUrl": null
+      }
+    ]
+  },
+  {
+    "name": "Swanage",
+    "locations": [
+      {
+        "name": "Main Beach Car Park",
+        "googleUrl": "https://goo.gl/maps/BE9tgQYKkCnUeZaCA",
+        "wazeUrl": null
+      },
+      {
+        "name": "Clock Tower",
+        "googleUrl": "https://goo.gl/maps/cj5qa5UFvGNmigDH7",
+        "wazeUrl": null
+      }
+    ]
+  },
+  {
+    "name": "Other",
+    "locations": [
+      {
+        "name": "Corfe Castle Car Park",
+        "googleUrl": "https://goo.gl/maps/7oazk2h1udPxFHa86",
         "wazeUrl": null
       }
     ]
