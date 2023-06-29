@@ -25,26 +25,13 @@
 
     <nav class="navbar is-fixed-bottom is-primary">
       <div class="navbar-brand">
-        <a class="navbar-item is-flex-grow-1" href="{{ site.baseurl }}/">
+        {% for navLink in site.data.navlinks %}
+        <a class="navbar-item is-flex-grow-1" href="{{ site.baseurl }}{{ navLink.relativeUrl }}">
           <span class="icon mx-auto">
-            <span class="mdi mdi-24px mdi-home"></span>
+            <span class="mdi mdi-24px {{ navLink.icon }}"></span>
           </span>
         </a>
-        <a class="navbar-item is-flex-grow-1" href="{{ site.baseurl }}/calendar">
-          <span class="icon mx-auto">
-            <span class="mdi mdi-24px mdi-calendar-blank"></span>
-          </span>
-        </a>
-        <a class="navbar-item is-flex-grow-1" href="{{ site.baseurl }}/locations">
-          <span class="icon mx-auto">
-            <span class="mdi mdi-24px mdi-map-marker"></span>
-          </span>
-        </a>
-        <a class="navbar-item is-flex-grow-1" href="{{ site.baseurl }}/about">
-          <span class="icon mx-auto">
-            <span class="mdi mdi-24px mdi-information"></span>
-          </span>
-        </a>
+        {% endfor %}
       </div>
     </nav>
 
