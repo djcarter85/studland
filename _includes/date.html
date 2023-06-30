@@ -31,7 +31,8 @@
 {% assign event_start_date = event.startDate | date: "%s" %}
 <h2 class="subtitle my-2">
   {{ event.name }}
-  ({{ include.date | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}/{{ event.endDate | date: "%s" |
+  ({{ include.date | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}/{{ event.endDate | date: "%s"
+  |
   minus: event_start_date | divided_by: 86400 | plus: 1}})
 </h2>
 {% endif %}
@@ -54,6 +55,24 @@
   </div>
   {% endif %}
   {% endfor %}
+</div>
+
+<div id="tides-widget" class="showcase-themes" data-widget-animated="true">
+  <script>
+    let card = new Tide(
+      "#tides-widget", {
+      region: "dorset",
+      location: "studland-bay",
+      refresh: 0,
+      style: {
+        container: {
+          width: "100%",
+          maxHeight: "400px",
+          fontSize: "16px"
+        }
+      }
+    });
+  </script>
 </div>
 
 <p>Some info ...</p>
