@@ -27,7 +27,7 @@
     <nav class="navbar is-fixed-bottom is-primary">
       <div class="navbar-brand">
         {% for navLink in site.data.navLinks %}
-        <a class="navbar-item is-flex-grow-1" href="{{ site.baseurl }}{{ navLink.relativeUrl }}">
+        <a class="navbar-item is-flex-grow-1 {% if navLink.relativeUrl == page.url %}is-active{% endif %}" href="{{ site.baseurl }}{{ navLink.relativeUrl }}">
           <span class="icon mx-auto">
             <span class="mdi mdi-24px {{ navLink.icon }}"></span>
           </span>
