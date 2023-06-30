@@ -4,7 +4,7 @@
   {% if prev_date >= site.data.globals.startDate %}
   <div class="column py-0 has-text-left">
     <a href="/dates/{{prev_date}}">
-      &laquo; {{ prev_date | date: "%e %b" }}
+      &laquo; {{ prev_date | date: "%e %B" }}
     </a>
   </div>
   {% else %}
@@ -16,7 +16,7 @@
   {% if site.data.globals.endDate >= next_date %}
   <div class="column py-0 has-text-right">
     <a href="/dates/{{next_date}}">
-      {{ next_date | date: "%e %b" }} &raquo;
+      {{ next_date | date: "%e %B" }} &raquo;
     </a>
   </div>
   {% else %}
@@ -24,7 +24,7 @@
   {% endif %}
 </div>
 
-<h1 class="title is-spaced mb-2">{{ include.date | date: "%a %e %b %Y" }}</h1>
+<h1 class="title is-spaced mb-2">{{ include.date | date: "%a %e %B %Y" }}</h1>
 
 {% for event in site.data.events %}
 {% if include.date >= event.startDate and event.endDate >= include.date %}
