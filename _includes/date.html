@@ -59,7 +59,7 @@
 
 <div class="box">
   {% for tide in site.data.tides %}
-  <h3>{{ tide[0] }}</h3>
+  <h3 class="is-capitalized">{{ tide[0] | replace: "-", " "}}</h3>
   <table class="has-text-centered">
     <thead>
       <tr>
