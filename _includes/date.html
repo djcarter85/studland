@@ -65,10 +65,8 @@
   {% endfor %}
 
   <div class="tabs is-fullwidth mb-1">
-    <ul>
-      {% assign first = true %}
       {% for tide in site.data.tides %}
-      <li class="{% if first %}is-active{% endif %}">
+      <li>
         <label for="{{ tide[0] }}">
           <a>
             <span class="icon">
@@ -78,7 +76,6 @@
           </a>
         </label>
       </li>
-      {% assign first = false %}
       {% endfor %}
     </ul>
   </div>
