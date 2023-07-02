@@ -6,8 +6,8 @@ input[type="radio"] {
   display: none;
 }
 
-/* the magic */
 #studland-bay:checked~.tab-content>.content-studland-bay,
-#swanage:checked~.tab-content>.content-swanage {
+#swanage:checked~.tab-content>.content-swanage,
+#swanage-bay:checked~tab-content>.content-swanage-bay {
   display: block;
 }
