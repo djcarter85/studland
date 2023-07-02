@@ -1,0 +1,13 @@
+input[type="radio"] {
+  display: none;
+}
+
+.tab-pane {
+  display: none;
+}
+
+/* the magic */
+#studland-bay:checked~.tab-content>.content-studland-bay,
+#swanage:checked~.tab-content>.content-swanage {
+  display: block;
+}
