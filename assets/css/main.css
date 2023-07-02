@@ -8,6 +8,6 @@ input[type="radio"] {
 
 #studland-bay:checked~.tab-content>.content-studland-bay,
 #swanage:checked~.tab-content>.content-swanage,
-#swanage-bay:checked~tab-content>.content-swanage-bay {
+#swanage-bay:checked~.tab-content>.content-swanage-bay {
   display: block;
 }
