@@ -24,7 +24,7 @@
   {% endif %}
 </div>
 
-<h1 class="title is-spaced my-2">{{ include.date | date: "%A %e %B" }}</h1>
+<h1 class="title is-spaced mb-2">{{ include.date | date: "%A %e %B" }}</h1>
 
 {% for event in site.data.events %}
 {% if include.date >= event.startDate and event.endDate >= include.date %}
@@ -59,8 +59,8 @@
 
 <div class="box">
   {% for tide in site.data.tides %}
-  <h3 class="is-capitalized">{{ tide[0] | replace: "-", " "}}</h3>
-  <table class="has-text-centered">
+  <h3 class="title is-5 is-capitalized">{{ tide[0] | replace: "-", " "}}</h3>
+  <table class="table is-fullwidth has-text-centered">
     <thead>
       <tr>
         <th>Tide</th>

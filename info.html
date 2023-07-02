@@ -2,22 +2,25 @@
 layout: default
 permalink: /info
 ---
+<div class="content">
 
-<h1>Information</h1>
+  <h1>Information</h1>
 
-<h3>Useful links</h3>
+  <h3>Useful links</h3>
 
-<ul>
-  {% for usefulLink in site.data.usefulLinks %}
-  <li>
-    <a href="{{ usefulLink.url }}">{{ usefulLink.name }}</a>
-  </li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% for usefulLink in site.data.usefulLinks %}
+    <li>
+      <a href="{{ usefulLink.url }}">{{ usefulLink.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 
-<h3>About this website</h2>
+  <h3>About this website</h3>
 
-<p>Made by <a href="https://carterdan.net">Dan Carter</a>. If you have any
+  <p>Made by <a href="https://carterdan.net">Dan Carter</a>. If you have any
   questions, email <a href="mailto:djcarter85@gmail.com">djcarter85@gmail.com</a>.</p>
 
-<p class="has-text-grey-light">Website last updated {{ site.time | date: "on %A %d %B at %H:%M" }}.</p>
+  <p class="has-text-grey-light">Website last updated {{ site.time | date: "on %A %d %B at %H:%M" }}.</p>
+
+</div>
