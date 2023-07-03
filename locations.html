@@ -5,6 +5,8 @@ permalink: /locations
 
 <h1 class="title">Locations</h1>
 
+<div id="map"></div>
+
 <table class="table is-fullwidth is-narrow">
 
   {% for locationGroup in site.data.locationGroups %}
@@ -41,3 +43,13 @@ permalink: /locations
   {% endfor %}
 
 </table>
+
+<script>
+  var map = L.map('map').setView([50.640800, -1.943736], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+  var marker = L.marker([50.640800, -1.943736]).addTo(map);
+  marker.bindPopup("Studland Site<br/><a href='https://goo.gl/maps/A6W9SM4NGAcSUekn6'><span class='icon-text'><span class='icon'><span class='mdi mdi-google-maps mdi-24px'></span></span>&nbsp;<span>Google Maps</span></span></a>");
+</script>

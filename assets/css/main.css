@@ -11,3 +11,7 @@ input[type="radio"] {
 #swanage-bay:checked~.tab-content>.content-swanage-bay {
   display: block;
 }
+
+#map {
+  height: 50vh;
+}
