@@ -65,24 +65,25 @@
   {% endfor %}
 
   <div class="tabs is-fullwidth mb-1">
-      {% for tide in site.data.tides %}
-      <li>
-        <label for="{{ tide[0] }}">
-          <a>
-            <span class="icon">
-              <span class="mdi mdi-24px mdi-waves"></span>
-            </span>
-            <span class="is-capitalized">{{ tide[0] | replace: "-", " "}}</span>
-          </a>
-        </label>
-      </li>
-      {% endfor %}
+    {% for tide in site.data.tides %}
+    <li>
+      <label for="{{ tide[0] }}">
+        <a>
+          <span class="icon">
+            <span class="mdi mdi-24px mdi-waves"></span>
+          </span>
+          <span class="is-capitalized">{{ tide[0] | replace: "-", " "}}</span>
+        </a>
+      </label>
+    </li>
+    {% endfor %}
     </ul>
   </div>
 
   <div class="tab-content">
     {% for tide in site.data.tides %}
     <div class="tab-pane content-{{ tide[0] }}">
+      {% if tide[1] %}
       <table class="table is-fullwidth is-narrow has-text-centered">
         <thead>
           <tr>
@@ -105,6 +106,12 @@
           {% endfor %}
         </tbody>
       </table>
+      {% else %}
+      <p>
+        No tide data yet. See <a
+          href="https://www.dorset-tides.com/{{tide[0]}}-tide-times">dorset-tides.com/{{tide[0]}}-tide-times</a>
+      </p>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
