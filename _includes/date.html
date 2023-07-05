@@ -83,7 +83,7 @@
   <div class="tab-content">
     {% for tide in site.data.tides %}
     <div class="tab-pane content-{{ tide[0] }}">
-      {% if tide[1] %}
+      {% if tide[1].size > 0 %}
       <table class="table is-fullwidth is-narrow has-text-centered">
         <thead>
           <tr>
