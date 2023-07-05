@@ -65,18 +65,19 @@
   {% endfor %}
 
   <div class="tabs is-fullwidth mb-1">
-    {% for tide in site.data.tides %}
-    <li>
-      <label for="{{ tide[0] }}">
-        <a>
-          <span class="icon">
-            <span class="mdi mdi-24px mdi-waves"></span>
-          </span>
-          <span class="is-capitalized">{{ tide[0] | replace: "-", " "}}</span>
-        </a>
-      </label>
-    </li>
-    {% endfor %}
+    <ul>
+      {% for tide in site.data.tides %}
+      <li>
+        <label for="{{ tide[0] }}">
+          <a>
+            <span class="icon">
+              <span class="mdi mdi-24px mdi-waves"></span>
+            </span>
+            <span class="is-capitalized">{{ tide[0] | replace: "-", " "}}</span>
+          </a>
+        </label>
+      </li>
+      {% endfor %}
     </ul>
   </div>
 
