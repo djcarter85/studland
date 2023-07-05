@@ -2,5 +2,5 @@ name,relativeUrl,icon
 Home,/,mdi-home
 Calendar,/calendar,mdi-calendar-blank
 Calendar,/calendar2,mdi-calendar-text
-Locations,/locations,mdi-map-marker
+Map,/map,mdi-map-marker
 Info,/info,mdi-information

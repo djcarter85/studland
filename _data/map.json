@@ -1,0 +1,58 @@
+{
+  "centre": {
+    "lat": 50.640800,
+    "lng": -1.943736
+  },
+  "locations": [
+    {
+      "name": "Studland Site",
+      "lat": 50.640800,
+      "lng": -1.943736
+    },
+    {
+      "name": "Manor Farm",
+      "lat": 50.64107873,
+      "lng": -1.94918275
+    },
+    {
+      "name": "South Beach",
+      "lat": 50.642286,
+      "lng": -1.943616
+    },
+    {
+      "name": "Middle Beach Car Park",
+      "lat": 50.645414,
+      "lng": -1.949954
+    },
+    {
+      "name": "Knoll Beach Car Park",
+      "lat": 50.651596,
+      "lng": -1.954380
+    },
+    {
+      "name": "Old Harry Rocks",
+      "lat": 50.641827,
+      "lng": -1.924436
+    },
+    {
+      "name": "Agglestone Rock",
+      "lat": 50.6403706,
+      "lng": -1.9663044
+    },
+    {
+      "name": "Swanage Main Beach Car Park",
+      "lat": 50.6107035,
+      "lng": -1.9648654
+    },
+    {
+      "name": "Swanage Clock Tower",
+      "lat": 50.61199636,
+      "lng": -1.95793748
+    },
+    {
+      "name": "Corfe Castle Car Park",
+      "lat": 50.64183397,
+      "lng": -2.05927134
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+---
+layout: default
+permalink: /map
+---
+
+<h1 class="title">Map</h1>
+
+<div id="map"></div>
+
+<table class="table is-fullwidth is-narrow">
+
+  {% assign locations = site.data.map.locations | sort: "name" %}
+  {% for location in locations %}
+  <tr>
+    <td>{{ location.name }}</td>
+    <td>
+      <a href="https://www.google.com/maps/search/?api=1&query={{ location.lat }}%2C{{ location.lng }}" class="button is-primary is-outlined">
+        <span class="icon">
+          <span class="mdi mdi-google-maps mdi-24px"></span>
+        </span>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.waze.com/ul?ll={{ location.lat }}%2C{{ location.lng }}" class="button is-primary is-outlined">
+        <span class="icon">
+          <span class="mdi mdi-waze mdi-24px"></span>
+        </span>
+      </a>
+    </td>
+  </tr>
+  {% endfor %}
+
+</table>
+
+<script>
+  var mapData = {{ site.data.map | jsonify }};
+
+  var map = L.map('map').setView([mapData.centre.lat, mapData.centre.lng], 13);
+
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  // Add a polygon to show the Studland Site.
+  var polygon = L.polygon([
+    [50.640645, -1.944750],
+    [50.640159, -1.944485],
+    [50.640053, -1.944572],
+    [50.640048, -1.944223],
+    [50.640323, -1.944302],
+    [50.640676, -1.943460],
+    [50.640325, -1.943183],
+    [50.640393, -1.941799],
+    [50.640549, -1.941665],
+    [50.640950, -1.942770]
+  ]).addTo(map);
+
+  mapData.locations.forEach(function (location) {
+    var googleUrl = "https://www.google.com/maps/search/?api=1&query=" + location.lat + "%2C" + location.lng;
+    var wazeUrl = "https://www.waze.com/ul?ll=" + location.lat + "%2C" + location.lng;
+
+    L.marker([location.lat, location.lng])
+      .addTo(map)
+      .bindPopup(location.name + "<br/><a href='" + googleUrl + "'>Google Maps</a><br/><a href='" + wazeUrl + "'>Waze</a>");
+  });
+</script>
