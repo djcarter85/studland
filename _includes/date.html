@@ -118,3 +118,35 @@
   </div>
 
 </div>
+
+<div class="box p-1">
+  <h3 class="title is-5">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="mdi mdi-24px mdi-weather-sunny"></i>
+      </span>
+      <span>Studland weather</span>
+    </span>
+  </h3>
+
+  {% for weather in site.data.weather %}
+  {% if weather[0] == include.date %}
+  <table class="table is-narrow is-fullwidth has-text-centered">
+    <thead>
+      <tr>
+        <th class="has-text-centered">Time</th>
+        <th class="has-text-centered">Temp</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for hour in weather[1] %}
+      <tr>
+        <td>{{ hour.time }}</td>
+        <td>{{ hour.temperature }}&deg;C</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+  {% endfor %}
+</div>
