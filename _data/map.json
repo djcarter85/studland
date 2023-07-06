@@ -21,28 +21,33 @@
     },
     {
       "name": "Middle Beach Car Park",
-      "lat": 50.645414,
-      "lng": -1.949954
+      "lat": 50.6458417,
+      "lng": -1.9546852,
+      "googlePlaceId": "ChIJjWSejVMJc0gRa9LMKaQ9vA8"
     },
     {
       "name": "Knoll Beach Car Park",
-      "lat": 50.651596,
-      "lng": -1.954380
+      "lat": 50.651852,
+      "lng": -1.954822,
+      "googlePlaceId": "ChIJh10gcfcJc0gRVNh5zA08LXM"
     },
     {
       "name": "Old Harry Rocks",
-      "lat": 50.641827,
-      "lng": -1.924436
+      "lat": 50.6427893,
+      "lng": -1.9422252,
+      "googlePlaceId": "ChIJaUlbS-ALc0gRluPEla2RmQo"
     },
     {
       "name": "Agglestone Rock",
-      "lat": 50.6403706,
-      "lng": -1.9663044
+      "lat": 50.6452458,
+      "lng": -1.9704798,
+      "googlePlaceId": "ChIJE8tdhusJc0gRRXqLBMwpMsE"
     },
     {
       "name": "Swanage Main Beach Car Park",
-      "lat": 50.6107035,
-      "lng": -1.9648654
+      "lat": 50.6113426,
+      "lng": -1.9658596,
+      "googlePlaceId": "ChIJgSPP3HEJc0gRgbJwkZc93Gk"
     },
     {
       "name": "Swanage Clock Tower",
