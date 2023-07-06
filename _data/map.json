@@ -30,7 +30,8 @@
       "name": "Knoll Beach Car Park",
       "lat": 50.651852,
       "lng": -1.954822,
-      "googlePlaceId": "ChIJh10gcfcJc0gRVNh5zA08LXM"
+      "googlePlaceId": "ChIJh10gcfcJc0gRVNh5zA08LXM",
+      "wazeVenueId": "234619387.-1948445751.12339657"
     },
     {
       "name": "Old Harry Rocks",
@@ -48,7 +49,8 @@
       "name": "Swanage Main Beach Car Park",
       "lat": 50.6113426,
       "lng": -1.9658596,
-      "googlePlaceId": "ChIJgSPP3HEJc0gRgbJwkZc93Gk"
+      "googlePlaceId": "ChIJgSPP3HEJc0gRgbJwkZc93Gk",
+      "wazeVenueId": "234619386.-1948511291.1631251"
     },
     {
       "name": "Swanage Clock Tower",
@@ -59,7 +61,8 @@
       "name": "Corfe Castle Car Park",
       "lat": 50.6421304,
       "lng": -2.0586631,
-      "googlePlaceId": "ChIJfQerlVcHc0gR-XqJhbjaxaE"
+      "googlePlaceId": "ChIJfQerlVcHc0gR-XqJhbjaxaE",
+      "wazeVenueId": "234553850.-1949166648.2964934"
     }
   ]
 }
