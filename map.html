@@ -14,7 +14,7 @@ permalink: /map
   <tr>
     <td>{{ location.name }}</td>
     <td>
-      <a href="https://www.google.com/maps/search/?api=1&query={{ location.lat }}%2C{{ location.lng }}" class="button is-primary is-outlined">
+      <a href="https://www.google.com/maps/search/?api=1&query={{ location.lat }}%2C{{ location.lng }}{% if location.googlePlaceId %}&query_place_id={{ location.googlePlaceId }}{% endif %}" class="button is-primary is-outlined">
         <span class="icon">
           <span class="mdi mdi-google-maps mdi-24px"></span>
         </span>
@@ -58,6 +58,9 @@ permalink: /map
 
   mapData.locations.forEach(function (location) {
     var googleUrl = "https://www.google.com/maps/search/?api=1&query=" + location.lat + "%2C" + location.lng;
+    if (location.googlePlaceId) {
+      googleUrl += "&query_place_id=" + location.googlePlaceId;
+    }
     var wazeUrl = "https://www.waze.com/ul?ll=" + location.lat + "%2C" + location.lng;
 
     L.marker([location.lat, location.lng])

@@ -51,8 +51,9 @@
     },
     {
       "name": "Corfe Castle Car Park",
-      "lat": 50.64183397,
-      "lng": -2.05927134
+      "lat": 50.6421304,
+      "lng": -2.0586631,
+      "googlePlaceId": "ChIJfQerlVcHc0gR-XqJhbjaxaE"
     }
   ]
 }
