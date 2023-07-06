@@ -84,7 +84,11 @@
   <div class="tab-content">
     {% for tide in site.data.tides %}
     <div class="tab-pane content-{{ tide[0] }}">
-      {% if tide[1].size > 0 %}
+      {% assign found = false %}
+      
+      {% for date in tide[1] %}
+      {% if date[0] == include.date %}
+      {% assign found = true %}
       <table class="table is-fullwidth is-narrow has-text-centered">
         <thead>
           <tr>
@@ -94,8 +98,6 @@
           </tr>
         </thead>
         <tbody>
-          {% for date in tide[1] %}
-          {% if date[0] == include.date %}
           {% for x in date[1] %}
           <tr>
             <td>{{ x.tide }}</td>
@@ -103,16 +105,18 @@
             <td>{{ x.height }}</td>
           </tr>
           {% endfor %}
-          {% endif %}
-          {% endfor %}
         </tbody>
       </table>
-      {% else %}
+      {% endif %}
+      {% endfor %}
+
+      {% unless found %}
       <p>
         No tide data yet. See <a
           href="https://www.dorset-tides.com/{{tide[0]}}-tide-times">dorset-tides.com/{{tide[0]}}-tide-times</a>
       </p>
-      {% endif %}
+      {% endunless %}
+
     </div>
     {% endfor %}
   </div>
