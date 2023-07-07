@@ -88,8 +88,10 @@
 <div class="tab-content">
 
   <div class="tab-pane content-weather">
+    {% assign found = false %}
     {% for weather in site.data.weather %}
     {% if weather[0] == include.date %}
+    {% assign found = true %}
     <table class="table is-narrow is-fullwidth has-text-centered">
       <thead>
         <tr>
@@ -108,6 +110,12 @@
     </table>
     {% endif %}
     {% endfor %}
+
+    {% unless found %}
+    <p>
+      No weather data yet. See <a href="https://www.bbc.co.uk/weather/2636597">BBC Weather</a>.
+    </p>
+    {% endunless %}
   </div>
 
   <div class="tab-pane content-tides">
