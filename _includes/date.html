@@ -57,100 +57,95 @@
   {% endfor %}
 </div>
 
-<div class="box p-1">
-  {% assign first = true %}
-  {% for tide in site.data.tides %}
-  <input type="radio" id="{{ tide[0] }}" name="nav-tab" {% if first %}checked{% endif %}>
-  {% assign first = false %}
-  {% endfor %}
+<input type="radio" id="weather" name="nav-tab" checked>
+<input type="radio" id="tides" name="nav-tab">
 
-  <div class="tabs is-fullwidth mb-1">
-    <ul>
-      {% for tide in site.data.tides %}
-      <li>
-        <label for="{{ tide[0] }}">
-          <a>
-            <span class="icon">
-              <span class="mdi mdi-24px mdi-waves"></span>
-            </span>
-            <span class="is-capitalized">{{ tide[0] | replace: "-", " "}}</span>
-          </a>
-        </label>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+<div class="tabs is-fullwidth mb-1">
+  <ul>
+    <li>
+      <label for="weather">
+        <a>
+          <span class="icon">
+            <span class="mdi mdi-24px mdi-weather-sunny"></span>
+          </span>
+          <span>Weather</span>
+        </a>
+      </label>
+    </li>
+    <li>
+      <label for="tides">
+        <a>
+          <span class="icon">
+            <span class="mdi mdi-24px mdi-waves"></span>
+          </span>
+          <span>Tides</span>
+        </a>
+      </label>
+    </li>
+  </ul>
+</div>
 
-  <div class="tab-content">
-    {% for tide in site.data.tides %}
-    <div class="tab-pane content-{{ tide[0] }}">
-      {% assign found = false %}
-      
-      {% for date in tide[1] %}
-      {% if date[0] == include.date %}
-      {% assign found = true %}
-      <table class="table is-fullwidth is-narrow has-text-centered">
-        <thead>
-          <tr>
-            <th class="has-text-centered">Tide</th>
-            <th class="has-text-centered">Time</th>
-            <th class="has-text-centered">Height</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for x in date[1] %}
-          <tr>
-            <td>{{ x.tide }}</td>
-            <td>{{ x.time }}</td>
-            <td>{{ x.height }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-      {% endif %}
-      {% endfor %}
+<div class="tab-content">
 
-      {% unless found %}
-      <p>
-        No tide data yet. See <a
-          href="https://www.dorset-tides.com/{{tide[0]}}-tide-times">dorset-tides.com/{{tide[0]}}-tide-times</a>
-      </p>
-      {% endunless %}
-
-    </div>
+  <div class="tab-pane content-weather">
+    {% for weather in site.data.weather %}
+    {% if weather[0] == include.date %}
+    <table class="table is-narrow is-fullwidth has-text-centered">
+      <thead>
+        <tr>
+          <th class="has-text-centered">Time</th>
+          <th class="has-text-centered">Temp</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for hour in weather[1] %}
+        <tr>
+          <td>{{ hour.time }}</td>
+          <td>{{ hour.temperature }}&deg;C</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
     {% endfor %}
   </div>
 
-</div>
+  <div class="tab-pane content-tides">
+    {% for tide in site.data.tides %}
+    <h3 class="title is-5 is-capitalized my-3">{{ tide[0] | replace: "-", " "}}</h3>
+    {% assign found = false %}
 
-<div class="box p-1">
-  <h3 class="title is-5 m-2">
-    <span class="icon-text">
-      <span class="icon">
-        <i class="mdi mdi-24px mdi-weather-sunny"></i>
-      </span>
-      <span>Studland weather</span>
-    </span>
-  </h3>
+    {% for date in tide[1] %}
+    {% if date[0] == include.date %}
+    {% assign found = true %}
+    <table class="table is-fullwidth is-narrow has-text-centered my-0">
+      <thead>
+        <tr>
+          <th class="has-text-centered">Tide</th>
+          <th class="has-text-centered">Time</th>
+          <th class="has-text-centered">Height</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for x in date[1] %}
+        <tr>
+          <td>{{ x.tide }}</td>
+          <td>{{ x.time }}</td>
+          <td>{{ x.height }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+    {% endfor %}
 
-  {% for weather in site.data.weather %}
-  {% if weather[0] == include.date %}
-  <table class="table is-narrow is-fullwidth has-text-centered">
-    <thead>
-      <tr>
-        <th class="has-text-centered">Time</th>
-        <th class="has-text-centered">Temp</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for hour in weather[1] %}
-      <tr>
-        <td>{{ hour.time }}</td>
-        <td>{{ hour.temperature }}&deg;C</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-  {% endif %}
-  {% endfor %}
+    {% unless found %}
+    <p>
+      No tide data yet. See <a
+        href="https://www.dorset-tides.com/{{tide[0]}}-tide-times">dorset-tides.com/{{tide[0]}}-tide-times</a>
+    </p>
+    {% endunless %}
+
+    {% endfor %}
+  </div>
 </div>
