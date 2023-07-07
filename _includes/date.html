@@ -93,12 +93,6 @@
     {% if weather[0] == include.date %}
     {% assign found = true %}
     <table class="table is-narrow is-fullwidth has-text-centered">
-      <thead>
-        <tr>
-          <th class="has-text-centered">Time</th>
-          <th class="has-text-centered">Temp</th>
-        </tr>
-      </thead>
       <tbody>
         {% for hour in weather[1] %}
         <tr>
@@ -127,13 +121,6 @@
     {% if date[0] == include.date %}
     {% assign found = true %}
     <table class="table is-fullwidth is-narrow has-text-centered my-0">
-      <thead>
-        <tr>
-          <th class="has-text-centered">Tide</th>
-          <th class="has-text-centered">Time</th>
-          <th class="has-text-centered">Height</th>
-        </tr>
-      </thead>
       <tbody>
         {% for x in date[1] %}
         <tr>
