@@ -1,7 +1,6 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
-00:00,19,12,12,SE,partlyCloudy
-01:00,19,12,11,SE,clearSky
-02:00,19,12,10,SE,clearSky
-03:00,19,10,9,SSE,clearSky
-04:00,18,4,9,S,clearSky
-05:00,18,7,7,SSW,clearSky
+01:00,19,13,11,SE,clearSky
+02:00,19,12,9,SSE,clearSky
+03:00,19,11,9,SSE,clearSky
+04:00,18,4,8,S,clearSky
+05:00,18,8,7,SSW,clearSky
