@@ -13,8 +13,15 @@ input[type="radio"] {
   display: none;
 }
 
-#weather:checked~.tab-content>.content-weather,
-#tides:checked~.tab-content>.content-tides {
+#weather:checked ~ .tabs li label[for="weather"] a,
+#tides:checked ~ .tabs li label[for="tides"] a {
+  background-color: $tabs-boxed-link-active-background-color;
+  border-color: $tabs-boxed-link-active-border-color;
+  border-bottom-color: $tabs-boxed-link-active-border-bottom-color !important;
+}
+
+#weather:checked ~ .tab-content > .content-weather,
+#tides:checked ~ .tab-content > .content-tides {
   display: block;
 }
 
