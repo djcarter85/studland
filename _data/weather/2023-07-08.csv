@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
-07:00,18,16,9,SW,sunnyIntervals
 08:00,19,24,9,SW,showers
 09:00,19,35,8,SW,showers
 10:00,19,47,9,SW,unknown
