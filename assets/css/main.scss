@@ -13,8 +13,6 @@ input[type="radio"] {
   display: none;
 }
 
-#studland-bay:checked~.tab-content>.content-studland-bay,
-#swanage-bay:checked~.tab-content>.content-swanage-bay,
 #weather:checked~.tab-content>.content-weather,
 #tides:checked~.tab-content>.content-tides {
   display: block;
