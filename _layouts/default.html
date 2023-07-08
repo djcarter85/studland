@@ -35,7 +35,7 @@
         {% for navLink in site.data.navLinks %}
         <a class="navbar-item is-flex-grow-1 {% if navLink.relativeUrl == page.url %}is-active{% endif %}" href="{{ site.baseurl }}{{ navLink.relativeUrl }}">
           <span class="icon mx-auto">
-            <span class="mdi mdi-24px {{ navLink.icon }}"></span>
+            <span class="mdi mdi-24px {{ navLink.icon }}{% unless navLink.relativeUrl == page.url %}-outline{% endunless %}"></span>
           </span>
         </a>
         {% endfor %}
