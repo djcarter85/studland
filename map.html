@@ -9,7 +9,7 @@ permalink: /map
 
 <table class="table is-fullwidth is-narrow">
 
-  {% assign locations = site.data.map.locations | sort: "name" %}
+  {% assign locations = site.data.locations | sort: "name" %}
   {% for location in locations %}
   <tr>
     <td>{{ location.name }}</td>
@@ -34,9 +34,10 @@ permalink: /map
 </table>
 
 <script>
-  var mapData = {{ site.data.map | jsonify }};
+  var globals = {{ site.data.globals | jsonify }};
+  var locations = {{ site.data.locations | jsonify }};
 
-  var map = L.map('map').setView([mapData.centre.lat, mapData.centre.lng], 13);
+  var map = L.map('map').setView([globals.mapCentre.lat, globals.mapCentre.lng], 13);
 
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -57,7 +58,7 @@ permalink: /map
     [50.640950, -1.942770]
   ]).addTo(map);
 
-  mapData.locations.forEach(function (location) {
+  locations.forEach(function (location) {
     var googleUrl = "https://www.google.com/maps/search/?api=1&query=" + location.lat + "%2C" + location.lng;
     if (location.googlePlaceId) {
       googleUrl += "&query_place_id=" + location.googlePlaceId;
