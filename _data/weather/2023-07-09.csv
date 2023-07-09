@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
-18:00,19,0,13,SW,sunny
 19:00,18,0,13,SW,sunny
 20:00,17,0,12,SW,sunny
 21:00,16,0,12,SW,sunny
