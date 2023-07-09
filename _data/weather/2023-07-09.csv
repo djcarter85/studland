@@ -4,10 +4,10 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
 18:00,18,0,13,SW,sunny
 19:00,18,0,13,SW,sunny
 20:00,17,0,12,SW,sunny
-21:00,16,0,11,SW,sunny
+21:00,16,0,12,SW,sunny
 22:00,15,0,11,SW,clearSky
 23:00,15,0,10,SW,clearSky
-00:00,15,0,10,SW,clearSky
+00:00,15,0,9,SW,clearSky
 01:00,15,0,9,SW,clearSky
 02:00,15,0,9,SW,clearSky
 03:00,15,0,9,SW,clearSky
