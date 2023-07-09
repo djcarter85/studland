@@ -14,11 +14,11 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
 18:00,19,37,14,SSW,lightRain
 19:00,18,34,14,SSW,unknown
 20:00,18,30,13,SSW,lightRain
-21:00,17,35,13,SSW,lightRain
-22:00,17,39,13,SSW,lightRain
-23:00,17,47,14,SSW,lightRain
-00:00,17,52,16,SSW,lightRain
-01:00,17,55,17,SSW,lightRain
+21:00,17,36,13,SSW,lightRain
+22:00,17,43,13,SSW,lightRain
+23:00,17,53,15,SSW,lightRain
+00:00,17,57,16,SSW,lightRain
+01:00,17,57,17,SSW,lightRain
 02:00,17,70,18,SSW,lightRain
 03:00,17,70,18,SSW,lightRain
 04:00,17,70,19,SSW,unknown
