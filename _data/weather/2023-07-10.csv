@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
-23:00,17,56,15,SSW,lightRain
 00:00,17,53,18,SSW,lightRain
 01:00,17,56,20,SSW,lightRain
 02:00,17,65,20,SSW,lightRain
