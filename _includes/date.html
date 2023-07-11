@@ -96,7 +96,7 @@
       <tbody>
         {% for hour in weather[1] %}
         <tr>
-          <td>{{ hour.time }}</td>
+          <td class="has-text-left">{{ hour.time }}</td>
           <td>{{ hour.temperature }}&deg;C</td>
           <td>
             <span class="icon is-medium">
@@ -118,7 +118,14 @@
               "></span>
             </span>
           </td>
-          <td>{{ hour.chanceOfRain }}%</td>
+          <td class="has-text-right">
+            <span class="icon-text">
+              {{ hour.chanceOfRain }}%
+              <span class="icon is-medium">
+                <span class="mdi mdi-24px mdi-water-outline"></span>
+              </span>
+            </span>
+          </td>
         </tr>
         {% endfor %}
       </tbody>
