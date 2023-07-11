@@ -8,11 +8,11 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
 12:00,18,14,19,WSW,sunnyIntervals
 13:00,18,12,20,WSW,sunnyIntervals
 14:00,18,17,20,WSW,sunnyIntervals
-15:00,18,22,20,WSW,sunnyIntervals
+15:00,18,21,20,WSW,sunnyIntervals
 16:00,18,31,20,WSW,showers
-17:00,18,35,19,WSW,showers
-18:00,17,37,19,WSW,showers
-19:00,17,25,18,WSW,showers
+17:00,18,34,19,WSW,showers
+18:00,17,41,19,WSW,showers
+19:00,17,29,18,WSW,showers
 20:00,17,8,16,WSW,sunny
 21:00,16,0,15,WSW,sunny
 22:00,15,0,14,WSW,clearSky
