@@ -60,7 +60,7 @@
 <input type="radio" id="weather" name="nav-tab" checked>
 <input type="radio" id="tides" name="nav-tab">
 
-<div class="tabs is-fullwidth is-boxed mb-1">
+<div class="tabs is-fullwidth is-boxed mb-0">
   <ul>
     <li>
       <label for="weather">
@@ -144,7 +144,7 @@
 
   <div class="tab-pane content-tides">
     {% for tide in site.data.tides %}
-    <h3 class="title is-5 is-capitalized my-3">{{ tide[0] | replace: "-", " "}}</h3>
+    <h3 class="title is-5 is-capitalized px-3 py-3 m-0">{{ tide[0] | replace: "-", " "}}</h3>
     {% assign found = false %}
 
     {% for date in tide[1] %}
