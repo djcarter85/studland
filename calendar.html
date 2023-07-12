@@ -28,9 +28,9 @@ permalink: /calendar
 
     {% assign month_mod_2 = date.date | date: "%m" | plus: 0 | modulo: 2 %}
 
-    <td class="{% if date.date == site.data.globals.currentDate %}is-selected{% elsif month_mod_2 == 0 %}has-background-light{% endif %}">
+    <td class="{% if date.date == site.data.globals.currentDate %}has-background-link{% elsif month_mod_2 == 0 %}has-background-light{% endif %}">
 
-      <a href="/dates/{{date.date}}">
+      <a href="/dates/{{date.date}}" class="{% if date.date == site.data.globals.currentDate %}has-text-white{% endif %}">
         {% assign day = date.date | date: "%e" | plus: 0 %}
         {{ date.date | date: "%d" }}
         {% if date.date == site.data.globals.startDate or day == 1 %}

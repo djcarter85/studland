@@ -20,7 +20,7 @@ permalink: /map
         {% if location.googlePlaceId %}
         {% assign url = url | append: '&query_place_id=' | append: location.googlePlaceId %}
         {% endif %}
-        {% include map_link.html icon='mdi-google-maps' url=url %}
+        {% include map_link.html icon='mdi-google-maps' url=url title='Google Maps' %}
       </td>
       <td>
         {% assign url = 'https://www.waze.com/ul?' %}
@@ -29,7 +29,7 @@ permalink: /map
         {% else %}
         {% assign url = url | append: 'll=' | append: location.lat | append: '%2C' | append: location.lng %}
         {% endif %}
-        {% include map_link.html icon='mdi-waze' url=url %}
+        {% include map_link.html icon='mdi-waze' url=url title='Waze' %}
       </td>
     </tr>
     {% endfor %}
