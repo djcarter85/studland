@@ -3,6 +3,19 @@
 
 @charset "utf-8";
 
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+// Initial variables
+$turquoise: hsl(169, 46%, 63%);
+$cyan: hsl(198, 72%, 49%);
+$orange: hsl(8, 83%, 57%);
+$yellow: hsl(45, 94%, 55%);
+
+// Derived variables
+$link: $cyan;
+$family-sans-serif: "Montserrat", sans-serif;
+
 @import "bulma";
 
 input[type="radio"] {
@@ -48,4 +61,8 @@ input[type="radio"] {
   td {
     vertical-align: middle;
   }
+}
+
+.navbar-item.is-active{
+  background-color: bulmaDarken($primary, 10%) !important;
 }

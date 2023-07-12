@@ -22,19 +22,19 @@
 <body>
   <header class="container">
 
-    <nav class="navbar is-fixed-top is-link has-shadow">
+    <nav class="navbar is-fixed-top is-primary has-shadow">
       <div class="navbar-brand is-flex-grow-1">
-        <a class="navbar-item mx-auto is-uppercase title" href="{{ site.baseurl }}/">
+        <a class="navbar-item mx-auto is-uppercase has-text-white-ter title" href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
       </div>
     </nav>
 
-    <nav class="navbar is-fixed-bottom has-shadow">
+    <nav class="navbar is-fixed-bottom is-primary has-shadow">
       <div class="container">
         <div class="navbar-brand is-flex-grow-1">
           {% for navLink in site.data.navLinks %}
-          <a class="navbar-item is-flex-grow-1 {% if navLink.relativeUrl == page.url %}is-active{% endif %}"
+          <a class="navbar-item is-flex-grow-1 has-text-white-ter {% if navLink.relativeUrl == page.url %}is-active{% endif %}"
             href="{{ site.baseurl }}{{ navLink.relativeUrl }}">
             <span class="icon mx-auto">
               <span

@@ -24,12 +24,12 @@
   {% endif %}
 </div>
 
-<h1 class="title is-spaced mb-2">{{ include.date | date: "%A %e %B" }}</h1>
+<h1 class="title is-spaced is-uppercase has-text-centered is-4 my-3">{{ include.date | date: "%A %e %B" }}</h1>
 
 {% for event in site.data.events %}
 {% if include.date >= event.startDate and event.endDate >= include.date %}
 {% assign event_start_date = event.startDate | date: "%s" %}
-<h2 class="subtitle my-2">
+<h2 class="subtitle my-2 is-6">
   {{ event.name }}
   ({{ include.date | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}/{{ event.endDate | date: "%s"
   |
@@ -45,10 +45,10 @@
     <span class="icon is-medium">
       <span class="mdi mdi-24px mdi-weather-sunset-up"></span>
     </span>
-    <span class="is-size-5">{{ sun.sunrise }}</span>
+    <span class="is-size-6">{{ sun.sunrise }}</span>
   </div>
   <div class="column py-0 has-text-right">
-    <span class="is-size-5">{{ sun.sunset }}</span>
+    <span class="is-size-6">{{ sun.sunset }}</span>
     <span class="icon is-medium">
       <span class="mdi mdi-24px mdi-weather-sunset-down"></span>
     </span>
