@@ -14,19 +14,21 @@ permalink: /map
   <tr>
     <td>{{ location.name }}</td>
     <td>
-      <a href="https://www.google.com/maps/search/?api=1&query={{ location.lat }}%2C{{ location.lng }}{% if location.googlePlaceId %}&query_place_id={{ location.googlePlaceId }}{% endif %}" class="button is-primary is-outlined">
-        <span class="icon">
-          <span class="mdi mdi-google-maps mdi-24px"></span>
-        </span>
-      </a>
+      {% assign url = 'https://www.google.com/maps/search/?api=1&query=' | append: location.lat | append: '%2C' |
+      append: location.lng %}
+      {% if location.googlePlaceId %}
+      {% assign url = url | append: '&query_place_id=' | append: location.googlePlaceId %}
+      {% endif %}
+      {% include map_link.html icon='mdi-google-maps' url=url %}
     </td>
     <td>
-      <a href="https://www.waze.com/ul?{% if location.wazeVenueId %}preview_venue_id={{ location.wazeVenueId }}{% else %}ll={{ location.lat }}%2C{{ location.lng }}{% endif %}" class="button is-primary
-      is-outlined">
-        <span class="icon">
-          <span class="mdi mdi-waze mdi-24px"></span>
-        </span>
-      </a>
+      {% assign url = 'https://www.waze.com/ul?' %}
+      {% if location.wazeVenueId %}
+      {% assign url = url | append: 'preview_venue_id=' | append: location.wazeVenueId %}
+      {% else %}
+      {% assign url = url | append: 'll=' | append: location.lat | append: '%2C' | append: location.lng %}
+      {% endif %}
+      {% include map_link.html icon='mdi-waze' url=url %}
     </td>
   </tr>
   {% endfor %}
