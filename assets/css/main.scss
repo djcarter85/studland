@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
 // Initial variables
 $turquoise: hsl(169, 46%, 63%);
@@ -63,6 +63,44 @@ input[type="radio"] {
   }
 }
 
-.navbar-item.is-active{
+.navbar-item.is-active {
   background-color: bulmaDarken($primary, 10%) !important;
+}
+
+h1 {
+  font-size: $size-4;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -$size-7;
+  margin-bottom: $size-5;
+}
+
+h2 {
+  font-size: $size-5;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: $size-7;
+  margin-bottom: $size-7;
+}
+
+.date-links {
+  margin-top: -$size-5;
+}
+
+.sun {
+  margin-top: $size-7;
+  margin-bottom: $size-7;
+
+  table {
+    width: 100%;
+  }
+
+  .sunrise {
+    text-align: left;
+  }
+
+  .sunset {
+    text-align: right;
+  }
 }

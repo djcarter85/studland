@@ -1,4 +1,6 @@
-<div class="columns is-mobile">
+<h1>{{ include.date | date: "%A %e %B" }}</h1>
+
+<div class="columns is-mobile date-links">
   {% assign prev_date = include.date | date: "%s" | minus: 86400 | date: "%F" %}
 
   {% if prev_date >= site.data.globals.startDate %}
@@ -24,35 +26,43 @@
   {% endif %}
 </div>
 
-<h1 class="title is-spaced is-uppercase has-text-centered is-4 my-3">{{ include.date | date: "%A %e %B" }}</h1>
-
 {% for event in site.data.events %}
 {% if include.date >= event.startDate and event.endDate >= include.date %}
 {% assign event_start_date = event.startDate | date: "%s" %}
-<h2 class="subtitle my-2 is-6">
+<p>
   {{ event.name }}
-  ({{ include.date | date: "%s" | minus: event_start_date | divided_by: 86400 | plus: 1}}/{{ event.endDate | date: "%s"
+  (day {{ include.date | date: "%s" | minus: event_start_date | divided_by:
+  86400 | plus: 1}} of {{ event.endDate | date: "%s"
   |
   minus: event_start_date | divided_by: 86400 | plus: 1}})
-</h2>
-{% endif %}
-{% endfor %}
+  </p2>
+  {% endif %}
+  {% endfor %}
 
-<div class="columns is-mobile mt-0">
+<div class="sun">
   {% for sun in site.data.sun %}
   {% if include.date == sun.date %}
-  <div class="column py-0 has-text-left">
-    <span class="icon is-medium">
-      <span class="mdi mdi-24px mdi-weather-sunset-up"></span>
-    </span>
-    <span class="is-size-6">{{ sun.sunrise }}</span>
-  </div>
-  <div class="column py-0 has-text-right">
-    <span class="is-size-6">{{ sun.sunset }}</span>
-    <span class="icon is-medium">
-      <span class="mdi mdi-24px mdi-weather-sunset-down"></span>
-    </span>
-  </div>
+  <table>
+    <tbody>
+      <tr>
+
+        <td class="sunrise">
+          <span class="icon is-medium">
+            <span class="mdi mdi-24px mdi-weather-sunset-up"></span>
+          </span>
+          <span class="is-size-6">{{ sun.sunrise }}</span>
+        </td>
+
+        <td class="sunset">
+          <span class="is-size-6">{{ sun.sunset }}</span>
+          <span class="icon is-medium">
+            <span class="mdi mdi-24px mdi-weather-sunset-down"></span>
+          </span>
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
   {% endif %}
   {% endfor %}
 </div>
