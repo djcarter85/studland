@@ -5,6 +5,7 @@
 
 // Import a Google Font
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 
 // Initial variables
 $turquoise: hsl(169, 46%, 63%);
@@ -112,4 +113,15 @@ h2 {
 
 .calendar-selected {
   background-color: bulmaLighten($link, 20%);
+}
+
+.navbar .header {
+  font-family: Raleway;
+  font-size: $size-3;
+  text-transform: uppercase;
+  color: $white-ter;
+}
+
+.header.studland {
+  font-weight: 700;
 }
