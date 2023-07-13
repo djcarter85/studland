@@ -11,6 +11,8 @@ $turquoise: hsl(169, 46%, 63%);
 $cyan: hsl(198, 72%, 49%);
 $orange: hsl(8, 83%, 57%);
 $yellow: hsl(45, 94%, 55%);
+$section-padding: 1.5rem 1.5rem 0 1.5rem;
+$section-padding-desktop: $section-padding;
 
 // Derived variables
 $link: $cyan;
@@ -72,26 +74,20 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  margin-top: -$size-7;
-  margin-bottom: $size-5;
 }
 
 h2 {
   font-size: $size-5;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: $size-7;
   margin-bottom: $size-7;
 }
 
 .date-links {
-  margin-top: -$size-5;
+  margin-top: $size-7;
 }
 
 .sun {
-  margin-top: $size-7;
-  margin-bottom: $size-7;
-
   table {
     width: 100%;
   }

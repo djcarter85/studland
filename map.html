@@ -3,38 +3,44 @@ layout: default
 permalink: /map
 ---
 
-<h1>Map</h1>
+<div class="section">
+  <h1>Map</h1>
+</div>
 
-<div id="map" class="my-4"></div>
+<div class="section">
+  <div id="map"></div>
+</div>
 
-<div class="box p-0">
-  <table class="table is-fullwidth is-narrow">
+<div class="section">
+  <div class="box p-0">
+    <table class="table is-fullwidth is-narrow">
 
-    {% assign locations = site.data.locations | sort: "name" %}
-    {% for location in locations %}
-    <tr>
-      <td class="px-3">{{ location.name }}</td>
-      <td>
-        {% assign url = 'https://www.google.com/maps/search/?api=1&query=' | append: location.lat | append: '%2C' |
-        append: location.lng %}
-        {% if location.googlePlaceId %}
-        {% assign url = url | append: '&query_place_id=' | append: location.googlePlaceId %}
-        {% endif %}
-        {% include map_link.html icon='mdi-google-maps' url=url title='Google Maps' %}
-      </td>
-      <td>
-        {% assign url = 'https://www.waze.com/ul?' %}
-        {% if location.wazeVenueId %}
-        {% assign url = url | append: 'preview_venue_id=' | append: location.wazeVenueId %}
-        {% else %}
-        {% assign url = url | append: 'll=' | append: location.lat | append: '%2C' | append: location.lng %}
-        {% endif %}
-        {% include map_link.html icon='mdi-waze' url=url title='Waze' %}
-      </td>
-    </tr>
-    {% endfor %}
+      {% assign locations = site.data.locations | sort: "name" %}
+      {% for location in locations %}
+      <tr>
+        <td class="px-3">{{ location.name }}</td>
+        <td>
+          {% assign url = 'https://www.google.com/maps/search/?api=1&query=' | append: location.lat | append: '%2C' |
+          append: location.lng %}
+          {% if location.googlePlaceId %}
+          {% assign url = url | append: '&query_place_id=' | append: location.googlePlaceId %}
+          {% endif %}
+          {% include map_link.html icon='mdi-google-maps' url=url title='Google Maps' %}
+        </td>
+        <td>
+          {% assign url = 'https://www.waze.com/ul?' %}
+          {% if location.wazeVenueId %}
+          {% assign url = url | append: 'preview_venue_id=' | append: location.wazeVenueId %}
+          {% else %}
+          {% assign url = url | append: 'll=' | append: location.lat | append: '%2C' | append: location.lng %}
+          {% endif %}
+          {% include map_link.html icon='mdi-waze' url=url title='Waze' %}
+        </td>
+      </tr>
+      {% endfor %}
 
-  </table>
+    </table>
+  </div>
 </div>
 
 <script>

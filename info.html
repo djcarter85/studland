@@ -2,34 +2,41 @@
 layout: default
 permalink: /info
 ---
-<h1>Information</h1>
 
-<h2>Useful links</h2>
-
-<div class="content">
-  <ul>
-    {% for usefulLink in site.data.usefulLinks %}
-    <li>
-      <a href="{{ usefulLink.url }}">{{ usefulLink.name }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+<div class="section">
+  <h1>Information</h1>
 </div>
 
-<h2>About this website</h2>
+<div class="section">
+  <h2>Useful links</h2>
 
-<div class="content">
-  <p>Made by Dan Carter. If you have any
-    questions, email <a href="mailto:djcarter85@gmail.com">djcarter85@gmail.com</a>.</p>
+  <div class="content">
+    <ul>
+      {% for usefulLink in site.data.usefulLinks %}
+      <li>
+        <a href="{{ usefulLink.url }}">{{ usefulLink.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-  <p class="has-text-grey-light">
-    Website last updated from
-    <a href="https://github.com/djcarter85/studland">
-      <span class="icon-text">
-        <span class="mr-1 mdi mdi-github"></span>
-        <span>source</span>
-      </span>
-    </a>
-    {{ site.time | date: "on %A %e %B at %H:%M" }}.
-  </p>
+<div class="section">
+  <h2>About this website</h2>
+
+  <div class="content">
+    <p>Made by Dan Carter. If you have any
+      questions, email <a href="mailto:djcarter85@gmail.com">djcarter85@gmail.com</a>.</p>
+
+    <p class="has-text-grey-light">
+      Website last updated from
+      <a href="https://github.com/djcarter85/studland">
+        <span class="icon-text">
+          <span class="mr-1 mdi mdi-github"></span>
+          <span>source</span>
+        </span>
+      </a>
+      {{ site.time | date: "on %A %e %B at %H:%M" }}.
+    </p>
+  </div>
 </div>

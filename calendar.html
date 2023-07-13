@@ -2,54 +2,59 @@
 layout: default
 permalink: /calendar
 ---
+<div class="section">
+  <h1>Calendar</h1>
+</div>
 
-<h1>Calendar</h1>
-
-<table class="table has-text-centered is-narrow is-fullwidth is-bordered">
-  <thead>
+<div class="section">
+  <table class="table has-text-centered is-narrow is-fullwidth is-bordered">
+    <thead>
+      <tr>
+        <th class="has-text-centered">M</th>
+        <th class="has-text-centered">T</th>
+        <th class="has-text-centered">W</th>
+        <th class="has-text-centered">T</th>
+        <th class="has-text-centered">F</th>
+        <th class="has-text-centered">S</th>
+        <th class="has-text-centered">S</th>
+      </tr>
+    </thead>
+    {% assign index = 0 %}
     <tr>
-      <th class="has-text-centered">M</th>
-      <th class="has-text-centered">T</th>
-      <th class="has-text-centered">W</th>
-      <th class="has-text-centered">T</th>
-      <th class="has-text-centered">F</th>
-      <th class="has-text-centered">S</th>
-      <th class="has-text-centered">S</th>
+      {% for date in site.data.dates %}
+      {% assign x = index | modulo: 7 %}
+      {% if x == 0 %}
     </tr>
-  </thead>
-  {% assign index = 0 %}
-  <tr>
-    {% for date in site.data.dates %}
-    {% assign x = index | modulo: 7 %}
-    {% if x == 0 %}
-  </tr>
-  <tr>
-    {% endif %}
-
-    {% assign month_mod_2 = date.date | date: "%m" | plus: 0 | modulo: 2 %}
-
-    <td class="{% if date.date == site.data.globals.currentDate %}has-background-link{% elsif month_mod_2 == 0 %}has-background-light{% endif %}">
-
-      <a href="/dates/{{date.date}}" class="{% if date.date == site.data.globals.currentDate %}has-text-white{% endif %}">
-        {% assign day = date.date | date: "%e" | plus: 0 %}
-        {{ date.date | date: "%d" }}
-        {% if date.date == site.data.globals.startDate or day == 1 %}
-        <br />
-        {{ date.date | date: "%b" }}
-        {% endif %}
-      </a>
-
-      {% for event in site.data.events %}
-      {% if date.date >= event.startDate and event.endDate >= date.date %}
-      <p class="is-size-7 has-text-grey">
-        {{ event.shortName }}
-      </p>
+    <tr>
       {% endif %}
-      {% endfor %}
-      
-    </td>
 
-    {% assign index = index | plus: 1 %}
-    {% endfor %}
-  </tr>
-</table>
+      {% assign month_mod_2 = date.date | date: "%m" | plus: 0 | modulo: 2 %}
+
+      <td
+        class="{% if date.date == site.data.globals.currentDate %}has-background-link{% elsif month_mod_2 == 0 %}has-background-light{% endif %}">
+
+        <a href="/dates/{{date.date}}"
+          class="{% if date.date == site.data.globals.currentDate %}has-text-white{% endif %}">
+          {% assign day = date.date | date: "%e" | plus: 0 %}
+          {{ date.date | date: "%d" }}
+          {% if date.date == site.data.globals.startDate or day == 1 %}
+          <br />
+          {{ date.date | date: "%b" }}
+          {% endif %}
+        </a>
+
+        {% for event in site.data.events %}
+        {% if date.date >= event.startDate and event.endDate >= date.date %}
+        <p class="is-size-7 has-text-grey">
+          {{ event.shortName }}
+        </p>
+        {% endif %}
+        {% endfor %}
+
+      </td>
+
+      {% assign index = index | plus: 1 %}
+      {% endfor %}
+    </tr>
+  </table>
+</div>
