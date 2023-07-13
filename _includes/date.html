@@ -48,8 +48,7 @@
 
 <div class="section py-1">
   <div class="two-columns">
-    {% for sun in site.data.sun %}
-    {% if include.date == sun.date %}
+    {% assign sun = site.data.sun | find: "date", include.date %}
     <table>
       <tbody>
         <tr>
@@ -71,8 +70,6 @@
         </tr>
       </tbody>
     </table>
-    {% endif %}
-    {% endfor %}
   </div>
 </div>
 
@@ -108,13 +105,11 @@
   <div class="tab-content">
 
     <div class="tab-pane content-weather">
-      {% assign found = false %}
-      {% for weather in site.data.weather %}
-      {% if weather[0] == include.date %}
-      {% assign found = true %}
+      {% assign weather = site.data.weather[include.date] %}
+      {% if weather %}
       <table class="table is-narrow is-fullwidth has-text-centered">
         <tbody>
-          {% for hour in weather[1] %}
+          {% for hour in weather %}
           <tr>
             <td class="has-text-left px-3">{{ hour.time }}</td>
             <td>{{ hour.temperature }}&deg;C</td>
@@ -150,27 +145,22 @@
           {% endfor %}
         </tbody>
       </table>
-      {% endif %}
-      {% endfor %}
-
-      {% unless found %}
+      {% else %}
       <p class="p-3">
         No weather data yet. See <a href="https://www.bbc.co.uk/weather/2636597">BBC Weather</a>.
       </p>
-      {% endunless %}
+      {% endif %}
     </div>
 
     <div class="tab-pane content-tides">
       {% for tide in site.data.tides %}
       <h2 class="px-4 pt-3 has-text-centered">{{ tide[0] | replace: "-", " "}}</h2>
-      {% assign found = false %}
 
-      {% for date in tide[1] %}
-      {% if date[0] == include.date %}
-      {% assign found = true %}
+      {% assign date = tide[1][include.date] %}
+      {% if date %}
       <table class="table is-fullwidth is-narrow has-text-centered my-0">
         <tbody>
-          {% for x in date[1] %}
+          {% for x in date %}
           <tr>
             <td>{{ x.tide }}</td>
             <td>{{ x.time }}</td>
@@ -179,15 +169,12 @@
           {% endfor %}
         </tbody>
       </table>
-      {% endif %}
-      {% endfor %}
-
-      {% unless found %}
+      {% else %}
       <p class="p-3">
         No tide data yet. See <a
           href="https://www.dorset-tides.com/{{tide[0]}}-tide-times">dorset-tides.com/{{tide[0]}}-tide-times</a>.
       </p>
-      {% endunless %}
+      {% endif %}
 
       {% endfor %}
     </div>
