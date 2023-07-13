@@ -71,17 +71,20 @@ input[type="radio"] {
   background-color: bulmaDarken($primary, 10%) !important;
 }
 
-h1 {
-  font-size: $size-4;
+h1,
+h2 {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+h1 {
+  font-size: $size-3;
   text-align: center;
+  line-height: normal;
 }
 
 h2 {
   font-size: $size-5;
-  font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: $size-7;
 }
 

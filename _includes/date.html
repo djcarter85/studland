@@ -157,7 +157,7 @@
 
     <div class="tab-pane content-tides">
       {% for tide in site.data.tides %}
-      <h3 class="title is-5 is-capitalized px-3 py-3 m-0">{{ tide[0] | replace: "-", " "}}</h3>
+      <h2 class="px-4 pt-3 has-text-centered">{{ tide[0] | replace: "-", " "}}</h2>
       {% assign found = false %}
 
       {% for date in tide[1] %}
