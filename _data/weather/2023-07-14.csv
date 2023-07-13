@@ -1,8 +1,8 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
-06:00,15,71,11,SSE,lightRain
+06:00,15,70,11,SSE,lightRain
 07:00,15,75,13,SSE,lightRain
 08:00,16,80,14,SSE,lightRain
-09:00,16,80,15,SSE,lightRain
+09:00,16,79,15,SSE,lightRain
 10:00,16,80,16,SSE,lightRain
 11:00,17,80,17,SSE,lightRain
 12:00,17,80,17,SSE,lightRain
@@ -11,8 +11,8 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
 15:00,17,80,22,S,showers
 16:00,18,80,24,S,showers
 17:00,18,80,23,SSW,showers
-18:00,18,60,22,SSW,showers
-19:00,18,30,20,SW,showers
+18:00,18,57,22,SSW,showers
+19:00,18,32,20,SW,showers
 20:00,17,0,19,SW,lightCloud
 21:00,17,0,19,SW,sunnyIntervals
 22:00,16,0,18,SW,partlyCloudy
