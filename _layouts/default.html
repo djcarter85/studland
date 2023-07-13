@@ -38,7 +38,7 @@
             href="{{ site.baseurl }}{{ navLink.relativeUrl }}">
             <span class="icon mx-auto">
               <span
-                class="mdi mdi-24px {{ navLink.icon }}{% unless navLink.relativeUrl == page.url %}-outline{% endunless %}"></span>
+                class="mdi mdi-24px {{ navLink.icon }}{% unless navLink.category == page.category %}-outline{% endunless %}"></span>
             </span>
           </a>
           {% endfor %}
