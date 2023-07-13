@@ -34,7 +34,7 @@
       <div class="container">
         <div class="navbar-brand is-flex-grow-1">
           {% for navLink in site.data.navLinks %}
-          <a class="navbar-item is-flex-grow-1 has-text-white-ter {% if navLink.relativeUrl == page.url %}is-active{% endif %}"
+          <a class="navbar-item is-flex-grow-1 has-text-white-ter {% if navLink.category == page.category %}is-active{% endif %}"
             href="{{ site.baseurl }}{{ navLink.relativeUrl }}">
             <span class="icon mx-auto">
               <span
