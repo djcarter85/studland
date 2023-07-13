@@ -11,7 +11,7 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
 15:00,17,70,22,S,unknown
 16:00,18,70,23,S,showers
 17:00,18,70,23,SSW,showers
-18:00,18,62,22,SSW,showers
+18:00,18,60,22,SSW,showers
 19:00,18,31,20,SW,showers
 20:00,17,0,19,SW,lightCloud
 21:00,17,0,19,SW,sunnyIntervals
