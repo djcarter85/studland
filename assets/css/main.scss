@@ -109,3 +109,7 @@ h2 {
     vertical-align: middle;
   }
 }
+
+.calendar-selected {
+  background-color: bulmaLighten($link, 20%);
+}
