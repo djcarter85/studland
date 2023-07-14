@@ -117,22 +117,24 @@
               <span class="icon is-medium">
                 <span class="mdi mdi-24px 
               {% case hour.weatherType %}
-              {% when 'sunny' %}
-              mdi-weather-sunny
-              {% when 'sunnyIntervals' %}
-              mdi-weather-partly-cloudy
-              {% when 'showers' %}
-              mdi-weather-rainy
-              {% when 'thunderyShowers' %}
-              mdi-weather-partly-lightning
-              {% when 'lightRain' %}
-              mdi-weather-rainy
-              {% when 'lightCloud' %}
-              mdi-weather-partly-cloudy
-              {% when 'partlyCloudy' %}
-              mdi-weather-partly-cloudy
-              {% when 'clearSky' %}
+              {% when '0' %}
               mdi-weather-night
+              {% when '1' %}
+              mdi-weather-sunny
+              {% when '2' %}
+              mdi-weather-night-partly-cloudy
+              {% when '3' %}
+              mdi-weather-partly-cloudy
+              {% when '7' %}
+              mdi-weather-cloudy
+              {% when '9' %}
+              mdi-weather-rainy
+              {% when '10' %}
+              mdi-weather-partly-rainy
+              {% when '12' %}
+              mdi-weather-rainy
+              {% when '29' %}
+              mdi-weather-partly-lightning
               {% endcase %}
               "></span>
               </span>
