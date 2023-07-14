@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType
-12:00,17,90,19,SSE,lightRain
 13:00,17,90,19,SSE,unknown
 14:00,17,90,21,SSE,unknown
 15:00,18,90,23,S,unknown
