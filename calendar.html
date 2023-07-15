@@ -46,7 +46,7 @@ category: calendar
 
         {% for event in site.data.events %}
         {% if date.date >= event.startDate and event.endDate >= date.date %}
-        <p class="is-size-7 has-text-grey">
+        <p class="is-size-7 {% if date.date == site.data.globals.currentDate %}has-text-white{% else %}has-text-grey{% endif %}">
           {{ event.shortName }}
         </p>
         {% endif %}
