@@ -105,6 +105,32 @@
   <div class="tab-content">
 
     <div class="tab-pane content-weather">
+
+      {% assign weatherSummary = site.data.weather.summaries[include.date] %}
+      {% if weatherSummary %}
+      <div class="two-columns py-3 px-4">
+        <table>
+          <tbody>
+            <tr>
+              <td class="left">
+                <h2 class="m-0">Studland</h2>
+              </td>
+              <td class="right">
+                <div>
+                  <span class="is-uppercase has-text-weight-bold has-text-grey is-size-7">High</span>
+                  <span class="has-text-weight-bold">{{ weatherSummary.maxTempC }}&deg;C</span>
+                </div>
+                <div>
+                  <span class="is-uppercase has-text-weight-bold has-text-grey is-size-7">Low</span>
+                  <span>{{ weatherSummary.minTempC }}&deg;C</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+
       {% assign weather = site.data.weather[include.date] %}
       {% if weather %}
       <table class="table is-narrow is-fullwidth has-text-centered">
