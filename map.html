@@ -82,8 +82,17 @@ category: map
       wazeUrl += "ll=" + location.lat + "%2C" + location.lng;
     }
 
+    var popupText = 
+      "<div class='ss-popup'>" +
+      "<h3>" + location.name + "</h3>" +
+      "<ul>" +
+      "<li><a href='" + googleUrl + "'><iconify-icon icon='simple-icons:googlemaps'></iconify-icon>Google Maps</a></li>" +
+      "<li><a href='" + wazeUrl + "'><iconify-icon icon='simple-icons:waze'></iconify-icon>Waze</a></li>" +
+      "</ul>" +
+      "</div>"
+
     L.marker([location.lat, location.lng])
       .addTo(map)
-      .bindPopup(location.name + "<br/><a href='" + googleUrl + "'>Google Maps</a><br/><a href='" + wazeUrl + "'>Waze</a>");
+      .bindPopup(popupText);
   });
 </script>
