@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "A clear sky and a moderate breeze",
+  "enhancedWeatherDescription": "Partly cloudy and a moderate breeze",
   "gustSpeedKph": 29,
   "gustSpeedMph": 18,
   "localDate": "2023-07-16",
@@ -35,12 +35,12 @@
   "uvIndexBand": "LOW",
   "uvIndexIconText": "L",
   "uvIndexText": "Low",
-  "weatherType": 0,
-  "weatherTypeText": "Clear Sky",
+  "weatherType": 2,
+  "weatherTypeText": "Partly Cloudy",
   "windDescription": "A moderate breeze from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 22,
-  "windSpeedMph": 14
+  "windSpeedKph": 20,
+  "windSpeedMph": 13
 }
