@@ -26,7 +26,7 @@ category: map
           {% if location.googlePlaceId %}
           {% assign url = url | append: '&query_place_id=' | append: location.googlePlaceId %}
           {% endif %}
-          {% include map_link.html icon='google-maps' url=url title='Google Maps' %}
+          {% include map_link.html icon='googlemaps' url=url title='Google Maps' %}
         </td>
         <td>
           {% assign url = 'https://www.waze.com/ul?' %}
