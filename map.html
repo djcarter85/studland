@@ -30,8 +30,8 @@ category: map
         </td>
         <td>
           {% assign url = 'https://www.waze.com/ul?' %}
-          {% if location.wazeVenueId %}
-          {% assign url = url | append: 'preview_venue_id=' | append: location.wazeVenueId %}
+          {% if location.googlePlaceId %}
+          {% assign url = url | append: 'to=' | append: location.googlePlaceId %}
           {% else %}
           {% assign url = url | append: 'll=' | append: location.lat | append: '%2C' | append: location.lng %}
           {% endif %}
@@ -76,8 +76,8 @@ category: map
     }
 
     var wazeUrl = "https://www.waze.com/ul?";
-    if (location.wazeVenueId) {
-      wazeUrl += "preview_venue_id=" + location.wazeVenueId;
+    if (location.googlePlaceId) {
+      wazeUrl += "to=" + location.googlePlaceId;
     } else {
       wazeUrl += "ll=" + location.lat + "%2C" + location.lng;
     }
