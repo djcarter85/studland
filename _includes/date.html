@@ -55,7 +55,7 @@
 
           <td class="left">
             <span class="icon is-medium">
-              <span class="mdi mdi-24px mdi-weather-sunset-up"></span>
+              <iconify-icon icon="mdi:weather-sunset-up" width="24"></iconify-icon>
             </span>
             <span>{{ sun.sunrise }}</span>
           </td>
@@ -63,7 +63,7 @@
           <td class="right">
             <span>{{ sun.sunset }}</span>
             <span class="icon is-medium">
-              <span class="mdi mdi-24px mdi-weather-sunset-down"></span>
+              <iconify-icon icon="mdi:weather-sunset-down" width="24"></iconify-icon>
             </span>
           </td>
 
@@ -83,7 +83,7 @@
         <label for="weather">
           <a>
             <span class="icon">
-              <span class="mdi mdi-24px mdi-weather-sunny"></span>
+              <iconify-icon icon="mdi:weather-sunny" width="24"></iconify-icon>
             </span>
             <span>Weather</span>
           </a>
@@ -93,7 +93,7 @@
         <label for="tides">
           <a>
             <span class="icon">
-              <span class="mdi mdi-24px mdi-waves"></span>
+              <iconify-icon icon="mdi:waves" width="24"></iconify-icon>
             </span>
             <span>Tides</span>
           </a>
@@ -144,28 +144,28 @@
             </td>
             <td>
               <span class="icon is-medium">
-                <span class="mdi mdi-24px 
-              {% case hour.weatherType %}
-              {% when '0' %}
-              mdi-weather-night
-              {% when '1' %}
-              mdi-weather-sunny
-              {% when '2' %}
-              mdi-weather-night-partly-cloudy
-              {% when '3' %}
-              mdi-weather-partly-cloudy
-              {% when '7' %}
-              mdi-weather-cloudy
-              {% when '9' %}
-              mdi-weather-rainy
-              {% when '10' %}
-              mdi-weather-partly-rainy
-              {% when '12' %}
-              mdi-weather-rainy
-              {% when '29' %}
-              mdi-weather-partly-lightning
-              {% endcase %}
-              "></span>
+                {% case hour.weatherType %}
+                {% when '0' %}
+                {% assign icon = 'weather-night' %}
+                {% when '1' %}
+                {% assign icon = 'weather-sunny' %}
+                {% when '2' %}
+                {% assign icon = 'weather-night-partly-cloudy' %}                
+                {% when '3' %}
+                {% assign icon = 'weather-partly-cloudy' %}                
+                {% when '7' %}
+                {% assign icon = 'weather-cloudy' %}
+                {% when '9' %}
+                {% assign icon = 'weather-rainy' %}
+                {% when '10' %}
+                {% assign icon = 'weather-partly-rainy' %}
+                {% when '12' %}
+                {% assign icon = 'weather-rainy' %}
+                {% when '29' %}
+                {% assign icon = 'weather-partly-lightning' %}
+                {% endcase %}
+
+                <iconify-icon icon="mdi:{{ icon }}" width="24"></iconify-icon>
               </span>
             </td>
             <td class="has-text-right">

@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css?v={{ site.time | date: '%s' }}">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
 
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
@@ -43,8 +43,9 @@
           <a class="navbar-item is-flex-grow-1 has-text-white-ter {% if navLink.category == page.category %}is-active{% endif %}"
             href="{{ site.baseurl }}{{ navLink.relativeUrl }}">
             <span class="icon mx-auto">
-              <span
-                class="mdi mdi-24px {{ navLink.icon }}{% unless navLink.category == page.category %}-outline{% endunless %}"></span>
+              <iconify-icon
+                icon="mdi:{{ navLink.icon }}{% unless navLink.category == page.category %}-outline{% endunless %}"
+                width="24"></iconify-icon>
             </span>
           </a>
           {% endfor %}

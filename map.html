@@ -26,7 +26,7 @@ category: map
           {% if location.googlePlaceId %}
           {% assign url = url | append: '&query_place_id=' | append: location.googlePlaceId %}
           {% endif %}
-          {% include map_link.html icon='mdi-google-maps' url=url title='Google Maps' %}
+          {% include map_link.html icon='google-maps' url=url title='Google Maps' %}
         </td>
         <td>
           {% assign url = 'https://www.waze.com/ul?' %}
@@ -35,7 +35,7 @@ category: map
           {% else %}
           {% assign url = url | append: 'll=' | append: location.lat | append: '%2C' | append: location.lng %}
           {% endif %}
-          {% include map_link.html icon='mdi-waze' url=url title='Waze' %}
+          {% include map_link.html icon='waze' url=url title='Waze' %}
         </td>
       </tr>
       {% endfor %}

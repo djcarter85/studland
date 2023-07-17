@@ -1,5 +1,5 @@
 name,relativeUrl,icon,category
-Home,/,mdi-home,home
-Calendar,/calendar,mdi-calendar-text,calendar
-Map,/map,mdi-map-marker,map
-Info,/info,mdi-information,info
+Home,/,home,home
+Calendar,/calendar,calendar-text,calendar
+Map,/map,map-marker,map
+Info,/info,information,info
