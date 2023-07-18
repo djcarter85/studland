@@ -1,6 +1,5 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-08:00,16,0,5,SE,1,Sunny
-09:00,17,0,6,S,1,Sunny
+09:00,16,0,6,S,1,Sunny
 10:00,17,0,8,S,3,Sunny Intervals
 11:00,18,0,8,SSW,3,Sunny Intervals
 12:00,18,0,8,SSW,3,Sunny Intervals
@@ -9,7 +8,7 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 15:00,19,0,9,SW,3,Sunny Intervals
 16:00,19,0,10,SW,3,Sunny Intervals
 17:00,18,0,11,SW,1,Sunny
-18:00,18,0,12,WSW,3,Sunny Intervals
+18:00,18,0,12,WSW,1,Sunny
 19:00,17,0,13,SW,3,Sunny Intervals
 20:00,16,0,13,SW,3,Sunny Intervals
 21:00,16,0,13,WSW,3,Sunny Intervals
