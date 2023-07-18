@@ -150,8 +150,7 @@
               {% include weather_type_icon.html weatherType = hour.weatherType size = 24 %}
             </td>
             <td class="has-text-right">
-              <span class="ss-label ss-rain-label">Rain</span>
-              <span class="ss-rain">{{ hour.chanceOfRain }}%</span>
+              {% include rain_probability.html chanceOfRain = hour.chanceOfRain %}
             </td>
           </tr>
           {% endfor %}
