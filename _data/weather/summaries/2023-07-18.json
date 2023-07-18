@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Partly cloudy and a moderate breeze",
-  "gustSpeedKph": 32,
-  "gustSpeedMph": 20,
+  "gustSpeedKph": 31,
+  "gustSpeedMph": 19,
   "localDate": "2023-07-18",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 21,
+  "windSpeedKph": 20,
   "windSpeedMph": 13
 }
