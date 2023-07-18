@@ -115,6 +115,10 @@
               <td class="left">
                 <h2 class="m-0">Studland</h2>
               </td>
+              <td class="center">
+                {% assign weatherType = weatherSummary.weatherType | append: "" %}
+                {% include weather_type_icon.html weatherType = weatherType size = 48 %}
+              </td>
               <td class="right">
                 <div>
                   <span class="ss-label ss-temp-label">High</span>
@@ -143,7 +147,7 @@
               <span class="ss-temp">{{ hour.temperature }}&deg;C</span>
             </td>
             <td>
-              {% include weather_type_icon.html weatherType = hour.weatherType %}
+              {% include weather_type_icon.html weatherType = hour.weatherType size = 24 %}
             </td>
             <td class="has-text-right">
               <span class="ss-label ss-rain-label">Rain</span>

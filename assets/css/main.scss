@@ -98,6 +98,7 @@ h2 {
   margin-top: $size-7;
 }
 
+// TODO: rename
 .two-columns {
   table {
     width: 100%;
@@ -105,6 +106,10 @@ h2 {
 
   .left {
     text-align: left;
+  }
+
+  .center {
+    text-align: center;
   }
 
   .right {
