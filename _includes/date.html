@@ -143,30 +143,7 @@
               <span class="ss-temp">{{ hour.temperature }}&deg;C</span>
             </td>
             <td>
-              <span class="icon is-medium">
-                {% case hour.weatherType %}
-                {% when '0' %}
-                {% assign icon = 'weather-night' %}
-                {% when '1' %}
-                {% assign icon = 'weather-sunny' %}
-                {% when '2' %}
-                {% assign icon = 'weather-night-partly-cloudy' %}                
-                {% when '3' %}
-                {% assign icon = 'weather-partly-cloudy' %}                
-                {% when '7' %}
-                {% assign icon = 'weather-cloudy' %}
-                {% when '9' %}
-                {% assign icon = 'weather-rainy' %}
-                {% when '10' %}
-                {% assign icon = 'weather-partly-rainy' %}
-                {% when '12' %}
-                {% assign icon = 'weather-rainy' %}
-                {% when '29' %}
-                {% assign icon = 'weather-partly-lightning' %}
-                {% endcase %}
-
-                <iconify-icon icon="mdi:{{ icon }}" width="24"></iconify-icon>
-              </span>
+              {% include weather_type_icon.html weatherType = hour.weatherType %}
             </td>
             <td class="has-text-right">
               <span class="ss-label ss-rain-label">Rain</span>
