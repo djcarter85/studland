@@ -48,7 +48,7 @@ category: map
   var globals = {{ site.data.globals | jsonify }};
   var locations = {{ site.data.locations | jsonify }};
 
-  var map = L.map('map').setView([globals.mapCentre.lat, globals.mapCentre.lng], 13);
+  var map = L.map('map', { fullscreenControl: true }).setView([globals.mapCentre.lat, globals.mapCentre.lng], 13);
 
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
