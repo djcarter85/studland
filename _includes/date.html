@@ -144,14 +144,14 @@
           <tr>
             <td class="has-text-left px-3">{{ hour.time }}</td>
             <td>
-              <span class="ss-label ss-temp-label">Temp</span>
-              <span class="ss-temp">{{ hour.temperature }}&deg;C</span>
+              {% include rain_probability.html chanceOfRain = hour.chanceOfRain %}
             </td>
             <td>
               {% include weather_type_icon.html weatherType = hour.weatherType size = 24 %}
             </td>
             <td class="has-text-right">
-              {% include rain_probability.html chanceOfRain = hour.chanceOfRain %}
+              <span class="ss-label ss-temp-label">Temp</span>
+              <span class="ss-temp">{{ hour.temperature }}&deg;C</span>
             </td>
           </tr>
           {% endfor %}
