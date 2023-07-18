@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Sunny intervals and a gentle breeze",
+  "enhancedWeatherDescription": "Sunny intervals and a moderate breeze",
   "gustSpeedKph": 32,
   "gustSpeedMph": 20,
   "localDate": "2023-07-19",
@@ -31,16 +31,16 @@
   "uppermaxTemperatureF": null,
   "upperminTemperatureC": null,
   "upperminTemperatureF": null,
-  "uvIndex": 6,
+  "uvIndex": 7,
   "uvIndexBand": "HIGH",
   "uvIndexIconText": "H",
   "uvIndexText": "High",
   "weatherType": 3,
   "weatherTypeText": "Sunny Intervals",
-  "windDescription": "A gentle breeze from the west",
+  "windDescription": "A moderate breeze from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 19,
-  "windSpeedMph": 12
+  "windSpeedKph": 20,
+  "windSpeedMph": 13
 }
