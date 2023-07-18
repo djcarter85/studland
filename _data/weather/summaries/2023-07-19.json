@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny intervals and a moderate breeze",
-  "gustSpeedKph": 32,
-  "gustSpeedMph": 20,
+  "gustSpeedKph": 34,
+  "gustSpeedMph": 21,
   "localDate": "2023-07-19",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -41,6 +41,6 @@
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 20,
+  "windSpeedKph": 21,
   "windSpeedMph": 13
 }
