@@ -114,6 +114,7 @@
             <tr>
               <td class="left">
                 <h2 class="m-0">Studland</h2>
+                {% include rain_probability.html chanceOfRain = weatherSummary.precipitationProbabilityInPercent %}
               </td>
               <td class="center">
                 {% assign weatherType = weatherSummary.weatherType | append: "" %}
