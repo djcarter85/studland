@@ -106,40 +106,31 @@
 
     <div class="tab-pane content-weather">
 
-      {% assign weatherSummary = site.data.weather.summaries[include.date] %}
-      {% if weatherSummary %}
-      <div class="two-columns py-3 px-3">
-        <table>
-          <tbody>
-            <tr>
-              <td class="left">
-                <h2 class="m-0">Studland</h2>
-                {% include rain_probability.html chanceOfRain = weatherSummary.precipitationProbabilityInPercent %}
-              </td>
-              <td class="center">
-                {% assign weatherType = weatherSummary.weatherType | append: "" %}
-                {% include weather_type_icon.html weatherType = weatherType size = 48 %}
-              </td>
-              <td class="right">
-                <div>
-                  <span class="ss-label ss-temp-label">High</span>
-                  <span class="ss-temp">{{ weatherSummary.maxTempC }}&deg;C</span>
-                </div>
-                <div>
-                  <span class="ss-label ss-temp-label">Low</span>
-                  <span class="ss-temp">{{ weatherSummary.minTempC }}&deg;C</span>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      {% endif %}
-
       {% assign weather = site.data.weather[include.date] %}
       {% if weather %}
       <table class="table is-narrow is-fullwidth has-text-centered">
         <tbody>
+          <tr>
+            {% assign weatherSummary = site.data.weather.summaries[include.date] %}
+            <td class="has-text-left p-3" colspan="2">
+              <h2 class="m-0">Studland</h2>
+              {% include rain_probability.html chanceOfRain = weatherSummary.precipitationProbabilityInPercent %}
+            </td>
+            <td class="p-3">
+              {% assign weatherType = weatherSummary.weatherType | append: "" %}
+              {% include weather_type_icon.html weatherType = weatherType size = 48 %}
+            </td>
+            <td class="has-text-right p-3">
+              <div>
+                <span class="ss-label ss-temp-label">High</span>
+                <span class="ss-temp">{{ weatherSummary.maxTempC }}&deg;C</span>
+              </div>
+              <div>
+                <span class="ss-label ss-temp-label">Low</span>
+                <span class="ss-temp">{{ weatherSummary.minTempC }}&deg;C</span>
+              </div>
+            </td>
+          </tr>
           {% for hour in weather %}
           <tr>
             <td class="has-text-left px-3">{{ hour.time }}</td>
