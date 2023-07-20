@@ -185,7 +185,7 @@
       {% else %}
       <p class="px-3 pb-3">
         No tide data yet. See <a
-          href="https://www.dorset-tides.com/{{tide[0]}}-tide-times">dorset-tides.com/{{tide[0]}}-tide-times</a>.
+          href="https://www.dorset-tides.com/{{tide[0]}}-tide-times">dorset-tides.com/{{tide[0] | slice: 2, 100 }}-tide-times</a>.
       </p>
       {% endif %}
 
