@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny intervals and a moderate breeze",
-  "gustSpeedKph": 31,
-  "gustSpeedMph": 19,
+  "gustSpeedKph": 32,
+  "gustSpeedMph": 20,
   "localDate": "2023-07-21",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 24,
+  "precipitationProbabilityInPercent": 27,
   "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "05:19",
   "sunset": "21:09",
