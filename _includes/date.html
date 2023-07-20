@@ -165,6 +165,16 @@
         <tbody>
           {% for x in date %}
           <tr>
+            <td>
+              {% if x.tide == "High" %}
+              {% assign icon = 'chevron-double-up' %}
+              {% else %}
+              {% assign icon = 'chevron-double-down' %}
+              {% endif %}
+              <span class="icon is-small">
+                <iconify-icon icon="mdi:{{ icon }}" width="24"></iconify-icon>
+              </span>
+            </td>
             <td>{{ x.tide }}</td>
             <td>{{ x.time }}</td>
             <td>{{ x.height }}</td>
