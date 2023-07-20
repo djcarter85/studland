@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Strong winds and heavy rain",
-  "gustSpeedKph": 61,
-  "gustSpeedMph": 38,
+  "gustSpeedKph": 60,
+  "gustSpeedMph": 37,
   "localDate": "2023-07-22",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -11,8 +11,8 @@
   "maxTempF": 63,
   "minTempC": 16,
   "minTempF": 60,
-  "mostLikelyHighTemperatureC": 18,
-  "mostLikelyHighTemperatureF": 64,
+  "mostLikelyHighTemperatureC": 19,
+  "mostLikelyHighTemperatureF": 65,
   "mostLikelyLowTemperatureC": 15,
   "mostLikelyLowTemperatureF": 59,
   "pollenIndex": 1,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 42,
-  "windSpeedMph": 26
+  "windSpeedKph": 41,
+  "windSpeedMph": 25
 }
