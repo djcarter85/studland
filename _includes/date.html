@@ -157,7 +157,7 @@
 
     <div class="tab-pane content-tides">
       {% for tide in site.data.tides %}
-      <h2 class="px-4 pt-3 has-text-centered">{{ tide[0] | slice: 2, 100 | replace: "-", " "}}</h2>
+      <h2 class="px-3 pt-3">{{ tide[0] | slice: 2, 100 | replace: "-", " "}}</h2>
 
       {% assign date = tide[1][include.date] %}
       {% if date %}
