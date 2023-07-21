@@ -156,10 +156,9 @@
     </div>
 
     <div class="tab-pane content-tides">
-      {% for tide in site.data.tides %}
-      <h2 class="px-3 pt-3">{{ tide[0] | slice: 2, 100 | replace: "-", " "}}</h2>
+      <h2 class="px-3 pt-3">Swanage Bay</h2>
 
-      {% assign date = tide[1][include.date] %}
+      {% assign date = site.data.tides[include.date] %}
       {% if date %}
       <table class="table is-fullwidth is-narrow has-text-centered my-0">
         <tbody>
@@ -185,11 +184,9 @@
       {% else %}
       <p class="px-3 pb-3">
         No tide data yet. See <a
-          href="https://www.dorset-tides.com/{{tide[0] | slice: 2, 100 }}-tide-times">dorset-tides.com/{{tide[0] | slice: 2, 100 }}-tide-times</a>.
+          href="https://www.dorset-tides.com/swanage-bay-tide-times">dorset-tides.com/swanage-bay-tide-times</a>.
       </p>
       {% endif %}
-
-      {% endfor %}
     </div>
   </div>
 </div>
