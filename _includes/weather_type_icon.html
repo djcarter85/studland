@@ -22,6 +22,8 @@
   {% assign icon = 'weather-pouring' %}
   {% when '29' %}
   {% assign icon = 'weather-partly-lightning' %}
+  {% when '40' %}
+  {% assign icon = 'weather-pouring' %}
   {% endcase %}
 
   <iconify-icon icon="mdi:{{ icon }}" width="{{ include.size }}"></iconify-icon>
