@@ -6,7 +6,7 @@
   {% assign icon = 'weather-sunny' %}
   {% when '2' %}
   {% assign icon = 'weather-night-partly-cloudy' %}                
-  {% when '3' %}
+  {% when '3' %}{% comment %}summy intervals{% endcomment %}
   {% assign icon = 'weather-partly-cloudy' %}                
   {% when '7' %}
   {% assign icon = 'weather-cloudy' %}
@@ -14,8 +14,12 @@
   {% assign icon = 'weather-rainy' %}
   {% when '10' %}
   {% assign icon = 'weather-partly-rainy' %}
+  {% when '11' %}{% comment %}drizzle{% endcomment %}
+  {% assign icon = 'weather-partly-rainy' %}
   {% when '12' %}
   {% assign icon = 'weather-rainy' %}
+  {% when '15' %}{% comment %}heavy rain{% endcomment %}
+  {% assign icon = 'weather-pouring' %}
   {% when '29' %}
   {% assign icon = 'weather-partly-lightning' %}
   {% endcase %}
