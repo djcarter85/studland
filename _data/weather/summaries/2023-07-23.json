@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 20,
   "mostLikelyHighTemperatureF": 68,
   "mostLikelyLowTemperatureC": 13,
-  "mostLikelyLowTemperatureF": 55,
+  "mostLikelyLowTemperatureF": 56,
   "pollenIndex": 1,
   "pollenIndexBand": "LOW",
   "pollenIndexIconText": "L",
@@ -23,8 +23,8 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 0,
-  "precipitationProbabilityText": "Precipitation is not expected",
+  "precipitationProbabilityInPercent": 5,
+  "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "05:22",
   "sunset": "21:06",
   "uppermaxTemperatureC": null,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 31,
-  "windSpeedMph": 19
+  "windSpeedKph": 32,
+  "windSpeedMph": 20
 }
