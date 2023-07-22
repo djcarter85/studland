@@ -1,12 +1,12 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-06:00,15,44,10,WSW,12,Light Rain
-07:00,15,39,10,WSW,11,Drizzle
-08:00,16,44,10,W,12,Light Rain
-09:00,16,41,10,W,10,Light Rain Showers
-10:00,17,46,10,WNW,12,Light Rain
-11:00,17,45,10,WNW,10,Light Rain Showers
-12:00,18,45,11,WNW,10,Light Rain Showers
-13:00,18,47,11,NW,10,Light Rain Showers
+06:00,15,55,10,WSW,12,Light Rain
+07:00,15,45,10,WSW,11,Drizzle
+08:00,16,43,10,WSW,12,Light Rain
+09:00,17,46,10,W,10,Light Rain Showers
+10:00,17,50,9,WNW,12,Light Rain
+11:00,17,57,10,W,10,Light Rain Showers
+12:00,17,56,10,WNW,10,Light Rain Showers
+13:00,17,60,11,WNW,10,Light Rain Showers
 14:00,17,51,11,NNW,12,Light Rain
 15:00,18,52,11,NNW,12,Light Rain
 16:00,18,46,11,-99,10,Light Rain Showers
