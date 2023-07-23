@@ -5,25 +5,65 @@
   {% when '1' %}
   {% assign icon = 'weather-sunny' %}
   {% when '2' %}
-  {% assign icon = 'weather-night-partly-cloudy' %}                
-  {% when '3' %}{% comment %}summy intervals{% endcomment %}
-  {% assign icon = 'weather-partly-cloudy' %}                
-  {% when '7' %}
+  {% assign icon = 'weather-night-partly-cloudy' %}
+  {% when '3' %}
+  {% assign icon = 'weather-partly-cloudy' %}
+  {% when '4' %}
+  {% assign icon = 'weather-dust' %}
+  {% when '5', '6' %}
+  {% assign icon = 'weather-fog' %}
+  {% when '7', '8' %}
   {% assign icon = 'weather-cloudy' %}
   {% when '9' %}
   {% assign icon = 'weather-rainy' %}
-  {% when '10' %}
-  {% assign icon = 'weather-partly-rainy' %}
-  {% when '11' %}{% comment %}drizzle{% endcomment %}
+  {% when '10', '11' %}
   {% assign icon = 'weather-partly-rainy' %}
   {% when '12' %}
   {% assign icon = 'weather-rainy' %}
-  {% when '15' %}{% comment %}heavy rain{% endcomment %}
+  {% when '13', '14', '15' %}
   {% assign icon = 'weather-pouring' %}
-  {% when '29' %}
+  {% when '16', '17', '18' %}
+  {% assign icon = 'weather-partly-snowy-rainy' %}
+  {% when '19', '20', '21' %}
+  {% assign icon = 'weather-snowy-heavy' %}
+  {% when '22', '23' %}
+  {% assign icon = 'weather-partly-snowy' %}
+  {% when '24' %}
+  {% assign icon = 'weather-snowy' %}
+  {% when '25', '26', '27' %}
+  {% assign icon = 'weather-snowy-heavy' %}
+  {% when '28', '29' %}
   {% assign icon = 'weather-partly-lightning' %}
+  {% when '30' %}
+  {% assign icon = 'weather-lightning' %}
+  {% when '31' %}
+  {% assign icon = 'weather-hurricane-outline' %}
+  {% when '32' %}
+  {% assign icon = 'weather-hazy' %}
+  {% when '33' %}
+  {% assign icon = 'weather-dust' %}
+  {% when '34', '35' %}
+  {% assign icon = 'weather-fog' %}
+  {% when '36', '37' %}
+  {% assign icon = 'weather-cloudy' %}
+  {% when '38', '39' %}
+  {% assign icon = 'weather-rainy' %}
   {% when '40' %}
   {% assign icon = 'weather-pouring' %}
+  {% when '41' %}
+  {% assign icon = 'weather-snowy-rainy' %}
+  {% when '42' %}
+  {% assign icon = 'weather-hail' %}
+  {% when '43' %}
+  {% assign icon = 'weather-snowy' %}
+  {% when '44' %}
+  {% assign icon = 'weather-heavy' %}
+  {% when '45' %}
+  {% assign icon = 'weather-lightning' %}
+  {% when '46' %}
+  {% assign icon = 'weather-hurricane-outline' %}
+  {% when '47' %}
+  {% assign icon = 'weather-hazy' %}
   {% endcase %}
 
   <iconify-icon icon="mdi:{{ icon }}" width="{{ include.size }}"></iconify-icon>
