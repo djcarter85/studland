@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Thundery showers and a moderate breeze",
-  "gustSpeedKph": 29,
-  "gustSpeedMph": 18,
+  "gustSpeedKph": 31,
+  "gustSpeedMph": 19,
   "localDate": "2023-07-24",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 57,
+  "precipitationProbabilityInPercent": 61,
   "precipitationProbabilityText": "Chance of precipitation",
   "sunrise": "05:23",
   "sunset": "21:05",
