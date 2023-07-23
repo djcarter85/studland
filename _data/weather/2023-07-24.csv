@@ -1,22 +1,22 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-06:00,15,36,10,WSW,12,Light Rain
-07:00,15,37,10,WSW,10,Light Rain Showers
-08:00,16,31,9,WSW,10,Light Rain Showers
-09:00,16,0,9,W,7,Light Cloud
-10:00,17,42,9,W,10,Light Rain Showers
-11:00,17,60,9,NW,10,Light Rain Showers
-12:00,17,34,10,NNW,10,Light Rain Showers
-13:00,17,36,11,N,10,Light Rain Showers
-14:00,17,29,11,N,10,Light Rain Showers
-15:00,18,47,12,NNE,10,Light Rain Showers
-16:00,18,51,13,NNE,12,Light Rain
-17:00,17,44,12,NNE,12,Light Rain
-18:00,17,34,12,N,11,Drizzle
-19:00,17,0,11,N,7,Light Cloud
-20:00,16,31,9,N,12,Light Rain
-21:00,15,33,8,N,12,Light Rain
-22:00,14,16,8,NNW,12,Light Rain
-23:00,14,0,8,NNW,2,Partly Cloudy
+06:00,15,34,10,WSW,10,Light Rain Showers
+07:00,15,31,10,WSW,10,Light Rain Showers
+08:00,16,37,10,WSW,10,Light Rain Showers
+09:00,16,36,9,WSW,10,Light Rain Showers
+10:00,17,43,8,W,10,Light Rain Showers
+11:00,17,35,9,WNW,10,Light Rain Showers
+12:00,18,39,9,NNW,10,Light Rain Showers
+13:00,17,34,10,N,10,Light Rain Showers
+14:00,17,42,11,NNE,10,Light Rain Showers
+15:00,17,53,12,NNE,15,Heavy Rain
+16:00,17,60,13,NNE,15,Heavy Rain
+17:00,17,53,12,NNE,12,Light Rain
+18:00,17,42,11,NNE,12,Light Rain
+19:00,17,39,10,N,12,Light Rain
+20:00,16,37,9,N,12,Light Rain
+21:00,15,30,8,N,12,Light Rain
+22:00,14,19,7,N,12,Light Rain
+23:00,14,0,7,NNW,2,Partly Cloudy
 00:00,14,0,8,NNW,2,Partly Cloudy
 01:00,13,0,8,NNW,2,Partly Cloudy
 02:00,13,0,8,NNW,2,Partly Cloudy
