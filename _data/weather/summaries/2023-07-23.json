@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny intervals and a fresh breeze",
-  "gustSpeedKph": 46,
-  "gustSpeedMph": 28,
+  "gustSpeedKph": 48,
+  "gustSpeedMph": 30,
   "localDate": "2023-07-23",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -11,7 +11,7 @@
   "maxTempF": 66,
   "minTempC": 14,
   "minTempF": 57,
-  "mostLikelyHighTemperatureC": 19,
+  "mostLikelyHighTemperatureC": 20,
   "mostLikelyHighTemperatureF": 67,
   "mostLikelyLowTemperatureC": 13,
   "mostLikelyLowTemperatureF": 56,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 30,
+  "windSpeedKph": 31,
   "windSpeedMph": 19
 }
