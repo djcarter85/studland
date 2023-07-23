@@ -169,7 +169,73 @@ span {
     margin-top: 0.5rem;
   }
 
-  iconify-icon{
+  iconify-icon {
     margin-right: 0.5rem;
+  }
+}
+
+.wind {
+  iconify-icon.n {
+    transform: rotate(0turn);
+  }
+
+  iconify-icon.nne {
+    transform: rotate(0.0625turn);
+  }
+
+  iconify-icon.ne {
+    transform: rotate(0.125turn);
+  }
+
+  iconify-icon.ene {
+    transform: rotate(0.1875turn);
+  }
+
+  iconify-icon.e {
+    transform: rotate(0.25turn);
+  }
+
+  iconify-icon.ese {
+    transform: rotate(0.3125turn);
+  }
+
+  iconify-icon.se {
+    transform: rotate(0.375turn);
+  }
+
+  iconify-icon.sse {
+    transform: rotate(0.4375turn);
+  }
+
+  iconify-icon.s {
+    transform: rotate(0.5turn);
+  }
+
+  iconify-icon.ssw {
+    transform: rotate(0.5625turn);
+  }
+
+  iconify-icon.sw {
+    transform: rotate(0.625turn);
+  }
+
+  iconify-icon.wsw {
+    transform: rotate(0.6875turn);
+  }
+
+  iconify-icon.w {
+    transform: rotate(0.75turn);
+  }
+
+  iconify-icon.wnw {
+    transform: rotate(0.8125turn);
+  }
+
+  iconify-icon.nw {
+    transform: rotate(0.875turn);
+  }
+
+  iconify-icon.nnw {
+    transform: rotate(0.9375turn);
   }
 }

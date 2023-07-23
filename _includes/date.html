@@ -108,19 +108,20 @@
 
       {% assign weather = site.data.weather[include.date] %}
       {% if weather %}
-      <table class="table is-narrow is-fullwidth has-text-centered">
+      <table class="table is-narrow is-fullwidth has-text-centered mb-1">
         <tbody>
           <tr>
             {% assign weatherSummary = site.data.weather.summaries[include.date] %}
-            <td class="has-text-left p-3" colspan="2">
+            <td class="has-text-left pl-3 pr-1 py-3">
               <h2 class="m-0">Studland</h2>
-              {% include rain_probability.html chanceOfRain = weatherSummary.precipitationProbabilityInPercent %}
+              <span class="ss-label ss-rain-label">Rain</span>
+              <span class="ss-rain">{{ weatherSummary.precipitationProbabilityInPercent }}%</span>
             </td>
-            <td class="p-3">
+            <td class="px-1 py-3">
               {% assign weatherType = weatherSummary.weatherType | append: "" %}
               {% include weather_type_icon.html weatherType = weatherType size = 48 %}
             </td>
-            <td class="has-text-right p-3">
+            <td class="has-text-right pl-1 pr-3 py-3">
               <div>
                 <span class="ss-label ss-temp-label">High</span>
                 <span class="ss-temp">{{ weatherSummary.maxTempC }}&deg;C</span>
@@ -131,17 +132,33 @@
               </div>
             </td>
           </tr>
+        </tbody>
+      </table>
+      <table class="table is-narrow is-fullwidth has-text-centered">
+        <thead>
+          <tr class="is-uppercase is-size-7">
+            <th class="has-text-left pl-3 pr-1">&nbsp;</th>
+            <th class="has-text-centered px-1">&nbsp;</th>
+            <th class="has-text-centered px-1"><span class="ss-rain">Rain</span></th>
+            <th class="has-text-centered px-1">Wind</th>
+            <th class="has-text-centered pl-1 pr-3"><span class="ss-temp">Temp</span></th>
+          </tr>
+        </thead>
+        <tbody>
           {% for hour in weather %}
           <tr>
-            <td class="has-text-left px-3">{{ hour.time }}</td>
-            <td>
-              {% include rain_probability.html chanceOfRain = hour.chanceOfRain %}
+            <td class="has-text-left pl-3 pr-1">{{ hour.time }}</td>
+            <td class="px-3">
+              {% include weather_type_icon.html weatherType = hour.weatherType size = 36 %}
             </td>
-            <td>
-              {% include weather_type_icon.html weatherType = hour.weatherType size = 24 %}
+            <td class="px-1">
+              <span class="ss-rain">{{ hour.chanceOfRain }}%</span>
             </td>
-            <td class="has-text-right px-3">
-              <span class="ss-label ss-temp-label">Temp</span>
+            <td class="px-1">
+              <span class="ml-2">{{ hour.windSpeedMph }}</span>
+              <span class="icon is-medium wind"><iconify-icon class="{{ hour.windDirection | downcase }}" icon="mdi:arrow-down" width="24"></iconify-icon></span>
+            </td>
+            <td class="pl-1 pr-3">
               <span class="ss-temp">{{ hour.temperature }}&deg;C</span>
             </td>
           </tr>
