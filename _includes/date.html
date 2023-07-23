@@ -148,7 +148,7 @@
           {% for hour in weather %}
           <tr>
             <td class="has-text-left pl-3 pr-1">{{ hour.time }}</td>
-            <td class="px-3">
+            <td class="px-3 py-0">
               {% include weather_type_icon.html weatherType = hour.weatherType size = 36 %}
             </td>
             <td class="px-1">
