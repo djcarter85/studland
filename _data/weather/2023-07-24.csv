@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-12:00,17,66,8,NNW,12,Light Rain
 13:00,17,67,9,NNE,12,Light Rain
 14:00,16,57,11,NNE,12,Light Rain
 15:00,17,54,10,NNE,12,Light Rain
