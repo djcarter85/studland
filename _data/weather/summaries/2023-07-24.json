@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Partly cloudy and light winds",
-  "gustSpeedKph": 17,
-  "gustSpeedMph": 10,
+  "gustSpeedKph": 18,
+  "gustSpeedMph": 11,
   "localDate": "2023-07-24",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 2,
   "weatherTypeText": "Partly Cloudy",
-  "windDescription": "Light winds from the north",
-  "windDirection": "N",
-  "windDirectionAbbreviation": "N",
-  "windDirectionFull": "Northerly",
+  "windDescription": "Light winds from the north west",
+  "windDirection": "NW",
+  "windDirectionAbbreviation": "NW",
+  "windDirectionFull": "North Westerly",
   "windSpeedKph": 12,
   "windSpeedMph": 7
 }
