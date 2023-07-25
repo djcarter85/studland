@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "A clear sky and a gentle breeze",
-  "gustSpeedKph": 27,
+  "gustSpeedKph": 28,
   "gustSpeedMph": 17,
   "localDate": "2023-07-25",
   "lowermaxTemperatureC": null,
@@ -8,7 +8,7 @@
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
   "maxTempC": 19,
-  "maxTempF": 66,
+  "maxTempF": 65,
   "minTempC": 9,
   "minTempF": 49,
   "mostLikelyHighTemperatureC": 19,
