@@ -8,7 +8,7 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 12:00,18,0,12,SW,3,Sunny Intervals
 13:00,18,18,13,SSW,3,Sunny Intervals
 14:00,18,25,14,SSW,3,Sunny Intervals
-15:00,18,39,14,SSW,11,Drizzle
+15:00,18,42,14,SSW,11,Drizzle
 16:00,18,45,15,SW,12,Light Rain
 17:00,17,55,15,SW,12,Light Rain
 18:00,17,59,15,SW,12,Light Rain
