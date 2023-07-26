@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Light rain and a moderate breeze",
+  "enhancedWeatherDescription": "Heavy rain and a moderate breeze",
   "gustSpeedKph": 38,
   "gustSpeedMph": 24,
   "localDate": "2023-07-26",
@@ -35,8 +35,8 @@
   "uvIndexBand": "MODERATE",
   "uvIndexIconText": "M",
   "uvIndexText": "Moderate",
-  "weatherType": 12,
-  "weatherTypeText": "Light Rain",
+  "weatherType": 15,
+  "weatherTypeText": "Heavy Rain",
   "windDescription": "A moderate breeze from the south west",
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
