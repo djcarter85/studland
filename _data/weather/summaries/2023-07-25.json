@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 0,
   "weatherTypeText": "Clear Sky",
-  "windDescription": "Light winds from the north west",
-  "windDirection": "NW",
-  "windDirectionAbbreviation": "NW",
-  "windDirectionFull": "North Westerly",
+  "windDescription": "Light winds from the west",
+  "windDirection": "W",
+  "windDirectionAbbreviation": "W",
+  "windDirectionFull": "Westerly",
   "windSpeedKph": 9,
   "windSpeedMph": 6
 }
