@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Drizzle and a fresh breeze",
-  "gustSpeedKph": 52,
-  "gustSpeedMph": 32,
+  "gustSpeedKph": 50,
+  "gustSpeedMph": 31,
   "localDate": "2023-07-27",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 75,
+  "precipitationProbabilityInPercent": 76,
   "precipitationProbabilityText": "High chance of precipitation",
   "sunrise": "05:27",
   "sunset": "21:01",
