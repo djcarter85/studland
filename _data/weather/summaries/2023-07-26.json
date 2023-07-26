@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 99,
+  "precipitationProbabilityInPercent": 100,
   "precipitationProbabilityText": "Precipitation is expected",
   "sunrise": "05:26",
   "sunset": "21:02",
