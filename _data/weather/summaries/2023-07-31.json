@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Thundery showers and a fresh breeze",
+  "enhancedWeatherDescription": "Light rain and a fresh breeze",
   "gustSpeedKph": 56,
   "gustSpeedMph": 35,
   "localDate": "2023-07-31",
@@ -35,8 +35,8 @@
   "uvIndexBand": "LOW",
   "uvIndexIconText": "L",
   "uvIndexText": "Low",
-  "weatherType": 29,
-  "weatherTypeText": "Thundery Showers",
+  "weatherType": 12,
+  "weatherTypeText": "Light Rain",
   "windDescription": "A fresh breeze from the south west",
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
