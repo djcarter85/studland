@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Light cloud and a moderate breeze",
-  "gustSpeedKph": 36,
-  "gustSpeedMph": 22,
+  "gustSpeedKph": 37,
+  "gustSpeedMph": 23,
   "localDate": "2023-07-27",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -13,7 +13,7 @@
   "minTempF": 59,
   "mostLikelyHighTemperatureC": 21,
   "mostLikelyHighTemperatureF": 69,
-  "mostLikelyLowTemperatureC": 14,
+  "mostLikelyLowTemperatureC": 15,
   "mostLikelyLowTemperatureF": 58,
   "pollenIndex": 1,
   "pollenIndexBand": "LOW",
@@ -41,6 +41,6 @@
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 25,
+  "windSpeedKph": 26,
   "windSpeedMph": 16
 }
