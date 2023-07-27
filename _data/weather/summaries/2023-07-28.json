@@ -1,6 +1,6 @@
 {
-  "enhancedWeatherDescription": "Sunny intervals and a moderate breeze",
-  "gustSpeedKph": 40,
+  "enhancedWeatherDescription": "Light rain showers and a moderate breeze",
+  "gustSpeedKph": 41,
   "gustSpeedMph": 25,
   "localDate": "2023-07-28",
   "lowermaxTemperatureC": null,
@@ -8,7 +8,7 @@
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
   "maxTempC": 20,
-  "maxTempF": 68,
+  "maxTempF": 67,
   "minTempC": 15,
   "minTempF": 59,
   "mostLikelyHighTemperatureC": 21,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 10,
+  "precipitationProbabilityInPercent": 18,
   "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "05:28",
   "sunset": "20:59",
@@ -35,12 +35,12 @@
   "uvIndexBand": "MODERATE",
   "uvIndexIconText": "M",
   "uvIndexText": "Moderate",
-  "weatherType": 3,
-  "weatherTypeText": "Sunny Intervals",
+  "weatherType": 10,
+  "weatherTypeText": "Light Rain Showers",
   "windDescription": "A moderate breeze from the south west",
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 27,
-  "windSpeedMph": 17
+  "windSpeedKph": 26,
+  "windSpeedMph": 16
 }
