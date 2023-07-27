@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Light cloud and a moderate breeze",
-  "gustSpeedKph": 40,
-  "gustSpeedMph": 25,
+  "gustSpeedKph": 39,
+  "gustSpeedMph": 24,
   "localDate": "2023-07-27",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -10,9 +10,9 @@
   "maxTempC": 19,
   "maxTempF": 66,
   "minTempC": 15,
-  "minTempF": 60,
+  "minTempF": 59,
   "mostLikelyHighTemperatureC": 20,
-  "mostLikelyHighTemperatureF": 67,
+  "mostLikelyHighTemperatureF": 68,
   "mostLikelyLowTemperatureC": 14,
   "mostLikelyLowTemperatureF": 58,
   "pollenIndex": 1,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 39,
+  "precipitationProbabilityInPercent": 49,
   "precipitationProbabilityText": "Chance of precipitation",
   "sunrise": "05:27",
   "sunset": "21:01",
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 28,
-  "windSpeedMph": 18
+  "windSpeedKph": 27,
+  "windSpeedMph": 17
 }
