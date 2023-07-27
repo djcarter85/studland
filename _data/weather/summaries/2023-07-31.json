@@ -1,6 +1,6 @@
 {
-  "enhancedWeatherDescription": "Light rain and a fresh breeze",
-  "gustSpeedKph": 57,
+  "enhancedWeatherDescription": "Thundery showers and a fresh breeze",
+  "gustSpeedKph": 56,
   "gustSpeedMph": 35,
   "localDate": "2023-07-31",
   "lowermaxTemperatureC": null,
@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 20,
   "mostLikelyHighTemperatureF": 68,
   "mostLikelyLowTemperatureC": 13,
-  "mostLikelyLowTemperatureF": 56,
+  "mostLikelyLowTemperatureF": 55,
   "pollenIndex": 1,
   "pollenIndexBand": "LOW",
   "pollenIndexIconText": "L",
@@ -35,12 +35,12 @@
   "uvIndexBand": "LOW",
   "uvIndexIconText": "L",
   "uvIndexText": "Low",
-  "weatherType": 12,
-  "weatherTypeText": "Light Rain",
+  "weatherType": 29,
+  "weatherTypeText": "Thundery Showers",
   "windDescription": "A fresh breeze from the south west",
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 36,
+  "windSpeedKph": 37,
   "windSpeedMph": 23
 }
