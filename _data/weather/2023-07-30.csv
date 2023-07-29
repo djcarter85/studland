@@ -17,7 +17,7 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 21:00,16,0,22,WSW,7,Light Cloud
 22:00,16,0,22,WSW,7,Light Cloud
 23:00,16,11,22,WSW,7,Light Cloud
-00:00,16,16,22,WSW,7,Light Cloud
+00:00,16,17,22,WSW,7,Light Cloud
 01:00,16,16,23,WSW,8,Thick Cloud
 02:00,16,62,22,WSW,12,Light Rain
 03:00,16,44,22,WSW,11,Drizzle
