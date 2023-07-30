@@ -1,25 +1,25 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
 06:00,15,0,16,WSW,3,Sunny Intervals
 07:00,15,0,16,WSW,3,Sunny Intervals
-08:00,16,0,18,WSW,3,Sunny Intervals
-09:00,17,23,18,WSW,7,Light Cloud
-10:00,17,46,18,WSW,12,Light Rain
+08:00,16,9,17,WSW,3,Sunny Intervals
+09:00,17,37,18,WSW,11,Drizzle
+10:00,17,55,18,WSW,12,Light Rain
 11:00,17,74,17,WSW,12,Light Rain
-12:00,18,58,19,WSW,12,Light Rain
-13:00,18,56,21,WSW,12,Light Rain
-14:00,18,52,22,WSW,11,Drizzle
-15:00,18,47,22,WSW,11,Drizzle
-16:00,18,47,23,WSW,11,Drizzle
-17:00,18,40,23,WSW,10,Light Rain Showers
-18:00,17,42,23,WSW,11,Drizzle
+12:00,18,57,19,WSW,12,Light Rain
+13:00,18,59,21,WSW,12,Light Rain
+14:00,18,49,22,WSW,11,Drizzle
+15:00,18,46,22,WSW,11,Drizzle
+16:00,18,42,23,WSW,11,Drizzle
+17:00,18,37,23,WSW,10,Light Rain Showers
+18:00,17,39,23,WSW,11,Drizzle
 19:00,17,20,22,WSW,7,Light Cloud
-20:00,16,0,22,WSW,3,Sunny Intervals
+20:00,17,0,22,WSW,7,Light Cloud
 21:00,16,0,22,WSW,7,Light Cloud
 22:00,16,0,22,WSW,7,Light Cloud
-23:00,16,15,22,SW,7,Light Cloud
-00:00,16,30,22,SW,7,Light Cloud
+23:00,16,0,22,SW,7,Light Cloud
+00:00,16,42,22,SW,11,Drizzle
 01:00,16,34,23,SW,11,Drizzle
 02:00,16,19,23,SW,8,Thick Cloud
-03:00,16,17,22,SW,8,Thick Cloud
-04:00,17,34,22,WSW,9,Light Rain Showers
-05:00,17,56,22,SW,11,Drizzle
+03:00,16,20,22,WSW,8,Thick Cloud
+04:00,17,36,22,WSW,9,Light Rain Showers
+05:00,17,61,22,SW,12,Light Rain

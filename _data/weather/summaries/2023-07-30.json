@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Light rain and a fresh breeze",
-  "gustSpeedKph": 55,
-  "gustSpeedMph": 34,
+  "gustSpeedKph": 57,
+  "gustSpeedMph": 35,
   "localDate": "2023-07-30",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -11,7 +11,7 @@
   "maxTempF": 65,
   "minTempC": 16,
   "minTempF": 60,
-  "mostLikelyHighTemperatureC": 20,
+  "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 67,
   "mostLikelyLowTemperatureC": 15,
   "mostLikelyLowTemperatureF": 59,
