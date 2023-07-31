@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Light rain showers and a fresh breeze",
+  "enhancedWeatherDescription": "Light rain showers and a moderate breeze",
   "gustSpeedKph": 48,
   "gustSpeedMph": 30,
   "localDate": "2023-08-01",
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 10,
   "weatherTypeText": "Light Rain Showers",
-  "windDescription": "A fresh breeze from the west",
+  "windDescription": "A moderate breeze from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 30,
-  "windSpeedMph": 19
+  "windSpeedKph": 29,
+  "windSpeedMph": 18
 }
