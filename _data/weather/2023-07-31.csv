@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-08:00,17,43,18,WSW,10,Light Rain Showers
 09:00,18,39,18,WSW,11,Drizzle
 10:00,18,18,18,WSW,7,Light Cloud
 11:00,19,13,18,WSW,7,Light Cloud
