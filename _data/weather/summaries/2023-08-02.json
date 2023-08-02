@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Strong winds and thundery showers",
-  "gustSpeedKph": 64,
-  "gustSpeedMph": 40,
+  "gustSpeedKph": 63,
+  "gustSpeedMph": 39,
   "localDate": "2023-08-02",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -41,6 +41,6 @@
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 42,
-  "windSpeedMph": 26
+  "windSpeedKph": 41,
+  "windSpeedMph": 25
 }
