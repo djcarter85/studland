@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-13:00,17,99,26,SW,29,Thundery Showers
 14:00,17,54,26,SW,29,Thundery Showers
 15:00,18,55,26,WSW,29,Thundery Showers
 16:00,18,81,24,W,29,Thundery Showers
