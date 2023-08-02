@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Drizzle and a fresh breeze",
+  "enhancedWeatherDescription": "Partly cloudy and a fresh breeze",
   "gustSpeedKph": 47,
   "gustSpeedMph": 29,
   "localDate": "2023-08-02",
@@ -35,8 +35,8 @@
   "uvIndexBand": "MODERATE",
   "uvIndexIconText": "M",
   "uvIndexText": "Moderate",
-  "weatherType": 38,
-  "weatherTypeText": "Drizzle",
+  "weatherType": 2,
+  "weatherTypeText": "Partly Cloudy",
   "windDescription": "A fresh breeze from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
