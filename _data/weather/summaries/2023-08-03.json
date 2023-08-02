@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Light rain showers and a gentle breeze",
-  "gustSpeedKph": 31,
+  "gustSpeedKph": 30,
   "gustSpeedMph": 19,
   "localDate": "2023-08-03",
   "lowermaxTemperatureC": null,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 39,
+  "precipitationProbabilityInPercent": 69,
   "precipitationProbabilityText": "Chance of precipitation",
   "sunrise": "05:37",
   "sunset": "20:50",
