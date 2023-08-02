@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Light rain showers and a gentle breeze",
-  "gustSpeedKph": 30,
+  "gustSpeedKph": 31,
   "gustSpeedMph": 19,
   "localDate": "2023-08-03",
   "lowermaxTemperatureC": null,
@@ -8,7 +8,7 @@
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
   "maxTempC": 20,
-  "maxTempF": 69,
+  "maxTempF": 68,
   "minTempC": 11,
   "minTempF": 53,
   "mostLikelyHighTemperatureC": 21,
