@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Thundery showers and a fresh breeze",
-  "gustSpeedKph": 61,
-  "gustSpeedMph": 38,
+  "gustSpeedKph": 58,
+  "gustSpeedMph": 36,
   "localDate": "2023-08-02",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 66,
   "mostLikelyLowTemperatureC": 13,
-  "mostLikelyLowTemperatureF": 56,
+  "mostLikelyLowTemperatureF": 55,
   "pollenIndex": 1,
   "pollenIndexBand": "LOW",
   "pollenIndexIconText": "L",
