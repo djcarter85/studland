@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Light cloud and a gentle breeze",
+  "enhancedWeatherDescription": "Light cloud and a moderate breeze",
   "gustSpeedKph": 31,
   "gustSpeedMph": 19,
   "localDate": "2023-08-02",
@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 36,
   "weatherTypeText": "Light Cloud",
-  "windDescription": "A gentle breeze from the north west",
+  "windDescription": "A moderate breeze from the north west",
   "windDirection": "NW",
   "windDirectionAbbreviation": "NW",
   "windDirectionFull": "North Westerly",
-  "windSpeedKph": 20,
-  "windSpeedMph": 12
+  "windSpeedKph": 21,
+  "windSpeedMph": 13
 }
