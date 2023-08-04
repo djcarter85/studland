@@ -7,7 +7,7 @@
   "lowermaxTemperatureF": null,
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
-  "maxTempC": 18,
+  "maxTempC": 19,
   "maxTempF": 65,
   "minTempC": 11,
   "minTempF": 51,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 44,
+  "windSpeedKph": 45,
   "windSpeedMph": 28
 }
