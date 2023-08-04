@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny intervals and a gentle breeze",
-  "gustSpeedKph": 30,
-  "gustSpeedMph": 19,
+  "gustSpeedKph": 32,
+  "gustSpeedMph": 20,
   "localDate": "2023-08-04",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -31,7 +31,7 @@
   "uppermaxTemperatureF": null,
   "upperminTemperatureC": null,
   "upperminTemperatureF": null,
-  "uvIndex": 4,
+  "uvIndex": 5,
   "uvIndexBand": "MODERATE",
   "uvIndexIconText": "M",
   "uvIndexText": "Moderate",
@@ -41,6 +41,6 @@
   "windDirection": "NW",
   "windDirectionAbbreviation": "NW",
   "windDirectionFull": "North Westerly",
-  "windSpeedKph": 20,
+  "windSpeedKph": 19,
   "windSpeedMph": 12
 }
