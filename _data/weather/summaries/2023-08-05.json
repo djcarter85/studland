@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Strong winds and a clear sky",
-  "gustSpeedKph": 71,
-  "gustSpeedMph": 44,
+  "gustSpeedKph": 73,
+  "gustSpeedMph": 46,
   "localDate": "2023-08-05",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 20,
   "mostLikelyHighTemperatureF": 68,
   "mostLikelyLowTemperatureC": 9,
-  "mostLikelyLowTemperatureF": 49,
+  "mostLikelyLowTemperatureF": 48,
   "pollenIndex": 1,
   "pollenIndexBand": "LOW",
   "pollenIndexIconText": "L",
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 19,
+  "precipitationProbabilityInPercent": 22,
   "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "05:40",
   "sunset": "20:47",
@@ -41,6 +41,6 @@
   "windDirection": "NW",
   "windDirectionAbbreviation": "NW",
   "windDirectionFull": "North Westerly",
-  "windSpeedKph": 41,
+  "windSpeedKph": 42,
   "windSpeedMph": 26
 }
