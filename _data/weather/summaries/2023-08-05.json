@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Strong winds and rain",
-  "gustSpeedKph": 73,
+  "gustSpeedKph": 72,
   "gustSpeedMph": 45,
   "localDate": "2023-08-05",
   "lowermaxTemperatureC": null,
@@ -23,8 +23,8 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 90,
-  "precipitationProbabilityText": "High chance of precipitation",
+  "precipitationProbabilityInPercent": 100,
+  "precipitationProbabilityText": "Precipitation is expected",
   "sunrise": "05:40",
   "sunset": "20:47",
   "uppermaxTemperatureC": null,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 45,
-  "windSpeedMph": 28
+  "windSpeedKph": 44,
+  "windSpeedMph": 27
 }
