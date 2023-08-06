@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-20:00,16,0,18,NW,1,Sunny
 21:00,15,0,16,NW,0,Clear Sky
 22:00,14,0,15,NW,0,Clear Sky
 23:00,14,0,15,WNW,0,Clear Sky
