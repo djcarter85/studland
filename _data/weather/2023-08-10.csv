@@ -1,25 +1,25 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-06:00,16,0,10,ESE,3,Sunny Intervals
-07:00,16,0,11,ESE,3,Sunny Intervals
-08:00,17,13,13,ESE,3,Sunny Intervals
-09:00,18,13,15,ESE,3,Sunny Intervals
-10:00,19,12,15,SE,1,Sunny
-11:00,19,16,15,SE,1,Sunny
-12:00,20,16,15,SE,1,Sunny
-13:00,20,16,14,SE,1,Sunny
+06:00,16,0,10,ESE,1,Sunny
+07:00,16,0,11,ESE,1,Sunny
+08:00,17,0,14,ESE,1,Sunny
+09:00,18,0,14,ESE,3,Sunny Intervals
+10:00,19,10,14,SE,3,Sunny Intervals
+11:00,19,10,14,SE,1,Sunny
+12:00,20,0,14,SE,1,Sunny
+13:00,20,0,13,SE,1,Sunny
 14:00,20,0,12,SE,1,Sunny
 15:00,20,0,11,SE,1,Sunny
 16:00,20,0,11,SE,1,Sunny
-17:00,20,0,10,SE,1,Sunny
+17:00,20,0,11,SE,1,Sunny
 18:00,19,0,10,SE,1,Sunny
-19:00,19,0,9,SSE,1,Sunny
-20:00,19,0,9,S,1,Sunny
-21:00,18,0,8,S,2,Partly Cloudy
-22:00,17,0,9,SSW,2,Partly Cloudy
-23:00,17,0,9,SSW,2,Partly Cloudy
-00:00,17,0,10,SSW,2,Partly Cloudy
-01:00,17,0,10,SW,2,Partly Cloudy
-02:00,17,0,11,SW,2,Partly Cloudy
-03:00,17,11,11,SW,2,Partly Cloudy
-04:00,17,11,14,SW,2,Partly Cloudy
-05:00,17,58,17,SW,9,Light Rain Showers
+19:00,19,0,9,SE,1,Sunny
+20:00,18,0,9,SSE,1,Sunny
+21:00,18,0,8,SSE,0,Clear Sky
+22:00,17,0,7,S,2,Partly Cloudy
+23:00,17,0,7,S,2,Partly Cloudy
+00:00,17,0,7,SSW,2,Partly Cloudy
+01:00,17,0,9,SSW,2,Partly Cloudy
+02:00,17,23,11,SW,2,Partly Cloudy
+03:00,17,20,13,SW,7,Light Cloud
+04:00,17,20,14,SW,7,Light Cloud
+05:00,17,37,16,SW,9,Light Rain Showers
