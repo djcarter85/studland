@@ -1,6 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-01:00,15,0,15,W,2,Partly Cloudy
-02:00,15,0,12,W,2,Partly Cloudy
 03:00,15,0,11,W,2,Partly Cloudy
-04:00,15,0,10,W,2,Partly Cloudy
+04:00,15,0,10,WNW,2,Partly Cloudy
 05:00,15,0,9,WNW,2,Partly Cloudy
