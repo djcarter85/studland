@@ -1,10 +1,9 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-21:00,18,0,13,SW,2,Partly Cloudy
 22:00,17,0,14,SW,2,Partly Cloudy
-23:00,17,0,16,SW,2,Partly Cloudy
-00:00,17,0,18,SW,7,Light Cloud
-01:00,17,44,19,SW,11,Drizzle
-02:00,17,42,19,SW,11,Drizzle
-03:00,17,32,19,SW,11,Drizzle
-04:00,17,38,18,WSW,11,Drizzle
+23:00,17,0,17,SW,2,Partly Cloudy
+00:00,17,0,19,SW,7,Light Cloud
+01:00,17,50,19,SW,11,Drizzle
+02:00,17,45,19,SW,11,Drizzle
+03:00,17,29,19,SW,8,Thick Cloud
+04:00,17,42,18,WSW,11,Drizzle
 05:00,17,32,17,WSW,11,Drizzle
