@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "A clear sky and a gentle breeze",
-  "gustSpeedKph": 23,
-  "gustSpeedMph": 14,
+  "gustSpeedKph": 21,
+  "gustSpeedMph": 13,
   "localDate": "2023-08-09",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 23,
   "mostLikelyHighTemperatureF": 73,
   "mostLikelyLowTemperatureC": 15,
-  "mostLikelyLowTemperatureF": 59,
+  "mostLikelyLowTemperatureF": 58,
   "pollenIndex": 4,
   "pollenIndexBand": "MODERATE",
   "pollenIndexIconText": "M",
@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 0,
   "weatherTypeText": "Clear Sky",
-  "windDescription": "A gentle breeze from the south east",
-  "windDirection": "SE",
-  "windDirectionAbbreviation": "SE",
-  "windDirectionFull": "South Easterly",
+  "windDescription": "A gentle breeze from the east",
+  "windDirection": "E",
+  "windDirectionAbbreviation": "E",
+  "windDirectionFull": "Easterly",
   "windSpeedKph": 13,
   "windSpeedMph": 8
 }
