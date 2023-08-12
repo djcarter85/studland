@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Sunny intervals and a fresh breeze",
-  "gustSpeedKph": 55,
+  "gustSpeedKph": 54,
   "gustSpeedMph": 34,
   "localDate": "2023-08-12",
   "lowermaxTemperatureC": null,
@@ -8,7 +8,7 @@
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
   "maxTempC": 19,
-  "maxTempF": 66,
+  "maxTempF": 67,
   "minTempC": 14,
   "minTempF": 58,
   "mostLikelyHighTemperatureC": 19,
