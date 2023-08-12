@@ -1,0 +1,25 @@
+time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
+06:00,14,0,5,N,3,Sunny Intervals
+07:00,14,0,6,N,3,Sunny Intervals
+08:00,15,0,6,NNE,3,Sunny Intervals
+09:00,16,0,6,NE,3,Sunny Intervals
+10:00,18,0,6,E,3,Sunny Intervals
+11:00,18,0,6,ESE,3,Sunny Intervals
+12:00,19,0,7,SE,3,Sunny Intervals
+13:00,20,0,7,SE,3,Sunny Intervals
+14:00,19,0,8,SSE,3,Sunny Intervals
+15:00,20,0,8,SSE,3,Sunny Intervals
+16:00,20,0,8,SSE,1,Sunny
+17:00,19,0,8,SSE,1,Sunny
+18:00,19,0,7,S,1,Sunny
+19:00,18,0,7,S,1,Sunny
+20:00,18,0,6,S,1,Sunny
+21:00,17,0,6,E,0,Clear Sky
+22:00,16,0,7,ENE,0,Clear Sky
+23:00,16,0,9,ENE,0,Clear Sky
+00:00,16,0,10,ENE,0,Clear Sky
+01:00,16,0,11,ENE,0,Clear Sky
+02:00,16,0,12,ENE,0,Clear Sky
+03:00,15,0,13,ENE,0,Clear Sky
+04:00,15,0,13,ENE,0,Clear Sky
+05:00,15,0,13,ENE,0,Clear Sky
