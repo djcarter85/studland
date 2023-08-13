@@ -20,6 +20,6 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 00:00,17,0,20,E,0,Clear Sky
 01:00,17,0,20,E,0,Clear Sky
 02:00,17,0,21,E,0,Clear Sky
-03:00,17,14,21,E,0,Clear Sky
+03:00,17,4,21,E,0,Clear Sky
 04:00,17,0,22,E,0,Clear Sky
 05:00,17,0,22,E,0,Clear Sky
