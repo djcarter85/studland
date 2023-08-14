@@ -22,4 +22,4 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 02:00,17,0,24,ENE,2,Partly Cloudy
 03:00,17,0,24,ENE,2,Partly Cloudy
 04:00,17,0,24,E,2,Partly Cloudy
-05:00,17,26,24,E,2,Partly Cloudy
+05:00,17,28,24,E,9,Light Rain Showers
