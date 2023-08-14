@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 20,
   "mostLikelyHighTemperatureF": 69,
   "mostLikelyLowTemperatureC": 9,
-  "mostLikelyLowTemperatureF": 49,
+  "mostLikelyLowTemperatureF": 48,
   "pollenIndex": 4,
   "pollenIndexBand": "MODERATE",
   "pollenIndexIconText": "M",
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 19,
+  "windSpeedKph": 20,
   "windSpeedMph": 12
 }
