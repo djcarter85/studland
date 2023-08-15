@@ -12,7 +12,7 @@
   "minTempC": 13,
   "minTempF": 55,
   "mostLikelyHighTemperatureC": 22,
-  "mostLikelyHighTemperatureF": 71,
+  "mostLikelyHighTemperatureF": 72,
   "mostLikelyLowTemperatureC": 12,
   "mostLikelyLowTemperatureF": 53,
   "pollenIndex": 6,
@@ -41,6 +41,6 @@
   "windDirection": "N",
   "windDirectionAbbreviation": "N",
   "windDirectionFull": "Northerly",
-  "windSpeedKph": 9,
+  "windSpeedKph": 8,
   "windSpeedMph": 5
 }
