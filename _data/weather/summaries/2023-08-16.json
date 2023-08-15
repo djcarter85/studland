@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Sunny and light winds",
-  "gustSpeedKph": 15,
+  "gustSpeedKph": 14,
   "gustSpeedMph": 9,
   "localDate": "2023-08-16",
   "lowermaxTemperatureC": null,
@@ -23,8 +23,8 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 0,
-  "precipitationProbabilityText": "Precipitation is not expected",
+  "precipitationProbabilityInPercent": 3,
+  "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "05:57",
   "sunset": "20:27",
   "uppermaxTemperatureC": null,
