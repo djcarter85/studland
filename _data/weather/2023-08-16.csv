@@ -2,10 +2,10 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 06:00,13,0,5,N,1,Sunny
 07:00,14,0,6,N,1,Sunny
 08:00,15,0,6,N,1,Sunny
-09:00,17,0,6,NNE,1,Sunny
+09:00,16,0,6,NNE,1,Sunny
 10:00,18,0,7,NNE,1,Sunny
-11:00,19,0,8,ENE,1,Sunny
-12:00,20,0,9,E,1,Sunny
+11:00,19,0,8,NE,1,Sunny
+12:00,20,0,8,E,1,Sunny
 13:00,20,0,9,SE,1,Sunny
 14:00,20,0,8,SSE,1,Sunny
 15:00,21,0,9,S,1,Sunny
