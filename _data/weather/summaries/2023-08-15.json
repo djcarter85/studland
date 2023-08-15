@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 0,
   "weatherTypeText": "Clear Sky",
-  "windDescription": "A gentle breeze from the north west",
-  "windDirection": "NW",
-  "windDirectionAbbreviation": "NW",
-  "windDirectionFull": "North Westerly",
+  "windDescription": "A gentle breeze from the west",
+  "windDirection": "W",
+  "windDirectionAbbreviation": "W",
+  "windDirectionFull": "Westerly",
   "windSpeedKph": 16,
   "windSpeedMph": 10
 }
