@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "A clear sky and a gentle breeze",
-  "gustSpeedKph": 20,
-  "gustSpeedMph": 12,
+  "gustSpeedKph": 21,
+  "gustSpeedMph": 13,
   "localDate": "2023-08-16",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -41,6 +41,6 @@
   "windDirection": "E",
   "windDirectionAbbreviation": "E",
   "windDirectionFull": "Easterly",
-  "windSpeedKph": 14,
+  "windSpeedKph": 15,
   "windSpeedMph": 9
 }
