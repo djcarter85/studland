@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Thundery showers and a moderate breeze",
-  "gustSpeedKph": 34,
-  "gustSpeedMph": 21,
+  "gustSpeedKph": 38,
+  "gustSpeedMph": 24,
   "localDate": "2023-08-18",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -41,6 +41,6 @@
   "windDirection": "SE",
   "windDirectionAbbreviation": "SE",
   "windDirectionFull": "South Easterly",
-  "windSpeedKph": 22,
+  "windSpeedKph": 23,
   "windSpeedMph": 14
 }
