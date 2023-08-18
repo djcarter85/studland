@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-09:00,18,66,25,ESE,10,Light Rain Showers
 10:00,19,62,25,ESE,10,Light Rain Showers
 11:00,19,22,25,ESE,7,Light Cloud
 12:00,19,0,25,ESE,7,Light Cloud
