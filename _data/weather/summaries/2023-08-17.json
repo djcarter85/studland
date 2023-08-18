@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Light rain showers and a moderate breeze",
-  "gustSpeedKph": 43,
+  "gustSpeedKph": 44,
   "gustSpeedMph": 27,
   "localDate": "2023-08-17",
   "lowermaxTemperatureC": null,
@@ -41,6 +41,6 @@
   "windDirection": "E",
   "windDirectionAbbreviation": "E",
   "windDirectionFull": "Easterly",
-  "windSpeedKph": 27,
+  "windSpeedKph": 28,
   "windSpeedMph": 17
 }
