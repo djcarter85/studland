@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Partly cloudy and a gentle breeze",
-  "gustSpeedKph": 20,
-  "gustSpeedMph": 12,
+  "gustSpeedKph": 21,
+  "gustSpeedMph": 13,
   "localDate": "2023-08-19",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -11,7 +11,7 @@
   "maxTempF": 68,
   "minTempC": 16,
   "minTempF": 61,
-  "mostLikelyHighTemperatureC": 21,
+  "mostLikelyHighTemperatureC": 20,
   "mostLikelyHighTemperatureF": 69,
   "mostLikelyLowTemperatureC": 15,
   "mostLikelyLowTemperatureF": 59,
