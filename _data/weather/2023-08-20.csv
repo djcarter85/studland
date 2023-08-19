@@ -13,7 +13,7 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 17:00,19,0,17,SW,1,Sunny
 18:00,19,0,15,SW,1,Sunny
 19:00,18,0,13,SW,1,Sunny
-20:00,17,0,13,SW,1,Sunny
+20:00,17,0,13,WSW,1,Sunny
 21:00,17,0,12,WSW,0,Clear Sky
 22:00,16,0,12,WSW,0,Clear Sky
 23:00,16,0,12,WSW,0,Clear Sky
