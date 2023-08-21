@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny and light winds",
-  "gustSpeedKph": 10,
-  "gustSpeedMph": 6,
+  "gustSpeedKph": 16,
+  "gustSpeedMph": 10,
   "localDate": "2023-08-23",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -9,12 +9,12 @@
   "lowerminTemperatureF": null,
   "maxTempC": 21,
   "maxTempF": 71,
-  "minTempC": 13,
+  "minTempC": 14,
   "minTempF": 56,
   "mostLikelyHighTemperatureC": 22,
   "mostLikelyHighTemperatureF": 72,
-  "mostLikelyLowTemperatureC": 13,
-  "mostLikelyLowTemperatureF": 55,
+  "mostLikelyLowTemperatureC": 12,
+  "mostLikelyLowTemperatureF": 53,
   "pollenIndex": 6,
   "pollenIndexBand": "HIGH",
   "pollenIndexIconText": "H",
@@ -41,6 +41,6 @@
   "windDirection": "S",
   "windDirectionAbbreviation": "S",
   "windDirectionFull": "Southerly",
-  "windSpeedKph": 9,
-  "windSpeedMph": 5
+  "windSpeedKph": 10,
+  "windSpeedMph": 6
 }
