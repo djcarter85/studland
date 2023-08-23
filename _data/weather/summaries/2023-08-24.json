@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 44,
+  "precipitationProbabilityInPercent": 48,
   "precipitationProbabilityText": "Chance of precipitation",
   "sunrise": "06:09",
   "sunset": "20:11",
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 10,
   "weatherTypeText": "Light Rain Showers",
-  "windDescription": "Light winds from the north",
-  "windDirection": "N",
-  "windDirectionAbbreviation": "N",
-  "windDirectionFull": "Northerly",
+  "windDescription": "Light winds from the west",
+  "windDirection": "W",
+  "windDirectionAbbreviation": "W",
+  "windDirectionFull": "Westerly",
   "windSpeedKph": 11,
   "windSpeedMph": 7
 }
