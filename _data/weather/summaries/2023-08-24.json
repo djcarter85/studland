@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Light rain showers and a gentle breeze",
-  "gustSpeedKph": 24,
-  "gustSpeedMph": 15,
+  "gustSpeedKph": 26,
+  "gustSpeedMph": 16,
   "localDate": "2023-08-24",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -12,7 +12,7 @@
   "minTempC": 11,
   "minTempF": 52,
   "mostLikelyHighTemperatureC": 23,
-  "mostLikelyHighTemperatureF": 74,
+  "mostLikelyHighTemperatureF": 73,
   "mostLikelyLowTemperatureC": 9,
   "mostLikelyLowTemperatureF": 48,
   "pollenIndex": 6,
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 10,
   "weatherTypeText": "Light Rain Showers",
-  "windDescription": "A gentle breeze from the north west",
-  "windDirection": "NW",
-  "windDirectionAbbreviation": "NW",
-  "windDirectionFull": "North Westerly",
+  "windDescription": "A gentle breeze from the north",
+  "windDirection": "N",
+  "windDirectionAbbreviation": "N",
+  "windDirectionFull": "Northerly",
   "windSpeedKph": 14,
   "windSpeedMph": 9
 }
