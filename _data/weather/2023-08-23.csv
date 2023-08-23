@@ -1,7 +1,6 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-00:00,17,0,5,NNE,0,Clear Sky
-01:00,17,6,5,N,0,Clear Sky
-02:00,17,0,6,NNE,2,Partly Cloudy
-03:00,16,15,6,N,12,Light Rain
+01:00,17,0,5,NNE,0,Clear Sky
+02:00,16,0,6,NNE,2,Partly Cloudy
+03:00,16,13,6,N,12,Light Rain
 04:00,16,14,8,N,12,Light Rain
-05:00,16,49,6,N,9,Light Rain Showers
+05:00,16,46,7,NNW,9,Light Rain Showers
