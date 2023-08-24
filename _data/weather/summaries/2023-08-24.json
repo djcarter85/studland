@@ -14,11 +14,11 @@
   "mostLikelyHighTemperatureC": 24,
   "mostLikelyHighTemperatureF": 75,
   "mostLikelyLowTemperatureC": 9,
-  "mostLikelyLowTemperatureF": 48,
-  "pollenIndex": 6,
-  "pollenIndexBand": "HIGH",
-  "pollenIndexIconText": "H",
-  "pollenIndexText": "High",
+  "mostLikelyLowTemperatureF": 49,
+  "pollenIndex": 4,
+  "pollenIndexBand": "MODERATE",
+  "pollenIndexIconText": "M",
+  "pollenIndexText": "Moderate",
   "pollutionIndex": 3,
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
@@ -41,6 +41,6 @@
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 15,
-  "windSpeedMph": 9
+  "windSpeedKph": 16,
+  "windSpeedMph": 10
 }
