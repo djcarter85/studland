@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "A clear sky and a gentle breeze",
-  "gustSpeedKph": 24,
-  "gustSpeedMph": 15,
+  "gustSpeedKph": 27,
+  "gustSpeedMph": 17,
   "localDate": "2023-08-26",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 20,
+  "precipitationProbabilityInPercent": 21,
   "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "06:12",
   "sunset": "20:07",
@@ -41,6 +41,6 @@
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 17,
-  "windSpeedMph": 11
+  "windSpeedKph": 16,
+  "windSpeedMph": 10
 }
