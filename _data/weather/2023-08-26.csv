@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-09:00,15,48,16,W,14,Heavy Rain Showers
 10:00,16,14,17,W,10,Light Rain Showers
 11:00,17,16,18,W,3,Sunny Intervals
 12:00,17,38,17,W,12,Light Rain
