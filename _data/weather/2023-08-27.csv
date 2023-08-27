@@ -1,6 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-14:00,18,0,26,WNW,7,Light Cloud
-15:00,18,0,25,WNW,7,Light Cloud
 16:00,18,0,21,WNW,7,Light Cloud
 17:00,17,0,20,WNW,7,Light Cloud
 18:00,17,0,18,WNW,7,Light Cloud
