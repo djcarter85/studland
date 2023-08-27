@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 9,
+  "precipitationProbabilityInPercent": 16,
   "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "06:13",
   "sunset": "20:04",
@@ -42,5 +42,5 @@
   "windDirectionAbbreviation": "NW",
   "windDirectionFull": "North Westerly",
   "windSpeedKph": 25,
-  "windSpeedMph": 15
+  "windSpeedMph": 16
 }
