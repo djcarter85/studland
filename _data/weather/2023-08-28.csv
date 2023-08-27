@@ -18,8 +18,8 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 22:00,15,0,12,NW,2,Partly Cloudy
 23:00,14,0,12,NW,2,Partly Cloudy
 00:00,14,0,11,NW,0,Clear Sky
-01:00,13,0,9,NW,0,Clear Sky
+01:00,13,0,11,NW,0,Clear Sky
 02:00,13,0,9,NW,0,Clear Sky
-03:00,13,0,9,NW,0,Clear Sky
-04:00,13,0,8,NW,0,Clear Sky
-05:00,13,0,8,NW,0,Clear Sky
+03:00,13,0,8,NW,0,Clear Sky
+04:00,13,0,7,NW,0,Clear Sky
+05:00,13,0,6,NW,0,Clear Sky
