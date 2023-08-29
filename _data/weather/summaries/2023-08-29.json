@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Light cloud and a moderate breeze",
-  "gustSpeedKph": 32,
-  "gustSpeedMph": 20,
+  "gustSpeedKph": 31,
+  "gustSpeedMph": 19,
   "localDate": "2023-08-29",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -10,7 +10,7 @@
   "maxTempC": 18,
   "maxTempF": 65,
   "minTempC": 10,
-  "minTempF": 51,
+  "minTempF": 50,
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 66,
   "mostLikelyLowTemperatureC": 9,
