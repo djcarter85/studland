@@ -2,7 +2,7 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 06:00,11,0,11,NW,0,Clear Sky
 07:00,11,0,12,WNW,1,Sunny
 08:00,13,0,14,WNW,1,Sunny
-09:00,14,0,18,WNW,1,Sunny
+09:00,14,0,18,NW,1,Sunny
 10:00,16,0,16,NW,1,Sunny
 11:00,17,0,16,WNW,3,Sunny Intervals
 12:00,17,0,16,WNW,7,Light Cloud
