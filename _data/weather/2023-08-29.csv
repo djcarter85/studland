@@ -1,10 +1,8 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-20:00,16,33,18,WSW,9,Light Rain Showers
-21:00,15,23,17,W,2,Partly Cloudy
-22:00,15,19,17,WNW,2,Partly Cloudy
-23:00,14,5,17,NW,2,Partly Cloudy
-00:00,14,0,17,NW,0,Clear Sky
-01:00,13,0,16,NW,0,Clear Sky
+22:00,15,19,18,WNW,2,Partly Cloudy
+23:00,14,0,17,NW,2,Partly Cloudy
+00:00,14,0,16,NW,0,Clear Sky
+01:00,13,0,15,NW,0,Clear Sky
 02:00,12,0,14,NW,0,Clear Sky
 03:00,12,0,12,NW,0,Clear Sky
 04:00,11,0,11,NW,0,Clear Sky
