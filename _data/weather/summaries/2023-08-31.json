@@ -31,16 +31,16 @@
   "uppermaxTemperatureF": null,
   "upperminTemperatureC": null,
   "upperminTemperatureF": null,
-  "uvIndex": 3,
-  "uvIndexBand": "MODERATE",
-  "uvIndexIconText": "M",
-  "uvIndexText": "Moderate",
+  "uvIndex": 2,
+  "uvIndexBand": "LOW",
+  "uvIndexIconText": "L",
+  "uvIndexText": "Low",
   "weatherType": 29,
   "weatherTypeText": "Thundery Showers",
   "windDescription": "A moderate breeze from the south",
   "windDirection": "S",
   "windDirectionAbbreviation": "S",
   "windDirectionFull": "Southerly",
-  "windSpeedKph": 27,
-  "windSpeedMph": 17
+  "windSpeedKph": 26,
+  "windSpeedMph": 16
 }
