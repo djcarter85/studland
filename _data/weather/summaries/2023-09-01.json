@@ -10,11 +10,11 @@
   "maxTempC": 20,
   "maxTempF": 67,
   "minTempC": 11,
-  "minTempF": 51,
+  "minTempF": 52,
   "mostLikelyHighTemperatureC": 20,
   "mostLikelyHighTemperatureF": 68,
   "mostLikelyLowTemperatureC": 9,
-  "mostLikelyLowTemperatureF": 48,
+  "mostLikelyLowTemperatureF": 49,
   "pollenIndex": 4,
   "pollenIndexBand": "MODERATE",
   "pollenIndexIconText": "M",
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 32,
+  "precipitationProbabilityInPercent": 41,
   "precipitationProbabilityText": "Chance of precipitation",
   "sunrise": "06:21",
   "sunset": "19:54",
@@ -42,5 +42,5 @@
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
   "windSpeedKph": 17,
-  "windSpeedMph": 10
+  "windSpeedMph": 11
 }
