@@ -10,7 +10,7 @@
   "maxTempC": 19,
   "maxTempF": 66,
   "minTempC": 12,
-  "minTempF": 53,
+  "minTempF": 54,
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 67,
   "mostLikelyLowTemperatureC": 11,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 19,
-  "windSpeedMph": 12
+  "windSpeedKph": 18,
+  "windSpeedMph": 11
 }
