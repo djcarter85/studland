@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Light cloud and light winds",
+  "enhancedWeatherDescription": "Light rain showers and light winds",
   "gustSpeedKph": 15,
   "gustSpeedMph": 9,
   "localDate": "2023-08-31",
@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 20,
   "mostLikelyHighTemperatureF": 68,
   "mostLikelyLowTemperatureC": 14,
-  "mostLikelyLowTemperatureF": 57,
+  "mostLikelyLowTemperatureF": 58,
   "pollenIndex": 4,
   "pollenIndexBand": "MODERATE",
   "pollenIndexIconText": "M",
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 40,
+  "precipitationProbabilityInPercent": 38,
   "precipitationProbabilityText": "Chance of precipitation",
   "sunrise": "06:20",
   "sunset": "19:56",
@@ -35,12 +35,12 @@
   "uvIndexBand": "LOW",
   "uvIndexIconText": "L",
   "uvIndexText": "Low",
-  "weatherType": 36,
-  "weatherTypeText": "Light Cloud",
+  "weatherType": 9,
+  "weatherTypeText": "Light Rain Showers",
   "windDescription": "Light winds from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 10,
-  "windSpeedMph": 6
+  "windSpeedKph": 11,
+  "windSpeedMph": 7
 }
