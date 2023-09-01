@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny and a gentle breeze",
-  "gustSpeedKph": 25,
-  "gustSpeedMph": 16,
+  "gustSpeedKph": 27,
+  "gustSpeedMph": 17,
   "localDate": "2023-09-01",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -10,11 +10,11 @@
   "maxTempC": 19,
   "maxTempF": 66,
   "minTempC": 11,
-  "minTempF": 52,
-  "mostLikelyHighTemperatureC": 20,
+  "minTempF": 53,
+  "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 67,
-  "mostLikelyLowTemperatureC": 9,
-  "mostLikelyLowTemperatureF": 49,
+  "mostLikelyLowTemperatureC": 10,
+  "mostLikelyLowTemperatureF": 50,
   "pollenIndex": 4,
   "pollenIndexBand": "MODERATE",
   "pollenIndexIconText": "M",
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 17,
+  "windSpeedKph": 18,
   "windSpeedMph": 11
 }
