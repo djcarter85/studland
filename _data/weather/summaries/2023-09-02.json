@@ -1,7 +1,7 @@
 {
-  "enhancedWeatherDescription": "Sunny intervals and a gentle breeze",
+  "enhancedWeatherDescription": "Sunny intervals and light winds",
   "gustSpeedKph": 17,
-  "gustSpeedMph": 11,
+  "gustSpeedMph": 10,
   "localDate": "2023-09-02",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 3,
   "weatherTypeText": "Sunny Intervals",
-  "windDescription": "A gentle breeze from the north",
+  "windDescription": "Light winds from the north",
   "windDirection": "N",
   "windDirectionAbbreviation": "N",
   "windDirectionFull": "Northerly",
   "windSpeedKph": 12,
-  "windSpeedMph": 8
+  "windSpeedMph": 7
 }
