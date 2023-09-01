@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 1,
   "weatherTypeText": "Sunny",
-  "windDescription": "Light winds from the north east",
-  "windDirection": "NE",
-  "windDirectionAbbreviation": "NE",
-  "windDirectionFull": "North Easterly",
+  "windDescription": "Light winds from the north",
+  "windDirection": "N",
+  "windDirectionAbbreviation": "N",
+  "windDirectionFull": "Northerly",
   "windSpeedKph": 12,
   "windSpeedMph": 7
 }
