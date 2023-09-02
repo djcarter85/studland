@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Sunny intervals and light winds",
+  "enhancedWeatherDescription": "Misty and light winds",
   "gustSpeedKph": 19,
   "gustSpeedMph": 12,
   "localDate": "2023-09-02",
@@ -35,12 +35,12 @@
   "uvIndexBand": "MODERATE",
   "uvIndexIconText": "M",
   "uvIndexText": "Moderate",
-  "weatherType": 3,
-  "weatherTypeText": "Sunny Intervals",
+  "weatherType": 5,
+  "weatherTypeText": "Mist",
   "windDescription": "Light winds from the north",
   "windDirection": "N",
   "windDirectionAbbreviation": "N",
   "windDirectionFull": "Northerly",
-  "windSpeedKph": 10,
-  "windSpeedMph": 6
+  "windSpeedKph": 11,
+  "windSpeedMph": 7
 }
