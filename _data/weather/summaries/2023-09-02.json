@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Misty and light winds",
+  "enhancedWeatherDescription": "Misty and a gentle breeze",
   "gustSpeedKph": 19,
   "gustSpeedMph": 12,
   "localDate": "2023-09-02",
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 5,
   "weatherTypeText": "Mist",
-  "windDescription": "Light winds from the north",
-  "windDirection": "N",
-  "windDirectionAbbreviation": "N",
-  "windDirectionFull": "Northerly",
-  "windSpeedKph": 11,
-  "windSpeedMph": 7
+  "windDescription": "A gentle breeze from the north east",
+  "windDirection": "NE",
+  "windDirectionAbbreviation": "NE",
+  "windDirectionFull": "North Easterly",
+  "windSpeedKph": 13,
+  "windSpeedMph": 8
 }
