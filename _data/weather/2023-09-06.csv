@@ -6,10 +6,10 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 10:00,21,0,10,E,1,Sunny
 11:00,22,0,10,E,1,Sunny
 12:00,23,0,10,ESE,1,Sunny
-13:00,23,10,10,ESE,1,Sunny
+13:00,23,4,10,ESE,1,Sunny
 14:00,23,0,9,ESE,1,Sunny
-15:00,23,6,9,ESE,1,Sunny
-16:00,23,6,8,ESE,1,Sunny
+15:00,23,7,9,ESE,1,Sunny
+16:00,23,7,8,ESE,1,Sunny
 17:00,22,21,8,ESE,1,Sunny
 18:00,22,19,7,ESE,1,Sunny
 19:00,21,17,7,E,1,Sunny
