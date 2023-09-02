@@ -4,9 +4,9 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 08:00,19,0,8,ENE,1,Sunny
 09:00,20,0,9,ENE,1,Sunny
 10:00,21,0,9,E,1,Sunny
-11:00,22,4,9,E,1,Sunny
-12:00,23,4,9,ESE,1,Sunny
-13:00,23,4,9,ESE,1,Sunny
+11:00,22,5,9,E,1,Sunny
+12:00,23,5,9,ESE,1,Sunny
+13:00,23,5,9,ESE,1,Sunny
 14:00,23,0,8,ESE,1,Sunny
 15:00,23,0,7,ESE,1,Sunny
 16:00,23,0,7,ESE,1,Sunny
