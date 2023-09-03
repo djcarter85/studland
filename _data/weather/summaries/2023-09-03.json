@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Sunny and a gentle breeze",
-  "gustSpeedKph": 20,
+  "gustSpeedKph": 21,
   "gustSpeedMph": 13,
   "localDate": "2023-09-03",
   "lowermaxTemperatureC": null,
@@ -41,6 +41,6 @@
   "windDirection": "E",
   "windDirectionAbbreviation": "E",
   "windDirectionFull": "Easterly",
-  "windSpeedKph": 14,
-  "windSpeedMph": 9
+  "windSpeedKph": 13,
+  "windSpeedMph": 8
 }
