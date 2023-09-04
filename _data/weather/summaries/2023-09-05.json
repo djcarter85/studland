@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny and a moderate breeze",
-  "gustSpeedKph": 39,
-  "gustSpeedMph": 24,
+  "gustSpeedKph": 40,
+  "gustSpeedMph": 25,
   "localDate": "2023-09-05",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -9,7 +9,7 @@
   "lowerminTemperatureF": null,
   "maxTempC": 23,
   "maxTempF": 74,
-  "minTempC": 14,
+  "minTempC": 15,
   "minTempF": 58,
   "mostLikelyHighTemperatureC": 24,
   "mostLikelyHighTemperatureF": 75,
