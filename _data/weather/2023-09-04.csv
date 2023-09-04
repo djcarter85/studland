@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-08:00,19,0,19,ENE,1,Sunny
 09:00,20,0,21,E,1,Sunny
 10:00,21,0,22,E,1,Sunny
 11:00,22,0,23,E,1,Sunny
