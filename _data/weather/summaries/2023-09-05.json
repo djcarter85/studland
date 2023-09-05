@@ -12,7 +12,7 @@
   "minTempC": 14,
   "minTempF": 57,
   "mostLikelyHighTemperatureC": 27,
-  "mostLikelyHighTemperatureF": 80,
+  "mostLikelyHighTemperatureF": 81,
   "mostLikelyLowTemperatureC": 12,
   "mostLikelyLowTemperatureF": 53,
   "pollenIndex": 4,
@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 34,
   "weatherTypeText": "Mist",
-  "windDescription": "Light winds from the east",
-  "windDirection": "E",
-  "windDirectionAbbreviation": "E",
-  "windDirectionFull": "Easterly",
+  "windDescription": "Light winds from the north",
+  "windDirection": "N",
+  "windDirectionAbbreviation": "N",
+  "windDirectionFull": "Northerly",
   "windSpeedKph": 10,
   "windSpeedMph": 6
 }
