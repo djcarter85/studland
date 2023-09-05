@@ -1,25 +1,25 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-06:00,19,0,8,NE,0,Clear Sky
+06:00,18,0,7,NE,0,Clear Sky
 07:00,19,0,8,ENE,1,Sunny
-08:00,19,0,9,ENE,1,Sunny
-09:00,20,0,9,E,1,Sunny
-10:00,21,0,9,E,1,Sunny
-11:00,22,0,10,E,1,Sunny
-12:00,22,0,10,ESE,1,Sunny
-13:00,23,0,10,ESE,1,Sunny
-14:00,23,0,10,ESE,1,Sunny
-15:00,23,0,9,ESE,1,Sunny
+08:00,19,0,8,ENE,1,Sunny
+09:00,20,0,8,ENE,1,Sunny
+10:00,21,0,8,ENE,1,Sunny
+11:00,22,0,9,E,1,Sunny
+12:00,23,0,9,ESE,1,Sunny
+13:00,23,0,9,ESE,1,Sunny
+14:00,23,0,9,SE,1,Sunny
+15:00,23,0,9,SE,1,Sunny
 16:00,23,0,9,SE,1,Sunny
-17:00,22,0,8,SE,1,Sunny
-18:00,21,0,7,ESE,1,Sunny
-19:00,20,0,7,ESE,1,Sunny
-20:00,20,0,7,ESE,0,Clear Sky
-21:00,19,0,7,E,0,Clear Sky
-22:00,19,0,7,E,0,Clear Sky
-23:00,19,0,8,E,0,Clear Sky
-00:00,19,0,8,E,0,Clear Sky
-01:00,19,0,8,E,0,Clear Sky
-02:00,19,0,7,E,0,Clear Sky
-03:00,18,0,7,E,0,Clear Sky
-04:00,18,0,7,ENE,0,Clear Sky
-05:00,18,0,7,ENE,0,Clear Sky
+17:00,22,0,9,SE,1,Sunny
+18:00,22,0,9,SE,1,Sunny
+19:00,21,0,9,SE,1,Sunny
+20:00,20,8,9,ESE,0,Clear Sky
+21:00,20,5,9,ESE,0,Clear Sky
+22:00,19,4,9,E,0,Clear Sky
+23:00,19,8,9,E,0,Clear Sky
+00:00,19,9,9,E,2,Partly Cloudy
+01:00,18,13,10,E,9,Light Rain Showers
+02:00,18,13,10,E,9,Light Rain Showers
+03:00,18,13,11,E,9,Light Rain Showers
+04:00,18,15,11,ENE,9,Light Rain Showers
+05:00,18,9,11,ENE,9,Light Rain Showers
