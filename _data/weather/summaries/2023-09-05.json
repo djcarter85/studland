@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Misty and light winds",
-  "gustSpeedKph": 15,
+  "gustSpeedKph": 14,
   "gustSpeedMph": 9,
   "localDate": "2023-09-05",
   "lowermaxTemperatureC": null,
@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 27,
   "mostLikelyHighTemperatureF": 80,
   "mostLikelyLowTemperatureC": 12,
-  "mostLikelyLowTemperatureF": 54,
+  "mostLikelyLowTemperatureF": 53,
   "pollenIndex": 4,
   "pollenIndexBand": "MODERATE",
   "pollenIndexIconText": "M",
@@ -41,6 +41,6 @@
   "windDirection": "E",
   "windDirectionAbbreviation": "E",
   "windDirectionFull": "Easterly",
-  "windSpeedKph": 11,
-  "windSpeedMph": 7
+  "windSpeedKph": 10,
+  "windSpeedMph": 6
 }
