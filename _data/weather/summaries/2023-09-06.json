@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny and light winds",
-  "gustSpeedKph": 14,
-  "gustSpeedMph": 9,
+  "gustSpeedKph": 13,
+  "gustSpeedMph": 8,
   "localDate": "2023-09-06",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 1,
   "weatherTypeText": "Sunny",
-  "windDescription": "Light winds from the north east",
-  "windDirection": "NE",
-  "windDirectionAbbreviation": "NE",
-  "windDirectionFull": "North Easterly",
+  "windDescription": "Light winds from the east",
+  "windDirection": "E",
+  "windDirectionAbbreviation": "E",
+  "windDirectionFull": "Easterly",
   "windSpeedKph": 8,
   "windSpeedMph": 5
 }
