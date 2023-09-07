@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "A clear sky and light winds",
-  "gustSpeedKph": 15,
+  "gustSpeedKph": 14,
   "gustSpeedMph": 9,
   "localDate": "2023-09-06",
   "lowermaxTemperatureC": null,
@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 0,
   "weatherTypeText": "Clear Sky",
-  "windDescription": "Light winds from the north",
-  "windDirection": "N",
-  "windDirectionAbbreviation": "N",
-  "windDirectionFull": "Northerly",
+  "windDescription": "Light winds from the north east",
+  "windDirection": "NE",
+  "windDirectionAbbreviation": "NE",
+  "windDirectionFull": "North Easterly",
   "windSpeedKph": 11,
   "windSpeedMph": 7
 }
