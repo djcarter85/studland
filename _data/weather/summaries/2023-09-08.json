@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny and light winds",
-  "gustSpeedKph": 13,
-  "gustSpeedMph": 8,
+  "gustSpeedKph": 11,
+  "gustSpeedMph": 7,
   "localDate": "2023-09-08",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -19,7 +19,7 @@
   "pollenIndexBand": "MODERATE",
   "pollenIndexIconText": "M",
   "pollenIndexText": "Moderate",
-  "pollutionIndex": 4,
+  "pollutionIndex": 6,
   "pollutionIndexBand": "MODERATE",
   "pollutionIndexIconText": "M",
   "pollutionIndexText": "Moderate",
