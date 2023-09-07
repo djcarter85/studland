@@ -10,11 +10,11 @@
   "maxTempC": 25,
   "maxTempF": 76,
   "minTempC": 16,
-  "minTempF": 61,
+  "minTempF": 60,
   "mostLikelyHighTemperatureC": 27,
   "mostLikelyHighTemperatureF": 80,
   "mostLikelyLowTemperatureC": 15,
-  "mostLikelyLowTemperatureF": 59,
+  "mostLikelyLowTemperatureF": 58,
   "pollenIndex": 4,
   "pollenIndexBand": "MODERATE",
   "pollenIndexIconText": "M",
@@ -41,6 +41,6 @@
   "windDirection": "NE",
   "windDirectionAbbreviation": "NE",
   "windDirectionFull": "North Easterly",
-  "windSpeedKph": 7,
+  "windSpeedKph": 6,
   "windSpeedMph": 4
 }
