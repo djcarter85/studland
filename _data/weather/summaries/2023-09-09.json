@@ -1,14 +1,14 @@
 {
   "enhancedWeatherDescription": "Sunny and light winds",
-  "gustSpeedKph": 14,
-  "gustSpeedMph": 9,
+  "gustSpeedKph": 13,
+  "gustSpeedMph": 8,
   "localDate": "2023-09-09",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
   "maxTempC": 26,
-  "maxTempF": 78,
+  "maxTempF": 79,
   "minTempC": 16,
   "minTempF": 61,
   "mostLikelyHighTemperatureC": 27,
@@ -41,6 +41,6 @@
   "windDirection": "E",
   "windDirectionAbbreviation": "E",
   "windDirectionFull": "Easterly",
-  "windSpeedKph": 10,
+  "windSpeedKph": 9,
   "windSpeedMph": 6
 }
