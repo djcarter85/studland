@@ -1,4 +1,3 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-03:00,18,0,4,NNW,0,Clear Sky
-04:00,17,0,4,N,0,Clear Sky
-05:00,18,0,5,N,0,Clear Sky
+04:00,17,0,4,NNW,0,Clear Sky
+05:00,17,0,5,N,0,Clear Sky
