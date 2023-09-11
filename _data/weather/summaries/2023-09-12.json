@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Sunny intervals and a gentle breeze",
+  "enhancedWeatherDescription": "Light rain showers and a gentle breeze",
   "gustSpeedKph": 26,
   "gustSpeedMph": 16,
   "localDate": "2023-09-12",
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 18,
+  "precipitationProbabilityInPercent": 22,
   "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "06:38",
   "sunset": "19:29",
@@ -35,12 +35,12 @@
   "uvIndexBand": "MODERATE",
   "uvIndexIconText": "M",
   "uvIndexText": "Moderate",
-  "weatherType": 3,
-  "weatherTypeText": "Sunny Intervals",
+  "weatherType": 10,
+  "weatherTypeText": "Light Rain Showers",
   "windDescription": "A gentle breeze from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 15,
-  "windSpeedMph": 9
+  "windSpeedKph": 16,
+  "windSpeedMph": 10
 }
