@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "A clear sky and a gentle breeze",
+  "enhancedWeatherDescription": "A clear sky and light winds",
   "gustSpeedKph": 17,
   "gustSpeedMph": 11,
   "localDate": "2023-09-10",
@@ -8,11 +8,11 @@
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
   "maxTempC": 21,
-  "maxTempF": 71,
+  "maxTempF": 69,
   "minTempC": 17,
   "minTempF": 62,
-  "mostLikelyHighTemperatureC": 22,
-  "mostLikelyHighTemperatureF": 72,
+  "mostLikelyHighTemperatureC": 21,
+  "mostLikelyHighTemperatureF": 71,
   "mostLikelyLowTemperatureC": 16,
   "mostLikelyLowTemperatureF": 61,
   "pollenIndex": 4,
@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 0,
   "weatherTypeText": "Clear Sky",
-  "windDescription": "A gentle breeze from the west",
+  "windDescription": "Light winds from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
   "windSpeedKph": 12,
-  "windSpeedMph": 8
+  "windSpeedMph": 7
 }
