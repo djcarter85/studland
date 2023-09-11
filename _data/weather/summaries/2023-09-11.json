@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Light cloud and a gentle breeze",
+  "enhancedWeatherDescription": "Partly cloudy and a gentle breeze",
   "gustSpeedKph": 24,
   "gustSpeedMph": 15,
   "localDate": "2023-09-11",
@@ -35,8 +35,8 @@
   "uvIndexBand": "LOW",
   "uvIndexIconText": "L",
   "uvIndexText": "Low",
-  "weatherType": 36,
-  "weatherTypeText": "Light Cloud",
+  "weatherType": 2,
+  "weatherTypeText": "Partly Cloudy",
   "windDescription": "A gentle breeze from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
