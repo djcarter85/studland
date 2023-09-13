@@ -1,0 +1,25 @@
+time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
+06:00,16,41,18,ENE,9,Light Rain Showers
+07:00,17,47,18,ENE,10,Light Rain Showers
+08:00,17,70,18,ENE,10,Light Rain Showers
+09:00,18,70,19,E,10,Light Rain Showers
+10:00,18,70,18,E,10,Light Rain Showers
+11:00,19,70,18,E,29,Thundery Showers
+12:00,19,70,19,E,29,Thundery Showers
+13:00,20,59,20,ESE,29,Thundery Showers
+14:00,20,66,22,ESE,29,Thundery Showers
+15:00,20,63,23,ESE,29,Thundery Showers
+16:00,20,62,23,SE,29,Thundery Showers
+17:00,19,60,24,SE,29,Thundery Showers
+18:00,19,48,24,SE,29,Thundery Showers
+19:00,18,51,24,SE,10,Light Rain Showers
+20:00,18,39,23,SE,9,Light Rain Showers
+21:00,17,39,23,SE,9,Light Rain Showers
+22:00,17,39,21,SSE,9,Light Rain Showers
+23:00,17,34,20,SSE,9,Light Rain Showers
+00:00,17,34,19,S,9,Light Rain Showers
+01:00,17,34,20,S,9,Light Rain Showers
+02:00,17,19,22,S,7,Light Cloud
+03:00,17,19,23,S,2,Partly Cloudy
+04:00,17,19,24,SSW,2,Partly Cloudy
+05:00,17,19,24,SSW,2,Partly Cloudy
