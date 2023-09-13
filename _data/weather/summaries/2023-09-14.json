@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny and a gentle breeze",
   "gustSpeedKph": 20,
-  "gustSpeedMph": 13,
+  "gustSpeedMph": 12,
   "localDate": "2023-09-14",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -12,7 +12,7 @@
   "minTempC": 12,
   "minTempF": 54,
   "mostLikelyHighTemperatureC": 20,
-  "mostLikelyHighTemperatureF": 67,
+  "mostLikelyHighTemperatureF": 68,
   "mostLikelyLowTemperatureC": 10,
   "mostLikelyLowTemperatureF": 50,
   "pollenIndex": null,
