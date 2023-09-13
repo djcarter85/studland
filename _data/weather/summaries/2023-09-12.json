@@ -7,12 +7,12 @@
   "lowermaxTemperatureF": null,
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
-  "maxTempC": 20,
+  "maxTempC": 19,
   "maxTempF": 67,
   "minTempC": 14,
   "minTempF": 57,
   "mostLikelyHighTemperatureC": 20,
-  "mostLikelyHighTemperatureF": 69,
+  "mostLikelyHighTemperatureF": 68,
   "mostLikelyLowTemperatureC": 13,
   "mostLikelyLowTemperatureF": 55,
   "pollenIndex": null,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 10,
+  "precipitationProbabilityInPercent": 12,
   "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "06:38",
   "sunset": "19:29",
@@ -41,6 +41,6 @@
   "windDirection": "N",
   "windDirectionAbbreviation": "N",
   "windDirectionFull": "Northerly",
-  "windSpeedKph": 22,
-  "windSpeedMph": 14
+  "windSpeedKph": 21,
+  "windSpeedMph": 13
 }
