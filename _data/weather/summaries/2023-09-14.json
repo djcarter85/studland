@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "A clear sky and light winds",
-  "gustSpeedKph": 13,
-  "gustSpeedMph": 8,
+  "gustSpeedKph": 14,
+  "gustSpeedMph": 9,
   "localDate": "2023-09-14",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -41,6 +41,6 @@
   "windDirection": "S",
   "windDirectionAbbreviation": "S",
   "windDirectionFull": "Southerly",
-  "windSpeedKph": 10,
-  "windSpeedMph": 6
+  "windSpeedKph": 11,
+  "windSpeedMph": 7
 }
