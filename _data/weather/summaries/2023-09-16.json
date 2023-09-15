@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Light rain showers and a gentle breeze",
-  "gustSpeedKph": 28,
-  "gustSpeedMph": 17,
+  "gustSpeedKph": 26,
+  "gustSpeedMph": 16,
   "localDate": "2023-09-16",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -31,7 +31,7 @@
   "uppermaxTemperatureF": null,
   "upperminTemperatureC": null,
   "upperminTemperatureF": null,
-  "uvIndex": 5,
+  "uvIndex": 4,
   "uvIndexBand": "MODERATE",
   "uvIndexIconText": "M",
   "uvIndexText": "Moderate",
