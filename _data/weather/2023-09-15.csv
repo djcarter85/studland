@@ -1,13 +1,12 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-18:00,19,0,11,ESE,1,Sunny
 19:00,18,0,11,ESE,1,Sunny
 20:00,18,0,12,E,0,Clear Sky
 21:00,17,0,11,E,0,Clear Sky
 22:00,17,0,11,E,0,Clear Sky
-23:00,17,0,11,E,0,Clear Sky
-00:00,17,0,11,ENE,0,Clear Sky
+23:00,17,0,11,ENE,0,Clear Sky
+00:00,17,0,10,ENE,0,Clear Sky
 01:00,17,0,11,ENE,0,Clear Sky
 02:00,17,0,12,ENE,0,Clear Sky
 03:00,17,0,12,ENE,0,Clear Sky
 04:00,17,26,11,ENE,0,Clear Sky
-05:00,17,38,11,ENE,9,Light Rain Showers
+05:00,17,38,11,NE,9,Light Rain Showers
