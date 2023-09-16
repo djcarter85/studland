@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Thundery showers and a moderate breeze",
-  "gustSpeedKph": 42,
-  "gustSpeedMph": 26,
+  "gustSpeedKph": 46,
+  "gustSpeedMph": 29,
   "localDate": "2023-09-17",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -12,7 +12,7 @@
   "minTempC": 15,
   "minTempF": 58,
   "mostLikelyHighTemperatureC": 20,
-  "mostLikelyHighTemperatureF": 68,
+  "mostLikelyHighTemperatureF": 69,
   "mostLikelyLowTemperatureC": 14,
   "mostLikelyLowTemperatureF": 57,
   "pollenIndex": null,
@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 29,
   "weatherTypeText": "Thundery Showers",
-  "windDescription": "A moderate breeze from the east",
-  "windDirection": "E",
-  "windDirectionAbbreviation": "E",
-  "windDirectionFull": "Easterly",
-  "windSpeedKph": 28,
-  "windSpeedMph": 17
+  "windDescription": "A moderate breeze from the south east",
+  "windDirection": "SE",
+  "windDirectionAbbreviation": "SE",
+  "windDirectionFull": "South Easterly",
+  "windSpeedKph": 29,
+  "windSpeedMph": 18
 }
