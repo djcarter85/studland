@@ -1,8 +1,7 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-23:00,19,0,17,ENE,2,Partly Cloudy
 00:00,19,0,21,ENE,2,Partly Cloudy
-01:00,18,0,23,ENE,7,Light Cloud
-02:00,18,13,22,ENE,2,Partly Cloudy
-03:00,17,15,23,ENE,2,Partly Cloudy
-04:00,17,18,23,ENE,2,Partly Cloudy
-05:00,17,15,23,ENE,9,Light Rain Showers
+01:00,18,0,22,ENE,2,Partly Cloudy
+02:00,18,19,23,ENE,2,Partly Cloudy
+03:00,17,17,23,ENE,2,Partly Cloudy
+04:00,17,19,24,ENE,2,Partly Cloudy
+05:00,17,15,24,ENE,2,Partly Cloudy
