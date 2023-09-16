@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Sunny intervals and a gentle breeze",
-  "gustSpeedKph": 26,
+  "gustSpeedKph": 25,
   "gustSpeedMph": 16,
   "localDate": "2023-09-16",
   "lowermaxTemperatureC": null,
@@ -23,8 +23,8 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 0,
-  "precipitationProbabilityText": "Precipitation is not expected",
+  "precipitationProbabilityInPercent": 21,
+  "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "06:44",
   "sunset": "19:20",
   "uppermaxTemperatureC": null,
