@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 29,
   "weatherTypeText": "Thundery Showers",
-  "windDescription": "A moderate breeze from the south east",
-  "windDirection": "SE",
-  "windDirectionAbbreviation": "SE",
-  "windDirectionFull": "South Easterly",
+  "windDescription": "A moderate breeze from the east",
+  "windDirection": "E",
+  "windDirectionAbbreviation": "E",
+  "windDirectionFull": "Easterly",
   "windSpeedKph": 28,
   "windSpeedMph": 17
 }
