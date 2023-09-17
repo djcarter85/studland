@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-12:00,19,95,25,ESE,15,Heavy Rain
 13:00,18,100,21,ESE,29,Thundery Showers
 14:00,18,98,19,SE,10,Light Rain Showers
 15:00,19,80,17,SE,29,Thundery Showers
