@@ -1,13 +1,13 @@
 {
   "enhancedWeatherDescription": "Thundery showers and a fresh breeze",
-  "gustSpeedKph": 52,
-  "gustSpeedMph": 32,
+  "gustSpeedKph": 56,
+  "gustSpeedMph": 35,
   "localDate": "2023-09-18",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
-  "maxTempC": 19,
+  "maxTempC": 18,
   "maxTempF": 65,
   "minTempC": 12,
   "minTempF": 53,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 80,
+  "precipitationProbabilityInPercent": 74,
   "precipitationProbabilityText": "High chance of precipitation",
   "sunrise": "06:47",
   "sunset": "19:16",
@@ -41,6 +41,6 @@
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 30,
+  "windSpeedKph": 31,
   "windSpeedMph": 19
 }
