@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Thundery showers and a moderate breeze",
+  "enhancedWeatherDescription": "Thundery showers and a fresh breeze",
   "gustSpeedKph": 52,
   "gustSpeedMph": 32,
   "localDate": "2023-09-18",
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 29,
   "weatherTypeText": "Thundery Showers",
-  "windDescription": "A moderate breeze from the west",
+  "windDescription": "A fresh breeze from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 29,
-  "windSpeedMph": 18
+  "windSpeedKph": 30,
+  "windSpeedMph": 19
 }
