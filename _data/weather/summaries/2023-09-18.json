@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 38,
   "weatherTypeText": "Drizzle",
-  "windDescription": "A fresh breeze from the west",
-  "windDirection": "W",
-  "windDirectionAbbreviation": "W",
-  "windDirectionFull": "Westerly",
+  "windDescription": "A fresh breeze from the south west",
+  "windDirection": "SW",
+  "windDirectionAbbreviation": "SW",
+  "windDirectionFull": "South Westerly",
   "windSpeedKph": 34,
   "windSpeedMph": 21
 }
