@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Strong winds and heavy rain",
-  "gustSpeedKph": 82,
-  "gustSpeedMph": 51,
+  "gustSpeedKph": 83,
+  "gustSpeedMph": 52,
   "localDate": "2023-09-20",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -13,7 +13,7 @@
   "minTempF": 52,
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 66,
-  "mostLikelyLowTemperatureC": 11,
+  "mostLikelyLowTemperatureC": 10,
   "mostLikelyLowTemperatureF": 51,
   "pollenIndex": null,
   "pollenIndexBand": null,
