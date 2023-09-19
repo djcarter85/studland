@@ -1,14 +1,13 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-17:00,18,11,41,SW,3,Sunny Intervals
 18:00,17,13,41,SW,7,Light Cloud
 19:00,17,12,40,SW,3,Sunny Intervals
 20:00,17,22,40,SW,7,Light Cloud
 21:00,17,51,39,SW,12,Light Rain
 22:00,17,23,40,SW,7,Light Cloud
-23:00,17,16,42,SW,7,Light Cloud
-00:00,17,17,41,SW,8,Thick Cloud
-01:00,17,38,42,SW,9,Light Rain Showers
-02:00,17,16,43,SW,7,Light Cloud
+23:00,17,16,42,SW,8,Thick Cloud
+00:00,17,17,42,SW,8,Thick Cloud
+01:00,17,38,43,SW,9,Light Rain Showers
+02:00,17,16,44,SW,7,Light Cloud
 03:00,17,13,44,SW,7,Light Cloud
 04:00,17,19,45,SW,7,Light Cloud
 05:00,17,13,46,SW,7,Light Cloud
