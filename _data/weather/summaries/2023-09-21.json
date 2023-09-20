@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 69,
+  "precipitationProbabilityInPercent": 59,
   "precipitationProbabilityText": "Chance of precipitation",
   "sunrise": "06:52",
   "sunset": "19:09",
@@ -31,7 +31,7 @@
   "uppermaxTemperatureF": null,
   "upperminTemperatureC": null,
   "upperminTemperatureF": null,
-  "uvIndex": 4,
+  "uvIndex": 3,
   "uvIndexBand": "MODERATE",
   "uvIndexIconText": "M",
   "uvIndexText": "Moderate",
@@ -42,5 +42,5 @@
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
   "windSpeedKph": 23,
-  "windSpeedMph": 14
+  "windSpeedMph": 15
 }
