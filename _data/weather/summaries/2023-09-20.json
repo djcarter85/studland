@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Partly cloudy and light winds",
-  "gustSpeedKph": 15,
+  "gustSpeedKph": 14,
   "gustSpeedMph": 9,
   "localDate": "2023-09-20",
   "lowermaxTemperatureC": null,
@@ -23,7 +23,7 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 12,
+  "precipitationProbabilityInPercent": 16,
   "precipitationProbabilityText": "Low chance of precipitation",
   "sunrise": "06:50",
   "sunset": "19:11",
@@ -37,10 +37,10 @@
   "uvIndexText": "Low",
   "weatherType": 2,
   "weatherTypeText": "Partly Cloudy",
-  "windDescription": "Light winds from the west",
-  "windDirection": "W",
-  "windDirectionAbbreviation": "W",
-  "windDirectionFull": "Westerly",
+  "windDescription": "Light winds from the south west",
+  "windDirection": "SW",
+  "windDirectionAbbreviation": "SW",
+  "windDirectionFull": "South Westerly",
   "windSpeedKph": 12,
   "windSpeedMph": 7
 }
