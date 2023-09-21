@@ -19,11 +19,11 @@
   "pollenIndexBand": null,
   "pollenIndexIconText": null,
   "pollenIndexText": null,
-  "pollutionIndex": 2,
+  "pollutionIndex": 3,
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 52,
+  "precipitationProbabilityInPercent": 65,
   "precipitationProbabilityText": "Chance of precipitation",
   "sunrise": "06:53",
   "sunset": "19:07",
@@ -41,6 +41,6 @@
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
-  "windSpeedKph": 22,
+  "windSpeedKph": 23,
   "windSpeedMph": 14
 }
