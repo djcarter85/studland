@@ -1,5 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-11:00,15,72,15,SW,12,Light Rain
 12:00,15,59,17,SW,12,Light Rain
 13:00,15,28,19,SW,3,Sunny Intervals
 14:00,15,49,19,SW,12,Light Rain
