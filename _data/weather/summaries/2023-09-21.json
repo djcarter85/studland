@@ -11,10 +11,10 @@
   "maxTempF": 60,
   "minTempC": 9,
   "minTempF": 48,
-  "mostLikelyHighTemperatureC": 16,
-  "mostLikelyHighTemperatureF": 61,
-  "mostLikelyLowTemperatureC": 7,
-  "mostLikelyLowTemperatureF": 45,
+  "mostLikelyHighTemperatureC": 17,
+  "mostLikelyHighTemperatureF": 62,
+  "mostLikelyLowTemperatureC": 8,
+  "mostLikelyLowTemperatureF": 46,
   "pollenIndex": null,
   "pollenIndexBand": null,
   "pollenIndexIconText": null,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 21,
-  "windSpeedMph": 13
+  "windSpeedKph": 23,
+  "windSpeedMph": 15
 }
