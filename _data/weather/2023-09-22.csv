@@ -5,15 +5,15 @@ time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherType
 09:00,13,0,18,WNW,1,Sunny
 10:00,14,0,18,WNW,1,Sunny
 11:00,15,4,18,WNW,3,Sunny Intervals
-12:00,15,18,18,WNW,10,Light Rain Showers
-13:00,15,52,21,W,10,Light Rain Showers
-14:00,15,46,19,WNW,10,Light Rain Showers
+12:00,15,26,18,WNW,10,Light Rain Showers
+13:00,15,53,21,W,10,Light Rain Showers
+14:00,15,65,21,WNW,10,Light Rain Showers
 15:00,15,46,22,WNW,10,Light Rain Showers
-16:00,15,24,22,WNW,10,Light Rain Showers
+16:00,15,23,22,WNW,10,Light Rain Showers
 17:00,15,0,22,WNW,3,Sunny Intervals
 18:00,14,0,22,WNW,1,Sunny
 19:00,13,0,20,WNW,3,Sunny Intervals
-20:00,13,0,18,NW,0,Clear Sky
+20:00,13,0,18,NW,2,Partly Cloudy
 21:00,12,0,17,NW,0,Clear Sky
 22:00,11,0,16,NW,0,Clear Sky
 23:00,11,0,15,NW,0,Clear Sky
