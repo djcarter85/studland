@@ -8,7 +8,7 @@
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
   "maxTempC": 16,
-  "maxTempF": 62,
+  "maxTempF": 61,
   "minTempC": 13,
   "minTempF": 55,
   "mostLikelyHighTemperatureC": 17,
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 3,
   "weatherTypeText": "Sunny Intervals",
-  "windDescription": "A moderate breeze from the west",
-  "windDirection": "W",
-  "windDirectionAbbreviation": "W",
-  "windDirectionFull": "Westerly",
+  "windDescription": "A moderate breeze from the south west",
+  "windDirection": "SW",
+  "windDirectionAbbreviation": "SW",
+  "windDirectionFull": "South Westerly",
   "windSpeedKph": 20,
   "windSpeedMph": 13
 }
