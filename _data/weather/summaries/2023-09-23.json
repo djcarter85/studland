@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Sunny intervals and a gentle breeze",
+  "enhancedWeatherDescription": "Sunny intervals and a moderate breeze",
   "gustSpeedKph": 29,
   "gustSpeedMph": 18,
   "localDate": "2023-09-23",
@@ -37,10 +37,10 @@
   "uvIndexText": "Moderate",
   "weatherType": 3,
   "weatherTypeText": "Sunny Intervals",
-  "windDescription": "A gentle breeze from the west",
+  "windDescription": "A moderate breeze from the west",
   "windDirection": "W",
   "windDirectionAbbreviation": "W",
   "windDirectionFull": "Westerly",
   "windSpeedKph": 20,
-  "windSpeedMph": 12
+  "windSpeedMph": 13
 }
