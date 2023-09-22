@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny intervals and a fresh breeze",
-  "gustSpeedKph": 49,
-  "gustSpeedMph": 30,
+  "gustSpeedKph": 54,
+  "gustSpeedMph": 33,
   "localDate": "2023-09-24",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -13,7 +13,7 @@
   "minTempF": 59,
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 66,
-  "mostLikelyLowTemperatureC": 15,
+  "mostLikelyLowTemperatureC": 14,
   "mostLikelyLowTemperatureF": 58,
   "pollenIndex": null,
   "pollenIndexBand": null,
