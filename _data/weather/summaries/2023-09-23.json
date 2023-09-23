@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Light cloud and a gentle breeze",
+  "enhancedWeatherDescription": "Light cloud and a moderate breeze",
   "gustSpeedKph": 29,
   "gustSpeedMph": 18,
   "localDate": "2023-09-23",
@@ -12,7 +12,7 @@
   "minTempC": 13,
   "minTempF": 56,
   "mostLikelyHighTemperatureC": 17,
-  "mostLikelyHighTemperatureF": 62,
+  "mostLikelyHighTemperatureF": 63,
   "mostLikelyLowTemperatureC": 13,
   "mostLikelyLowTemperatureF": 55,
   "pollenIndex": null,
@@ -31,16 +31,16 @@
   "uppermaxTemperatureF": null,
   "upperminTemperatureC": null,
   "upperminTemperatureF": null,
-  "uvIndex": 3,
-  "uvIndexBand": "MODERATE",
-  "uvIndexIconText": "M",
-  "uvIndexText": "Moderate",
+  "uvIndex": 2,
+  "uvIndexBand": "LOW",
+  "uvIndexIconText": "L",
+  "uvIndexText": "Low",
   "weatherType": 7,
   "weatherTypeText": "Light Cloud",
-  "windDescription": "A gentle breeze from the south west",
+  "windDescription": "A moderate breeze from the south west",
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
   "windSpeedKph": 20,
-  "windSpeedMph": 12
+  "windSpeedMph": 13
 }
