@@ -1,18 +1,18 @@
 {
   "enhancedWeatherDescription": "Gusty winds and light rain showers",
-  "gustSpeedKph": 77,
-  "gustSpeedMph": 48,
+  "gustSpeedKph": 76,
+  "gustSpeedMph": 47,
   "localDate": "2023-09-27",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
   "lowerminTemperatureC": null,
   "lowerminTemperatureF": null,
-  "maxTempC": 18,
-  "maxTempF": 65,
+  "maxTempC": 17,
+  "maxTempF": 63,
   "minTempC": 13,
   "minTempF": 55,
   "mostLikelyHighTemperatureC": 19,
-  "mostLikelyHighTemperatureF": 66,
+  "mostLikelyHighTemperatureF": 65,
   "mostLikelyLowTemperatureC": 12,
   "mostLikelyLowTemperatureF": 53,
   "pollenIndex": null,
@@ -41,6 +41,6 @@
   "windDirection": "S",
   "windDirectionAbbreviation": "S",
   "windDirectionFull": "Southerly",
-  "windSpeedKph": 36,
-  "windSpeedMph": 22
+  "windSpeedKph": 39,
+  "windSpeedMph": 24
 }
