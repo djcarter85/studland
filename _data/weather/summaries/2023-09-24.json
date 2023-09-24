@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Light rain and a fresh breeze",
-  "gustSpeedKph": 56,
+  "gustSpeedKph": 57,
   "gustSpeedMph": 35,
   "localDate": "2023-09-24",
   "lowermaxTemperatureC": null,
@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 67,
   "mostLikelyLowTemperatureC": 13,
-  "mostLikelyLowTemperatureF": 55,
+  "mostLikelyLowTemperatureF": 56,
   "pollenIndex": null,
   "pollenIndexBand": null,
   "pollenIndexIconText": null,
