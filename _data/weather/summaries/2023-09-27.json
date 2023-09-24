@@ -1,5 +1,5 @@
 {
-  "enhancedWeatherDescription": "Strong winds and heavy rain",
+  "enhancedWeatherDescription": "Strong winds and light rain showers",
   "gustSpeedKph": 71,
   "gustSpeedMph": 44,
   "localDate": "2023-09-27",
@@ -35,8 +35,8 @@
   "uvIndexBand": "LOW",
   "uvIndexIconText": "L",
   "uvIndexText": "Low",
-  "weatherType": 15,
-  "weatherTypeText": "Heavy Rain",
+  "weatherType": 10,
+  "weatherTypeText": "Light Rain Showers",
   "windDescription": "Strong winds from the south",
   "windDirection": "S",
   "windDirectionAbbreviation": "S",
