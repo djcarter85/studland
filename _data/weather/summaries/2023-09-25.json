@@ -1,6 +1,6 @@
 {
   "enhancedWeatherDescription": "Sunny and a moderate breeze",
-  "gustSpeedKph": 33,
+  "gustSpeedKph": 32,
   "gustSpeedMph": 20,
   "localDate": "2023-09-25",
   "lowermaxTemperatureC": null,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 21,
-  "windSpeedMph": 13
+  "windSpeedKph": 22,
+  "windSpeedMph": 14
 }
