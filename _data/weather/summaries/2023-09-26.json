@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Light rain and a fresh breeze",
-  "gustSpeedKph": 45,
-  "gustSpeedMph": 28,
+  "gustSpeedKph": 42,
+  "gustSpeedMph": 26,
   "localDate": "2023-09-26",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -14,7 +14,7 @@
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 67,
   "mostLikelyLowTemperatureC": 11,
-  "mostLikelyLowTemperatureF": 52,
+  "mostLikelyLowTemperatureF": 53,
   "pollenIndex": null,
   "pollenIndexBand": null,
   "pollenIndexIconText": null,
@@ -41,6 +41,6 @@
   "windDirection": "SW",
   "windDirectionAbbreviation": "SW",
   "windDirectionFull": "South Westerly",
-  "windSpeedKph": 32,
-  "windSpeedMph": 20
+  "windSpeedKph": 30,
+  "windSpeedMph": 19
 }
