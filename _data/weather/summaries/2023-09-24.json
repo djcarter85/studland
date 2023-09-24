@@ -1,7 +1,7 @@
 {
   "enhancedWeatherDescription": "Sunny intervals and a fresh breeze",
-  "gustSpeedKph": 58,
-  "gustSpeedMph": 36,
+  "gustSpeedKph": 59,
+  "gustSpeedMph": 37,
   "localDate": "2023-09-24",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -13,7 +13,7 @@
   "minTempF": 59,
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 66,
-  "mostLikelyLowTemperatureC": 14,
+  "mostLikelyLowTemperatureC": 15,
   "mostLikelyLowTemperatureF": 58,
   "pollenIndex": null,
   "pollenIndexBand": null,
@@ -23,8 +23,8 @@
   "pollutionIndexBand": "LOW",
   "pollutionIndexIconText": "L",
   "pollutionIndexText": "Low",
-  "precipitationProbabilityInPercent": 25,
-  "precipitationProbabilityText": "Low chance of precipitation",
+  "precipitationProbabilityInPercent": 0,
+  "precipitationProbabilityText": "Precipitation is not expected",
   "sunrise": "06:56",
   "sunset": "19:02",
   "uppermaxTemperatureC": null,
@@ -41,6 +41,6 @@
   "windDirection": "S",
   "windDirectionAbbreviation": "S",
   "windDirectionFull": "Southerly",
-  "windSpeedKph": 35,
-  "windSpeedMph": 22
+  "windSpeedKph": 34,
+  "windSpeedMph": 21
 }
