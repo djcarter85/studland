@@ -1,6 +1,4 @@
 time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
-01:00,17,65,28,SW,9,Light Rain Showers
-02:00,17,43,23,SW,9,Light Rain Showers
-03:00,16,15,20,SW,2,Partly Cloudy
+03:00,16,34,20,WSW,9,Light Rain Showers
 04:00,16,0,19,WSW,2,Partly Cloudy
 05:00,15,0,18,WSW,2,Partly Cloudy
