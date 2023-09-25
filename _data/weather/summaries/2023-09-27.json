@@ -1,7 +1,7 @@
 {
-  "enhancedWeatherDescription": "Strong winds and heavy rain",
-  "gustSpeedKph": 70,
-  "gustSpeedMph": 44,
+  "enhancedWeatherDescription": "Strong winds and rain",
+  "gustSpeedKph": 68,
+  "gustSpeedMph": 43,
   "localDate": "2023-09-27",
   "lowermaxTemperatureC": null,
   "lowermaxTemperatureF": null,
@@ -13,8 +13,8 @@
   "minTempF": 55,
   "mostLikelyHighTemperatureC": 19,
   "mostLikelyHighTemperatureF": 67,
-  "mostLikelyLowTemperatureC": 11,
-  "mostLikelyLowTemperatureF": 52,
+  "mostLikelyLowTemperatureC": 12,
+  "mostLikelyLowTemperatureF": 53,
   "pollenIndex": null,
   "pollenIndexBand": null,
   "pollenIndexIconText": null,
@@ -35,12 +35,12 @@
   "uvIndexBand": "LOW",
   "uvIndexIconText": "L",
   "uvIndexText": "Low",
-  "weatherType": 15,
-  "weatherTypeText": "Heavy Rain",
+  "weatherType": 12,
+  "weatherTypeText": "Light Rain",
   "windDescription": "Strong winds from the south",
   "windDirection": "S",
   "windDirectionAbbreviation": "S",
   "windDirectionFull": "Southerly",
-  "windSpeedKph": 40,
-  "windSpeedMph": 25
+  "windSpeedKph": 42,
+  "windSpeedMph": 26
 }
