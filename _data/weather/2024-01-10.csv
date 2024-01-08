@@ -1,0 +1,25 @@
+time,temperature,chanceOfRain,windSpeedMph,windDirection,weatherType,weatherTypeDescription
+06:00,1,0,27,NE,2,Partly Cloudy
+07:00,2,0,27,NE,2,Partly Cloudy
+08:00,2,0,27,NE,2,Partly Cloudy
+09:00,2,0,28,NE,3,Sunny Intervals
+10:00,3,0,28,NE,3,Sunny Intervals
+11:00,3,0,28,NE,3,Sunny Intervals
+12:00,4,0,28,NE,3,Sunny Intervals
+13:00,4,0,28,NE,3,Sunny Intervals
+14:00,5,0,28,NE,3,Sunny Intervals
+15:00,5,0,27,NE,1,Sunny
+16:00,4,0,27,NE,1,Sunny
+17:00,4,0,27,NE,0,Clear Sky
+18:00,3,0,26,NE,0,Clear Sky
+19:00,3,0,25,NE,0,Clear Sky
+20:00,3,0,25,NE,0,Clear Sky
+21:00,2,0,24,NE,0,Clear Sky
+22:00,2,0,24,NE,0,Clear Sky
+23:00,2,0,23,NE,0,Clear Sky
+00:00,2,0,22,NE,0,Clear Sky
+01:00,2,0,22,NE,0,Clear Sky
+02:00,2,0,22,NE,0,Clear Sky
+03:00,2,0,22,NE,0,Clear Sky
+04:00,1,0,22,NE,0,Clear Sky
+05:00,2,0,23,NE,0,Clear Sky
